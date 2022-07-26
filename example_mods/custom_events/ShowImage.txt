@@ -1,0 +1,2 @@
+Value1 = Image Name
+Value2, 1 = show image, 2 = delete image

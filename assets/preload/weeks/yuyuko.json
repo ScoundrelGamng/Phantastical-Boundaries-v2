@@ -1,0 +1,49 @@
+{
+	"storyName": "hi",
+	"difficulties": "Easy, Normal, Hard, Lunatic",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"ultimate truth",
+			"yuyu",
+			[
+				240,
+				115,
+				178
+			]
+		],
+		[
+			"sakura",
+			"yuyu",
+			[
+				240,
+				115,
+				178
+			]
+		],
+		[
+			"border of life",
+			"yuyu",
+			[
+				240,
+				115,
+				178
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekName": "Phantastical Boundaries Week 4"
+}

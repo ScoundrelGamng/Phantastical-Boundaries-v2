@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"expression": "Wink",
+			"text": "Impressive, though that was simply a warm up.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "excited",
+			"text": "Beep bep boop!\r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Yes, she was pretty good BF. But try to be careful, I’'m getting this sinking feeling in my stomach that something will go wrong.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "(Gensokyo...… I think I remember Mommy telling me about this land in a fairy tale…...)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "(... a place where lost legends go to live out the rest of their days…...)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Serious",
+			"text": "This is no fairy tale Girlfriend, it would be best for you to remember those words.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Huh?\r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Wink",
+			"text": "Don’t mind me, I’'m just some youkai rambling to herself. Now let me change the scenery here. ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "BF and GF get sucked through a gap and end up in Yukari's gap dimension.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Idle",
+			"text": "Ahhh, home sweet home. Such lovely chaos is a sight I can never get tired of.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "So many eyes...… they're watching me. It’s unnerving.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "shocked",
+			"text": "Beeep…...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"text": "Now for this next song, how about I change things up a little bit. Make things more fun. So do be mindful of trains."
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Wink",
+			"text": "Signs are everywhere but they can be so unexpected.~"
+		},
+		{
+			"sound": "",
+			"speed": 0.015,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Wait, what was that about trains??"
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Smug",
+			"text": "Ahahahaha...~"
+		},
+		{
+			"sound": "",
+			"speed": 0.015,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Yukari? What trains?"
+		},
+		{
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "Be ba boop bo..?"
+		}
+	]
+}

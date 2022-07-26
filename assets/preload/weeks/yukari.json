@@ -1,0 +1,49 @@
+{
+	"storyName": "The youkai sage of boundaries",
+	"difficulties": "Easy, Normal, Hard, Lunatic",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Charming domination",
+			"yukari",
+			[
+				160,
+				115,
+				178
+			]
+		],
+		[
+			"night falls",
+			"yukari",
+			[
+				160,
+				115,
+				178
+			]
+		],
+		[
+			"necrofantasia",
+			"yukari",
+			[
+				160,
+				115,
+				178
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Phantastical Boundaries Week 1"
+}

@@ -1,0 +1,2 @@
+Value1 = Image Name
+Value2 = show duration

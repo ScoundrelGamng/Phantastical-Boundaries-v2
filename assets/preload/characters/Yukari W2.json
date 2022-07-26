@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				364,
+				129
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Anim_Idle"
+		},
+		{
+			"offsets": [
+				390,
+				107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Anim_Left"
+		},
+		{
+			"offsets": [
+				358,
+				109
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Anim_Right"
+		},
+		{
+			"offsets": [
+				361,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Anim_Down"
+		},
+		{
+			"offsets": [
+				371,
+				111
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Anim_Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Yukari W2",
+	"position": [
+		0,
+		-210
+	],
+	"healthicon": "yukari",
+	"flip_x": false,
+	"healthbar_colors": [
+		173,
+		84,
+		210
+	],
+	"camera_position": [
+		0,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

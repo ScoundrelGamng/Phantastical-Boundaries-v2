@@ -1,0 +1,180 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-170,
+		-350
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"loop_name": "Just_Yukari",
+			"idle_offsets": [
+				-130,
+				-330
+			],
+			"idle_name": "Just_Yukari",
+			"anim": "Just_Yukari",
+			"loop_offsets": [
+				-130,
+				-330
+			]
+		},
+		{
+			"loop_name": "Emote_Wink",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Wink",
+			"anim": "Wink",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Whitty",
+			"idle_offsets": [
+				0,
+				-279
+			],
+			"idle_name": "Emote_Whitty",
+			"anim": "Whitty",
+			"loop_offsets": [
+				0,
+				-279
+			]
+		},
+		{
+			"loop_name": "Emote_Tricky",
+			"idle_offsets": [
+				0,
+				-118
+			],
+			"idle_name": "Emote_Tricky",
+			"anim": "Tricky",
+			"loop_offsets": [
+				0,
+				-118
+			]
+		},
+		{
+			"loop_name": "Emote_Smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Smug",
+			"anim": "Smug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Sigh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Sigh",
+			"anim": "Sigh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Serious",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Serious",
+			"anim": "Serious",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Scary",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Scary",
+			"anim": "Scary",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Sad",
+			"anim": "Sad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Pout",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Pout",
+			"anim": "Pout",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Idle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_Idle",
+			"anim": "Idle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Emote_Eldritch",
+			"idle_offsets": [
+				-200,
+				-250
+			],
+			"idle_name": "Emote_Eldritch",
+			"anim": "Eldritch",
+			"loop_offsets": [
+				-200,
+				-250
+			]
+		},
+		{
+			"loop_name": "Emote_DeadPan",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Emote_DeadPan",
+			"anim": "Deadpan",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Yukari"
+}

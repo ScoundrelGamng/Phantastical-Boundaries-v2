@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spirit1.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Spirit10000" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10001" x="158" y="0" width="134" height="113" frameX="-41" frameY="0" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10002" x="340" y="0" width="160" height="91" frameX="-47" frameY="-15" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10003" x="548" y="0" width="124" height="132" frameX="-88" frameY="-20" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10004" x="720" y="0" width="117" height="162" frameX="-91" frameY="-29" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10005" x="0" y="210" width="150" height="150" frameX="-45" frameY="-40" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10006" x="198" y="210" width="170" height="112" frameX="-16" frameY="-67" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10007" x="416" y="210" width="122" height="143" frameX="0" frameY="-18" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10008" x="586" y="210" width="112" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10009" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10010" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10011" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10012" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10013" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+	<SubTexture name="Spirit10014" x="0" y="0" width="110" height="126" frameX="-19" frameY="-4" frameWidth="212" frameHeight="191"/>
+</TextureAtlas>

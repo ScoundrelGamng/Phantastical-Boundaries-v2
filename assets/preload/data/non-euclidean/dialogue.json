@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "shocked",
+			"text": "B-beeeep?! beep bo. . .",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Idle",
+			"text": "I apologize for the sudden interruption.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Idle",
+			"text": "I was just so eager to at least get one more song in.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Buh-beep pa?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Sad",
+			"text": "You never remember seeing this pristine visage before you? How upsetting. . . ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "Either way, ever since I’ve heard of you, I’ve been looking through your “journey” through the wide multitude of people you fought!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "Every one of them is interesting in their tactics, personality, and most importantly for this case, their music! ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "shocked",
+			"text": "beeeeeeeeeeeep. . .",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Smug",
+			"text": "My request? Well I’ll start singing first, you should be able to catch on soon enough~ I won’t be going easy on you though dearie",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "Although last time I told you to give it your all, I mean that to a much higher degree.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "And no worries, none of this is canon to the unknowing wanderers who're worried about such a plot twist~~!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "Boo?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Idle",
+			"text": "Anyways now with that all out of the way, let’s begin shall we? ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "I wonder how many times you’ll get blue balled? Or will you 1cc this?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		}
+	]
+}

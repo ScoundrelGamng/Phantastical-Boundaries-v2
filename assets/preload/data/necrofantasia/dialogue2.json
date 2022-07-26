@@ -1,0 +1,380 @@
+{
+	"dialogue": [
+		{
+			"expression": "Sigh",
+			"text": "My oh my, even with the machinations of my home, you were still able to defeat me. Very well, I admit defeat.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "You seem to be pretty happy for someone who lost out on two servants, err Shikigami.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Wink",
+			"text": "Ahahaha, I wasn’t really trying myself.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "I was only going at it with a small portion of my talent so I had a feeling that I would've ended up losing.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Idle",
+			"text": "Besides, if I won, my first order would'’ve been to send you two home so that you can live the rest of your lives happily together.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Beep...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.2,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "What...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.2,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Idle",
+			"text": "I already have two perfect shikigamis and a darling shrine maiden that I'’m proud to claim as my surrogate daughter.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "I truthfully didn’'t need you two... I just wanted to make sure that BF made sure to fight me with his most potential.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "Proposing stakes that aren’'t actually there is a small talent of mine...~",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "Yukari opens up a gap, leading to the same street that BF and GF were at earlier. \r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "Skbeep boop bap beep!\r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Yeah, we wouldn'’t mind having another match with you and exploring more of Gensokyo. There'’s still so much we have to learn about.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Wink",
+			"text": "The pleasure would be all mine.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "As BF leaves through the gap, GF is about to leave as well before being stopped by\\nYukari.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Idle",
+			"text": "GF. A moment please.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "Yes?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Idle",
+			"text": "There’'s another reason why I whisked you and BF here.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "And what would that be?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Serious",
+			"text": "Please cherish and love BF with all your heart as his life is naturally shorter than yours.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Serious",
+			"text": "The power that you hold inside of you is very powerful, almost as powerful as my own in some regards.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Serious",
+			"text": "If you’'re to lose control of your power...… destruction and death would follow in your wake. ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": ". . .",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.195,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Sad",
+			"text": "I tell you this from my own personal experience. We don’'t need another me in this universe after all.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Sad",
+			"text": "Promise me that you will heed my warning and love BF with all your heart. Make every moment with him count.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "I...… I promise Yukari. I promise not to end up like you, whatever may have happened to you, I won'’t repeat those mistakes.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Idle",
+			"text": "Hmmm... good.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "Now then, go have fun with your love.~",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "excited",
+			"text": "Thanks, I will. It is a Friday Night afterall.~\r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "GF then leaves through the gap before it closes.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.1,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.1,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": ". . .",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.1,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "A figure in shadows watches the entire week from the back ground on top of a large floating island.",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "She gives a sigh as she senses the presence of an old friend.\r",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Here to lecture me on eavesdropping again?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "kiki"
+		},
+		{
+			"expression": "Idle",
+			"text": "Who do you take me for? Kasen?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "No, but I take you for an old hag who is quite predicable in what she will say to me.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "kiki"
+		},
+		{
+			"expression": "Smug",
+			"text": "Do you wish to get hit by a train,\\nKiki Setsuko?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "I can arrange that for you now if you'd like.\r",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "Hahahaha! Relax, I’m only kidding.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "kiki"
+		},
+		{
+			"expression": "Smug",
+			"text": "Hmm I doubt that, but I digress. Besides, that’s not the reason for my visit today. I’m simply here to ask if you would like to...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Wink",
+			"text": "go see a concert.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "A concert? You mean...?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "kiki"
+		},
+		{
+			"expression": "Idle",
+			"text": "I do. Get yourself prepared. We'’ll be leaving in a few, and you may want to take that hat off.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "Smug",
+			"text": "We don't want anyone to ask questions.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "talk",
+			"text": "Kiki, still coated in shadows takes something off of their head, revealing their face as they look down at a worn-down red cap.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "yukari_emp"
+		}
+	]
+}
