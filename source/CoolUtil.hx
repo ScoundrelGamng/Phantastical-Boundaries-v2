@@ -20,7 +20,8 @@ class CoolUtil
 	public static var defaultDifficulties:Array<String> = [
 		'Easy',
 		'Normal',
-		'Hard'
+		'Hard',
+		'Lunatic'
 	];
 	public static var defaultDifficulty:String = 'Normal'; //The chart that has no suffix and starting difficulty on Freeplay/Story Mode
 
@@ -53,6 +54,23 @@ class CoolUtil
 	{
 		return difficulties[PlayState.storyDifficulty].toUpperCase();
 	}
+
+	public static function oldDiffString(diff:Int = 0)
+		{
+			var tempDiff:String = '';
+			switch (diff)
+			{
+				case 0:
+					tempDiff = '-easy';
+				case 1:
+					tempDiff = '';
+				case 2:
+					tempDiff = '-hard';
+				case 3:
+					tempDiff = '-lunatic';
+			}
+			return tempDiff;
+		}
 
 	inline public static function boundTo(value:Float, min:Float, max:Float):Float {
 		return Math.max(min, Math.min(max, value));
