@@ -82,7 +82,7 @@ class ModeState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (diffShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('realmCG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
@@ -95,7 +95,7 @@ class ModeState extends MusicBeatState
 		add(camFollow);
 		add(camFollowPos);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		magenta = new FlxSprite(-80).loadGraphic(Paths.image('realmCG'));
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
@@ -114,7 +114,8 @@ class ModeState extends MusicBeatState
         for (i in 0...diffShit.length)
             {
                 var offset:Float = 140 - (Math.max(diffShit.length, 4) - 4) * 300; //original offset is 108
-                var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
+				var xoffset:Float = 200 - (Math.max(diffShit.length, 4) - 4) * 300;
+                var menuItem:FlxSprite = new FlxSprite((FlxG.width / 2) - (i * 80), (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
 
                 menuItem.ID = i;
                 menuItems2.add(menuItem);
@@ -133,21 +134,21 @@ class ModeState extends MusicBeatState
                 var menuText = new FlxText(0, menuItem.y + menuItem.height, 0, "", 12);
                 menuText.alpha = 0;
                 
-                menuText.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+                menuText.setFormat(Paths.font("Aroania_R.otf"), 28, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
                 //menuText.screenCenter(X);
                 menuText.ID = i;
                 switch (menuText.ID)
                 {
                     case 0:
-                        menuText.text = 'For those who are just starting.';
+                        menuText.text = 'For players who have never played a rhythm game.';
                         case 1:
-                            menuText.text = 'For those who have a bit of experience.';
+                            menuText.text = "For players who are familiar with Friday Night Funkin'";
                             case 2:
-                            menuText.text = 'For those who enjoy a bit of a challenge.';
+                            menuText.text = "For players who want a true taste of FNF's challenge";
 							case 3:
-								menuText.text = 'Are you out of your mind?';
+								menuText.text = 'For players who are interested in a Touhou-like challenge';
                 }
-                menuText.x = FlxG.width / 2 - menuText.fieldWidth / 2;
+                menuText.x = FlxG.width / 3 - (i * 80);
                 menuTexts2.add(menuText);
 
 				if (curSelected == i)
@@ -279,7 +280,7 @@ class ModeState extends MusicBeatState
 
         menuItems2.forEach(function(spr:FlxSprite)
             {
-                spr.screenCenter(X);
+                // spr.screenCenter(X);
             });
 	}
 
