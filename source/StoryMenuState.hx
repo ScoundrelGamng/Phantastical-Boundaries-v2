@@ -139,6 +139,8 @@ class StoryMenuState extends MusicBeatState
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
 		curDifficulty = PlayState.storyDifficulty;
+		trace(PlayState.storyDifficulty);
+		trace(curDifficulty);
 		var diff:String = CoolUtil.difficulties[curDifficulty];
 		lastDifficultyName = diff;
 
@@ -267,6 +269,14 @@ class StoryMenuState extends MusicBeatState
 	{
 		if (!weekIsLocked(loadedWeeks[curWeek].fileName))
 		{
+			if (WeekData.weeksList[curWeek] == 'phantasm' && curDifficulty == 0 || WeekData.weeksList[curWeek] == 'phantasm' && curDifficulty == 1)
+				{
+					FlxG.sound.play(Paths.sound('cancelMenu'));
+					trace(PlayState.storyDifficulty);
+					trace(curDifficulty);
+					return;
+				}
+
 			if (stopspamming == false)
 			{
 				FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -408,7 +418,7 @@ class StoryMenuState extends MusicBeatState
 
 			if(diffs.length > 0 && diffs[0].length > 0)
 			{
-				CoolUtil.difficulties = diffs;
+				//CoolUtil.difficulties = diffs;
 			}
 		}
 		
@@ -423,10 +433,7 @@ class StoryMenuState extends MusicBeatState
 
 		var newPos:Int = CoolUtil.difficulties.indexOf(lastDifficultyName);
 		//trace('Pos of ' + lastDifficultyName + ' is ' + newPos);
-		if(newPos > -1)
-		{
-			curDifficulty = newPos;
-		}
+		
 		updateText();
 	}
 

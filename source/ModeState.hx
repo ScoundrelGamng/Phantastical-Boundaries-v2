@@ -27,6 +27,9 @@ import flixel.util.FlxTimer;
 
 using StringTools;
 
+// check out Eagle Ravi Rumble
+//						- broster
+
 class ModeState extends MusicBeatState
 {
 	public static var curSelected:Int = 0;
