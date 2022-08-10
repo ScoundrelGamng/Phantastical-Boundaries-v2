@@ -115,7 +115,7 @@ class ModeState extends MusicBeatState
             {
                 var offset:Float = 140 - (Math.max(diffShit.length, 4) - 4) * 300; //original offset is 108
 				var xoffset:Float = 200 - (Math.max(diffShit.length, 4) - 4) * 300;
-                var menuItem:FlxSprite = new FlxSprite((FlxG.width / 2) - (i * 80), (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
+                var menuItem:FlxSprite = new FlxSprite((FlxG.width / 2) - (i * 85), (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
 
                 menuItem.ID = i;
                 menuItems2.add(menuItem);
@@ -134,7 +134,7 @@ class ModeState extends MusicBeatState
                 var menuText = new FlxText(0, menuItem.y + menuItem.height, 0, "", 12);
                 menuText.alpha = 0;
                 
-                menuText.setFormat(Paths.font("Aroania_R.otf"), 28, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+                menuText.setFormat(Paths.font("Aroania_R.otf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
                 //menuText.screenCenter(X);
                 menuText.ID = i;
                 switch (menuText.ID)
@@ -148,7 +148,7 @@ class ModeState extends MusicBeatState
 							case 3:
 								menuText.text = 'For players who are interested in a Touhou-like challenge';
                 }
-                menuText.x = FlxG.width / 3 - (i * 80);
+                menuText.x = FlxG.width / 3 - (i * 85);
                 menuTexts2.add(menuText);
 
 				if (curSelected == i)

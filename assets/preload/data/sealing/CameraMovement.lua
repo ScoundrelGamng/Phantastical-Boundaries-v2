@@ -1,4 +1,3 @@
-
 local xx = 550;
 local yy = 220;
 local xx2 = 820;
@@ -7,10 +6,6 @@ local ofs = 40;
 local followchars = true;
 local del = 0;
 local del2 = 0;
-
-function onUpdatePost()
-doTweenY('floattween', 'dad',  -75 * math.sin((getSongPosition()/2000) + 100), 2, 'linear')
-end
 
 function onUpdate(elapsed)
 	if getProperty("health") <= 0 then

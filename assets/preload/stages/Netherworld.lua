@@ -8,6 +8,10 @@ function onCreate()
 	makeLuaSprite('Netherworld2','Netherworld/Netherworld2', -1300, -850);
     addLuaSprite('Netherworld2',true);
     setScrollFactor('Netherworld2', 1, 1);
+	
+	makeLuaSprite('Netherworld3','Netherworld/Netherworld3', -1300, -850);
+    addLuaSprite('Netherworld3',true);
+    setScrollFactor('Netherworld3', 1, 1);
 
  scaleObject('Netherworld', 1, 1);
  scaleObject('Netherworld2', 1, 1);
