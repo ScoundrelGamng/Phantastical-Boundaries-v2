@@ -142,12 +142,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				switch(PlayState.p2String)
 				{
 					case 'yukari':
-						FlxG.sound.play(Paths.sound('gameOver/yukarideath' + FlxG.random.int(1, 4)), 1, false, null, true, function() {
-							if(!isEnding)
-							{
-								FlxG.sound.music.fadeIn(0.2, 1, 4);
-							}
-						});
+						playVoice('yukarideath');
 				}
 				boyfriend.startedDeath = true;
 			}
@@ -173,6 +168,16 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
 	}
+
+	function playVoice(file:String)
+		{
+			FlxG.sound.play(Paths.sound('gameOver/' + file + FlxG.random.int(1, 4)), 1, false, null, true, function() {
+				if(!isEnding)
+				{
+					FlxG.sound.music.fadeIn(0.2, 1, 4);
+				}
+			});
+		}
 
 	function endBullshit():Void
 	{
