@@ -17,6 +17,7 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollowPos:FlxObject;
 	var updateCamera:Bool = false;
 	var playingDeathSound:Bool = false;
+	var fileList:Array<String>;
 
 	var stageSuffix:String = "";
 
@@ -65,6 +66,8 @@ class GameOverSubstate extends MusicBeatSubstate
 		FlxG.camera.target = null;
 
 		boyfriend.playAnim('firstDeath');
+
+		fileList = sys.FileSystem.readDirectory('assets/shared/sounds/gameOver/' + PlayState.p2String);
 
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
@@ -137,13 +140,11 @@ class GameOverSubstate extends MusicBeatSubstate
 				
 				playingDeathSound = true;
 				coolStartDeath(0.2);
+				var randomInt:Int;
+				randomInt = FlxG.random.int(1, fileList.length + 1); //includes the first number, excludes the last
 				trace(PlayState.p2String);
-				trace(FlxG.random.int(0, 3));
-				switch(PlayState.p2String)
-				{
-					case 'yukari':
-						playVoice('yukarideath');
-				}
+				trace(randomInt);
+				playVoice(PlayState.p2String, randomInt);
 				boyfriend.startedDeath = true;
 			}
 		}
@@ -169,9 +170,9 @@ class GameOverSubstate extends MusicBeatSubstate
 		FlxG.sound.playMusic(Paths.music(loopSoundName), volume);
 	}
 
-	function playVoice(file:String)
+	function playVoice(file:String, rando:Int)
 		{
-			FlxG.sound.play(Paths.sound('gameOver/' + file + FlxG.random.int(1, 4)), 1, false, null, true, function() {
+			FlxG.sound.play(Paths.sound('gameOver/' + file + '/' + file + rando), 1, false, null, true, function() {
 				if(!isEnding)
 				{
 					FlxG.sound.music.fadeIn(0.2, 1, 4);
