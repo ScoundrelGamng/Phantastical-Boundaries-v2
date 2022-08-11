@@ -159,7 +159,7 @@ class ModeState extends MusicBeatState
 				else
 					{
 						menuItem.alpha = 0.6;
-						menuText.alpha = 0.6;
+						menuText.alpha = 0.75;
 					}
 
                 

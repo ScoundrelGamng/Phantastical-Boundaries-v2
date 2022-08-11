@@ -115,7 +115,7 @@ class GameOverSubstate extends MusicBeatSubstate
 
 			if (boyfriend.animation.curAnim.finished && !playingDeathSound)
 			{
-				if (PlayState.SONG.stage == 'tank')
+				/*if (PlayState.SONG.stage == 'tank')
 				{
 					playingDeathSound = true;
 					coolStartDeath(0.2);
@@ -133,6 +133,21 @@ class GameOverSubstate extends MusicBeatSubstate
 				else
 				{
 					coolStartDeath();
+				}*/
+				
+				playingDeathSound = true;
+				coolStartDeath(0.2);
+				trace(PlayState.p2String);
+				trace(FlxG.random.int(0, 3));
+				switch(PlayState.p2String)
+				{
+					case 'yukari':
+						FlxG.sound.play(Paths.sound('gameOver/yukarideath' + FlxG.random.int(1, 4)), 1, false, null, true, function() {
+							if(!isEnding)
+							{
+								FlxG.sound.music.fadeIn(0.2, 1, 4);
+							}
+						});
 				}
 				boyfriend.startedDeath = true;
 			}
