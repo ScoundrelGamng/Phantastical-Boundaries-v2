@@ -102,6 +102,7 @@ function onTimerCompleted(tag, loops, loopsLeft)
    end
 --kills bf
    if tag == 'deathtimer' then
+   setProperty('train', true);
    setProperty('health', 0);
    addMisses(1);
 	addScore(-2000);
@@ -110,6 +111,9 @@ function onTimerCompleted(tag, loops, loopsLeft)
    if tag == 'Hurttimer' then
    playSound('KO', 0.8);
    setProperty('health', getProperty('health') - 0.75);
+      if getProperty('health') <= 0 then
+         setProperty('train', true);
+      end
    characterPlayAnim('boyfriend', 'hurt', true);
    setProperty('boyfriend.specialAnim', true);
    	addMisses(1);

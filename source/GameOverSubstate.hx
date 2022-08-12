@@ -141,10 +141,19 @@ class GameOverSubstate extends MusicBeatSubstate
 				playingDeathSound = true;
 				coolStartDeath(0.2);
 				var randomInt:Int;
-				randomInt = FlxG.random.int(1, fileList.length + 1); //includes the first number, excludes the last
+				randomInt = FlxG.random.int(1, fileList.length);
 				trace(PlayState.p2String);
+				trace ('killed by train: ' + PlayState.trainGlobal);
+				if (!PlayState.trainGlobal)
+					playVoice(PlayState.p2String, randomInt);
+				else
+				{
+					fileList = sys.FileSystem.readDirectory('assets/shared/sounds/gameOver/train');
+					randomInt = FlxG.random.int(1, fileList.length);
+					playVoice('train', randomInt);
+				}
+				
 				trace(randomInt);
-				playVoice(PlayState.p2String, randomInt);
 				boyfriend.startedDeath = true;
 			}
 		}
