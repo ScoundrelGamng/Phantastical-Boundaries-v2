@@ -1,5 +1,5 @@
 {
-	"storyName": "The youkai sage of boundaries",
+	"storyName": "The Secret Sealing Club",
 	"difficulties": "Easy, Normal, Hard, Lunatic",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
@@ -13,12 +13,21 @@
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"sealing",
+			"greenwich",
 			"yukari",
 			[
 				160,
 				115,
 				178
+			]
+		],
+		[
+			"sealing",
+			"yukari",
+			[
+				146,
+				113,
+				253
 			]
 		]
 	],
