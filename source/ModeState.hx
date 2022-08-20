@@ -113,14 +113,14 @@ class ModeState extends MusicBeatState
 
         for (i in 0...diffShit.length)
             {
-                var offset:Float = 140 - (Math.max(diffShit.length, 4) - 4) * 300; //original offset is 108
+                var offset:Float = 100 - (Math.max(diffShit.length, 4) - 4) * 300; //original offset is 108
 				var xoffset:Float = 200 - (Math.max(diffShit.length, 4) - 4) * 300;
-                var menuItem:FlxSprite = new FlxSprite((FlxG.width / 2) - (i * 85), (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
+                var menuItem:FlxSprite = new FlxSprite((FlxG.width / 8 * 3) - (i * 85), (i * 140)  + offset).loadGraphic(Paths.image('menudifficulties/' + diffShit[i]));
 
                 menuItem.ID = i;
                 menuItems2.add(menuItem);
                 menuItem.centerOrigin();
-                menuItem.setGraphicSize(Std.int(menuItem.width * 0.75));
+                menuItem.setGraphicSize(Std.int(menuItem.width * 0.30));
                 menuItem.updateHitbox();
 				
                 //optionY.push(menuItem.y);
@@ -148,6 +148,7 @@ class ModeState extends MusicBeatState
 							case 3:
 								menuText.text = 'For players who are interested in a Touhou-like challenge';
                 }
+				menuText.text = '';
                 menuText.x = FlxG.width / 3 - (i * 85);
                 menuTexts2.add(menuText);
 
@@ -260,7 +261,7 @@ class ModeState extends MusicBeatState
 
     
 									PlayState.storyDifficulty = curSelected;
-                                    MusicBeatState.switchState(new StoryMenuState());
+                                    MusicBeatState.switchState(new StoryState());
                                         
                                 }
                             });
