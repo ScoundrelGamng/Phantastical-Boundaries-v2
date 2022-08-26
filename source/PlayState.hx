@@ -129,6 +129,7 @@ class PlayState extends MusicBeatState
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
+	public var skippedDialogue:Bool = false;
 
 	public var spawnTime:Float = 2000;
 
@@ -1537,6 +1538,11 @@ class PlayState extends MusicBeatState
 			precacheList.set('dialogueClose', 'sound');
 			psychDialogue = new DialogueBoxPsych(dialogueFile, song);
 			psychDialogue.scrollFactor.set();
+			psychDialogue.skipThing = function() {
+				psychDialogue = null;
+				skippedDialogue = true;
+				callOnLuas('onSkipDialogue', [dialogueCount]);
+			}
 			if(endingSong) {
 				psychDialogue.finishThing = function() {
 					psychDialogue = null;

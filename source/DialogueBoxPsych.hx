@@ -168,6 +168,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var dialogueList:DialogueFile = null;
 
 	public var finishThing:Void->Void;
+	public var skipThing:Void->Void;
 	public var nextDialogueThing:Void->Void = null;
 	public var skipDialogueThing:Void->Void = null;
 	var bgFade:FlxSprite = null;
@@ -281,6 +282,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var scrollSpeed = 4500;
 	var daText:Alphabet = null;
 	var ignoreThisFrame:Bool = true; //First frame is reserved for loading dialogue images
+
 	override function update(elapsed:Float)
 	{
 		if(ignoreThisFrame) {
@@ -300,6 +302,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						daText.kill();
 						remove(daText);
 						daText.destroy();
+						skipThing();
 					}
 					dialogueEnded = true;
 					return;
