@@ -52,12 +52,12 @@
 	<SubTexture name="Yukari_Up0001" x="5628" y="3140" width="1018" height="1412" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
 	<SubTexture name="Yukari_Up0002" x="6646" y="3140" width="1018" height="1414" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
 	<SubTexture name="Yukari_Up0003" x="6646" y="3140" width="1018" height="1414" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0004" x="0" y="4554" width="1018" height="1415"/>
-	<SubTexture name="Yukari_Up0005" x="0" y="4554" width="1018" height="1415"/>
-	<SubTexture name="Yukari_Up0006" x="1018" y="4554" width="1018" height="1411" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0007" x="1018" y="4554" width="1018" height="1411" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0008" x="2036" y="4554" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0009" x="2036" y="4554" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0010" x="2036" y="4554" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
-	<SubTexture name="Yukari_Up0011" x="2036" y="4554" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0004" x="0" y="4004" width="1018" height="1415"/>
+	<SubTexture name="Yukari_Up0005" x="0" y="4004" width="1018" height="1415"/>
+	<SubTexture name="Yukari_Up0006" x="1018" y="4004" width="1018" height="1411" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0007" x="1018" y="4004" width="1018" height="1411" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0008" x="2036" y="4004" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0009" x="2036" y="4004" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0010" x="2036" y="4004" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
+	<SubTexture name="Yukari_Up0011" x="2036" y="4004" width="1018" height="1410" frameX="0" frameY="0" frameWidth="1018" frameHeight="1415"/>
 </TextureAtlas>
