@@ -181,6 +181,9 @@ class GameOverSubstate extends MusicBeatSubstate
 
 	function playVoice(file:String, rando:Int)
 		{
+			if (!sys.FileSystem.exists('assets/shared/sounds/gameOver/' + file + '/' + file + rando + '.ogg'))
+				return;
+
 			FlxG.sound.play(Paths.sound('gameOver/' + file + '/' + file + rando), 1, false, null, true, function() {
 				if(!isEnding)
 				{
