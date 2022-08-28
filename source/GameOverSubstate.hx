@@ -141,8 +141,11 @@ class GameOverSubstate extends MusicBeatSubstate
 				playingDeathSound = true;
 				coolStartDeath(0.2);
 				var randomInt:Int;
-				randomInt = FlxG.random.int(1, fileList.length);
+				if (fileList != null)
+					randomInt = FlxG.random.int(1, fileList.length);
+				else randomInt = 0;
 				trace(PlayState.p2String);
+				
 				trace ('killed by train: ' + PlayState.trainGlobal);
 				if (!PlayState.trainGlobal)
 					playVoice(PlayState.p2String, randomInt);

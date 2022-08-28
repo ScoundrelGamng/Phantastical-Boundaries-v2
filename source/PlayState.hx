@@ -3628,6 +3628,8 @@ class PlayState extends MusicBeatState
 						}
 				}
 				reloadHealthBarColors();
+				p2String = iconP2.getCharacter();
+				trace(p2String);
 
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
