@@ -102,6 +102,7 @@ function onTimerCompleted(tag, loops, loopsLeft)
    end
 --kills bf
    if tag == 'deathtimer' then
+   setProperty('train', true);
    setProperty('health', 0);
    addMisses(1);
 	addScore(-2000);

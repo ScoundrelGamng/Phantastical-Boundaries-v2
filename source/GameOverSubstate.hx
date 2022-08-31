@@ -151,6 +151,7 @@ class GameOverSubstate extends MusicBeatSubstate
 					playVoice(PlayState.p2String, randomInt);
 				else
 				{
+					trace ('lmao skill issue');
 					fileList = sys.FileSystem.readDirectory('assets/shared/sounds/gameOver/train');
 					randomInt = FlxG.random.int(1, fileList.length);
 					playVoice('train', randomInt);
