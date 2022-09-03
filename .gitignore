@@ -1,3 +1,7 @@
+### Mac-Exclusive
+# Removes .DS_Store files, which only appears on Mac
+**/.DS_Store
+
 ### FNF-Specific
 # File used for the NG API. Should not be shared with others.
 APIStuff.hx
