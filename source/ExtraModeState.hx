@@ -30,7 +30,7 @@ using StringTools;
 // check out Eagle Ravi Rumble
 //						- broster
 
-class ModeState extends MusicBeatState
+class ExtraModeState extends MusicBeatState
 {
 	public static var curSelected:Int = 0;
 
@@ -47,7 +47,7 @@ class ModeState extends MusicBeatState
 	var logoSpr:FlxSprite;
     var versionShit:FlxText;
 	
-    var diffShit:Array<String> = ['easy', 'normal', 'hard', 'lunatic'];
+    var diffShit:Array<String> = ['extra'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
