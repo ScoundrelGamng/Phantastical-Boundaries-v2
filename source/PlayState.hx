@@ -2251,7 +2251,10 @@ class PlayState extends MusicBeatState
 		}
 
 		// Song duration in a float, useful for the time left feature
-		songLength = FlxG.sound.music.length;
+		if (SONG.song == 'border of life')
+			songLength = 137333;
+		else
+			songLength = FlxG.sound.music.length;
 		FlxTween.tween(timeBar, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, {ease: FlxEase.circOut});
 
@@ -3464,6 +3467,9 @@ class PlayState extends MusicBeatState
 
 			case 'Kill Henchmen':
 				killHenchmen();
+
+			case 'Reset Timer':
+				songLength = FlxG.sound.music.length;
 
 			case 'Add Camera Zoom':
 				if(ClientPrefs.camZooms && FlxG.camera.zoom < 1.35) {
