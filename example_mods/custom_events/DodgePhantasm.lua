@@ -9,11 +9,10 @@ function onCreate()
 	precacheSound('dodge');
 	precacheSound('signbeep');
 	precacheSound('train');
-	precacheSound('KO');
 end
 
 function onEvent(name, value1, value2)
-    if name == "DodgeEvent" then
+    if name == "DodgePhantasm" then
     --Get Dodge time
     DodgeTime = (value1);
 
@@ -67,18 +66,8 @@ end
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
---when timer ends, you don't dodge and it's on easy
-   if tag == 'Died' and dodge == false and difficulty == 0 then
-   triggerEvent('Screen Shake','0.8, 0.04','0.01, 0.00')
-   doTweenX('moveright', ('yukaritrain'), 18000, 1.6, 'linear');
-   playSound('train', 1);
-   runTimer('Traintimer', 2);
-   runTimer('Hurttimer', 0.55);
-   removeLuaSprite('sign');
-   canDodge = false;
-   
 --when timer ends and you don't dodge
-   elseif tag == 'Died' and dodge == false then
+   if tag == 'Died' and dodge == false then
    triggerEvent('Screen Shake','0.8, 0.04','0.01, 0.00')
    doTweenX('moveright', ('yukaritrain'), 18000, 0.6, 'linear');
    playSound('train', 1);
@@ -105,15 +94,6 @@ function onTimerCompleted(tag, loops, loopsLeft)
    setProperty('train', true);
    setProperty('health', 0);
    addMisses(1);
-	addScore(-2000);
-   end
---damages bf (on easy)
-   if tag == 'Hurttimer' then
-   playSound('KO', 0.8);
-   setProperty('health', getProperty('health') - 0.75);
-   characterPlayAnim('boyfriend', 'hurt', true);
-   setProperty('boyfriend.specialAnim', true);
-   	addMisses(1);
 	addScore(-2000);
    end
 end
