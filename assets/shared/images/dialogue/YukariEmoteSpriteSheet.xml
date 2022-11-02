@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="YukariEmoteSpriteSheet.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Deadpan0000" x="0" y="0" width="835" height="1063"/>
+	<SubTexture name="FacePalm0000" x="835" y="0" width="835" height="1063"/>
+	<SubTexture name="Neutral0000" x="1670" y="0" width="835" height="1063"/>
+	<SubTexture name="Pout0000" x="2505" y="0" width="835" height="1063"/>
+	<SubTexture name="Sad0000" x="0" y="1063" width="835" height="1063"/>
+	<SubTexture name="Scary0000" x="835" y="1063" width="835" height="1063"/>
+	<SubTexture name="Serious0000" x="1670" y="1063" width="835" height="1063"/>
+	<SubTexture name="Sigh0000" x="2505" y="1063" width="835" height="1063"/>
+	<SubTexture name="Smug0000" x="0" y="2126" width="835" height="1063"/>
+	<SubTexture name="Wink0000" x="835" y="2126" width="835" height="1063"/>
+</TextureAtlas>

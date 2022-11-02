@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MaribelEmotesSpriteSheet.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cheers!0000" x="0" y="0" width="447" height="663"/>
+	<SubTexture name="Giggle0000" x="447" y="0" width="321" height="663"/>
+	<SubTexture name="Laughing0000" x="768" y="0" width="321" height="665"/>
+	<SubTexture name="Neutral0000" x="1089" y="0" width="321" height="665"/>
+	<SubTexture name="Sigh 0000" x="1410" y="0" width="321" height="665"/>
+	<SubTexture name="Smile0000" x="0" y="665" width="321" height="665"/>
+	<SubTexture name="Surprised0000" x="321" y="665" width="321" height="665"/>
+</TextureAtlas>

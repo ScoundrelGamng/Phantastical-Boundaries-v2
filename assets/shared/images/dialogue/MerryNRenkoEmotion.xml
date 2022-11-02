@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MerryNRenkoEmotion.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Neutral0000" x="0" y="0" width="518" height="675"/>
+	<SubTexture name="Smile N Blush0000" x="518" y="0" width="518" height="675"/>
+	<SubTexture name="Wink N Sigh0000" x="1036" y="0" width="518" height="675"/>
+</TextureAtlas>

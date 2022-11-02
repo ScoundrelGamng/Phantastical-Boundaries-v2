@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="RenkoEmotesSpritesheet.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Cheers0000" x="0" y="0" width="470" height="599"/>
+	<SubTexture name="Chugging0000" x="470" y="0" width="356" height="602"/>
+	<SubTexture name="Confident0000" x="826" y="0" width="315" height="599"/>
+	<SubTexture name="Explaining0000" x="1141" y="0" width="413" height="599"/>
+	<SubTexture name="Nervous0000" x="1554" y="0" width="315" height="599"/>
+	<SubTexture name="Neutral0000" x="0" y="602" width="315" height="599"/>
+	<SubTexture name="Oh0000" x="315" y="602" width="354" height="599"/>
+	<SubTexture name="Shocked0000" x="669" y="602" width="322" height="599"/>
+	<SubTexture name="Smile0000" x="991" y="602" width="315" height="599"/>
+	<SubTexture name="Smug0000" x="1306" y="602" width="315" height="599"/>
+</TextureAtlas>

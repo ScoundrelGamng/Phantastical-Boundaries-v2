@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MamizouEmoteSpritSheet.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Laughing0000" x="0" y="0" width="752" height="832"/>
+	<SubTexture name="Neutral0000" x="752" y="0" width="752" height="832"/>
+	<SubTexture name="Questioning0000" x="1504" y="0" width="752" height="832"/>
+	<SubTexture name="Shrug0000" x="2256" y="0" width="752" height="832"/>
+	<SubTexture name="Sigh0000" x="3008" y="0" width="752" height="832"/>
+	<SubTexture name="Smile0000" x="0" y="832" width="752" height="832"/>
+	<SubTexture name="Smug0000" x="752" y="832" width="752" height="832"/>
+</TextureAtlas>

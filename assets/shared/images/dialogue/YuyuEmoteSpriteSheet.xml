@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="YuyuEmoteSpriteSheet.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Burp0000" x="0" y="0" width="438" height="806"/>
+	<SubTexture name="Dizzy 0000" x="438" y="0" width="438" height="806"/>
+	<SubTexture name="Embarassed0000" x="876" y="0" width="438" height="806"/>
+	<SubTexture name="Eye Sparkle0000" x="1314" y="0" width="438" height="806"/>
+	<SubTexture name="Happy 0000" x="1752" y="0" width="438" height="806"/>
+	<SubTexture name="Laughing0000" x="2190" y="0" width="438" height="806"/>
+	<SubTexture name="Mg mg0000" x="2628" y="0" width="439" height="806"/>
+	<SubTexture name="Pout0000" x="3067" y="0" width="438" height="806"/>
+	<SubTexture name="Questioning0000" x="3505" y="0" width="438" height="806"/>
+	<SubTexture name="Sleepy0000" x="0" y="806" width="438" height="806"/>
+	<SubTexture name="Smile0000" x="438" y="806" width="438" height="806"/>
+</TextureAtlas>
