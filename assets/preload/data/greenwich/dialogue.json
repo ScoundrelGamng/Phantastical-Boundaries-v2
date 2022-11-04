@@ -1,141 +1,141 @@
 {
 	"dialogue": [
 		{
-			"expression": "Just_Yukari",
-			"text": "BF and GF are walking through a city street, on their way to some sort of event that they both seem to be excited about.",
+			"expression": "talk",
+			"text": "Beep boop ba?",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
+			"portrait": "bf",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "So, you wanted to go to this secret club meeting and challenge the members there to a rap battle, just because you can?\r",
+			"text": "Huh? Oh yeah, Yukari just wanted to talk to me real quick. Nothing to worry about honey bunches!",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
-		},
-		{
-			"expression": "talk",
-			"text": "Beep!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
-		},
-		{
-			"expression": "talk",
-			"text": "Well, I’ve seen worse motivations for us getting into rap battles.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "confused",
-			"text": "Though, are you sure this is the right way? Something about this street feels off…...",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "pissed",
-			"text": "Beep bep boop bap!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
 		},
 		{
 			"expression": "excited",
-			"text": "Oh such a brave man for wanting to protect me! ",
+			"text": "Bop skdeep!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Of course, hun! While going to Gensokyo was a nice detour, we still have that bar you wanted to go to!\r\n",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "What was it called again?",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
 		},
 		{
 			"expression": "talk",
-			"text": "Here's my hand for you my knight.~",
+			"text": "Bep bebop ba!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Old Adam! Thank you for reminding me! ",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Just_Yukari",
+			"text": "GF pats BF’s butt with a sly smirk.\r\n",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Your cute little butt helped me remember too~\r\n",
 			"boxState": "normal",
 			"portrait": "gf",
 			"speed": 0.025
 		},
 		{
-			"expression": "talk",
-			"text": "The two love birds laugh happily, making light of the eerie surroundings as they are unaware of a mysterious force...",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "...watching them through a rift in time and space.",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "This figure shrouded in shadow with countless red eyes and a wicked smile slowly approaches BF and GF. ",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "A bright light blinds the two of them as they find themselves pushed into a gap.",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
 			"expression": "shocked",
-			"text": "WAAAH!!!",
-			"boxState": "angry",
-			"portrait": "gf",
-			"speed": 0.02
-		},
-		{
-			"expression": "shocked",
-			"text": "BEEEEEEP!!!\\n*thud*",
-			"boxState": "angry",
+			"text": "Beep! ",
+			"boxState": "normal",
 			"portrait": "bf",
-			"speed": 0.02
-		},
-		{
-			"expression": "confused",
-			"text": "Ugh...… what happened..… and where are we?",
-			"boxState": "normal",
-			"portrait": "GF",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "GF slowly gets up from the ground as she and BF find themselves in the middle of what appears to be...",
+			"text": "BF and GF make their way down the alleyways, passing various tall buildings-",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "...a Japanese styled village, with a small creek to their left and various houses and store fronts to their right.",
+			"text": "-before eventually arriving at a comfy looking bar, labelled Old Adam.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "A few villagers wearing feudal clothing, some of which appearing to have animal features,",
+			"text": "Oh wow, this looks like one of those places that one guy with the cool shirt and car would go to! ",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "I don’t know why, but it just gives me that sort of vibe, a feeling of familiarity and home.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Boop baap skbeep bo!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Heh, funny you should mention that. This place has some of the best food this side of town! ",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "...pause in the middle of their day as they observe the two new strangers.\r",
+			"text": "As well as some pretty good beer that helps getcha thinkin. ",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
-			"expression": "confused",
-			"text": "Beep boop skbeep?\r",
+			"expression": "talk",
+			"text": "Oh really? Well, what do you recommend?\r\n",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Come with me! I’ll show ya the best meals and booze! ",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Beep boo!\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -143,15 +143,15 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Yeah… I'’m fine. I’ve suffered from worse. But where are we? Is this Japan?",
+			"text": "Anytime little dude! Now let’s go inside before it starts to rain.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "yukari_emp"
 		},
 		{
 			"expression": "talk",
-			"text": "???:\\nYou're close, but no cigar.\r",
+			"text": "With the way the clouds are forming, rain will start to pour in about five seconds.\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -159,15 +159,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Huh? Who's there?\r",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "talk",
-			"text": "BF and GF look around trying to find the source of the voice. ",
+			"text": "Renko leads GF and BF inside of the bar, which was fairly busy with various guests enjoying a drink and some food. ",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -175,7 +167,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "They spot two ribbons holding together a small seam in space, before being torn apart...",
+			"text": "A few of the patrons are people that BF and GF recognize, who give them a little wave and a nod-",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -183,7 +175,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "...as a tall blonde woman wearing a white frilly dress and purple tabard floats out of it.",
+			"text": "-before Renko sits the two of them at a bar stool.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -191,7 +183,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "She holds a parasol and a fan. GF and BF both feel a sense of dread washing over them as they feel...",
+			"text": "As soon as Renko led them inside, rain starts to pour outside, creating a relaxing atmosphere to this lo-fi establishment.\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -199,15 +191,23 @@
 		},
 		{
 			"expression": "talk",
-			"text": "...the sheer power emanating from this woman.",
+			"text": "Now I personally recommend the spicy bean and apple curry. Some of the best curry you can ever have! ",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
 			"portrait": "yukari_emp"
 		},
 		{
-			"expression": "demon",
-			"text": "You...… who are you?",
+			"expression": "talk",
+			"text": "And of course, Oni's breath beer to drink all that down!\r\n",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh! That sounds wonderful!\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -215,31 +215,15 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Skbeep bep boop baap!\r",
+			"text": "Though sadly, I’m allergic to beans. Whenever I eat them, I always get a rash and hives, which always lasts for a while.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
-			"portrait": "bf"
+			"portrait": "gf"
 		},
 		{
-			"expression": "Idle",
-			"text": "Oh don'’t you worry young man. I have no\\nintentions of hurting either you, or your\\ngirlfriend.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Idle",
-			"text": "But I am Yukari Yakumo, the great youkai sage of boundaries and the person who brought you to this wonderful world called Gensokyo.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "confused",
-			"text": "Gensokyo...… I feel like I'’ve heard of that name before.",
+			"expression": "talk",
+			"text": "But I’m definitely interested in trying out the beer though!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -250,184 +234,144 @@
 			"text": "Beep boop bop?",
 			"boxState": "normal",
 			"sound": "",
-			"speed": 0.05,
+			"speed": 0.025,
 			"portrait": "bf"
 		},
 		{
-			"expression": "Sigh",
-			"text": "How do I put this simply?",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Idle",
-			"text": "Gensokyo is the land that rests between the planes of dreams and reality.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Wink",
-			"text": "Of course, there'’s more to it than that, but giving you a history lesson isn't what I dragged you two here for.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
 			"expression": "confused",
-			"text": "Then what did you bring us here for?",
+			"text": "Yes, I am allergic to beans honey. Same with Mommy and Daddy. ",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
 			"portrait": "gf"
 		},
 		{
-			"expression": "Wink",
-			"text": "A singing battle of course!",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Idle",
-			"text": "I'’ve been watching you two and the various battles you've gotten yourselves into dearies.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Idle",
-			"text": "Defeating powerful opponents such as…...",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Whitty",
-			"text": "a living nuclear warhead, ",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.045,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Scary",
-			"text": "an evil executable file,",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.045,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Tricky",
-			"text": "a clown from Nevada, ",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.045,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Just_Yukari",
-			"text": "and a high school girl who treats reality like it's nothing but code.",
+			"expression": "confused",
+			"text": "I know I ate that one bean dish that your mom made for me, but I didn’t want to refuse a meal she worked hard to make me.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "yukari"
+			"portrait": "gf"
 		},
 		{
-			"expression": "Wink",
-			"text": "I couldn't help myself. I needed to have a battle of songs with you!",
+			"expression": "talk",
+			"text": "Besides, it was funny to see you scared when you thought your bed sheets caused my rash~\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
-			"portrait": "yukari"
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "BEEEP!!!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Beep bo boop~\r\n",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Wink",
+			"text": "And I can’t stay mad at you either, it’s like you always say. I make your heart stop with love~\r\n",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "Idle",
+			"text": "Ahahaha! Well aren’t you two a couple of love birds huh? Reminds me of my girl.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Idle",
+			"text": "Oh by the way, where are my manners? The name is Renko Usami! Co-founder of the Secret Sealing Club!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh! You’re the one that my darling wanted to see!\r\n",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "pissed",
-			"text": "Bep! Beep baa bo!\r",
+			"text": "Bep!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
 			"portrait": "bf"
 		},
 		{
-			"expression": "Wink",
-			"text": "Don'’t be so eager just yet boy, I haven't set the conditions.",
+			"expression": "Tricky",
+			"text": "A rap battle you say? ",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
-			"portrait": "yukari"
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Just_Yukari",
+			"text": "Sure, I don’t see why not! Plus, it can help pass the time while I wait for my partner too!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Wink",
+			"text": "Why don’t you get me the usual and for my friends here, let them have it too!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "pissed",
+			"text": "Though make sure you prep the food away from any beans, I don’t want my new friend to have an allergic reaction.\r\n",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Wink",
+			"text": "Renko and BF get up to the small little stage, as stage lights focus on the two of them with GF sitting on the speakers.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
 		},
 		{
 			"expression": "confused",
-			"text": "Oh boy, here we go again. Let me guess, if we lose, we're killed right?",
+			"text": "Now, are ya ready pal? Let’s have a good one!\r\n",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "Pout",
-			"text": "How barbaric! I would never propose such cruel conditions.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Idle",
-			"text": "What I had in mind was if you win, you'd be able to go home free.",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "Smug",
-			"text": "But if I win, you'll become my new shikigami for all of eternity.\r",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "yukari"
-		},
-		{
-			"expression": "excited",
-			"text": "Beep!",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "bf"
-		},
-		{
-			"expression": "excited",
-			"text": "That’'s my boy! We won'’t become servants today!\r",
-			"boxState": "normal",
-			"sound": "",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "Deadpan",
-			"text": "Shikigami, there's a difference between the two terms.",
-			"boxState": "normal",
-			"portrait": "yukari",
-			"speed": 0.025,
-			"sound": ""
-		},
-		{
-			"expression": "Wink",
-			"text": "Now, let’s rock!\r",
-			"boxState": "angry",
-			"portrait": "yukari",
-			"speed": 0.02,
-			"sound": ""
+			"portrait": "yukari_emp"
 		}
 	]
 }

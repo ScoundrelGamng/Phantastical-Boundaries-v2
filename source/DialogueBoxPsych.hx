@@ -48,6 +48,7 @@ typedef DialogueLine = {
 	var portrait:Null<String>;
 	var expression:Null<String>;
 	var text:Null<String>;
+	var font:Null<String>;
 	var boxState:Null<String>;
 	var speed:Null<Float>;
 	var sound:Null<String>;
@@ -174,6 +175,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	var bgFade:FlxSprite = null;
 	var box:FlxSprite;
 	var textToType:String = '';
+	var fixedText:FlxTypeText;
 
 	var arrayCharacters:Array<DialogueCharacter> = [];
 
@@ -194,11 +196,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
 		
-		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
+		/*bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
 		bgFade.alpha = 0;
-		add(bgFade);
+		add(bgFade);*/
+		fixedText = new FlxTypeText(160, 490, Std.int(FlxG.width * 0.7), "", 48, false);
+		fixedText.font = 'THBiolinum';
+		fixedText.color = 0xFF000000;
+		fixedText.sounds = [FlxG.sound.load(Paths.sound('dialogue'), 0.6)];
 
 		this.dialogueList = dialogueList;
 		spawnCharacters();
@@ -220,6 +226,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		box.setGraphicSize(Std.int(box.width * 0.9));
 		box.updateHitbox();
 		add(box);
+		add(fixedText);
 
 		startNextDialog();
 	}
@@ -292,8 +299,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 
 		if(!dialogueEnded) {
-			bgFade.alpha += 0.5 * elapsed;
-			if(bgFade.alpha > 0.5) bgFade.alpha = 0.5;
+			//bgFade.alpha += 0.5 * elapsed;
+			//if(bgFade.alpha > 0.5) bgFade.alpha = 0.5;
 
 			if (PlayerSettings.player1.controls.BACK)
 				{
@@ -317,7 +324,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						daText.destroy();
 					}
 					daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, 0.0, 0.7);
-					add(daText);
+					//add(daText);
+					fixedText.skip();
 					
 					if(skipDialogueThing != null) {
 						skipDialogueThing();
@@ -333,6 +341,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 							}
 						}
 					}
+					remove(fixedText);
 
 					box.animation.curAnim.curFrame = box.animation.curAnim.frames.length - 1;
 					box.animation.curAnim.reverse();
@@ -467,6 +476,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		} while(curDialogue == null);
 
 		if(curDialogue.text == null || curDialogue.text.length < 1) curDialogue.text = ' ';
+		if(curDialogue.font == null || curDialogue.font == '') curDialogue.font = 'THBiolinum.ttf';
 		if(curDialogue.boxState == null) curDialogue.boxState = 'normal';
 		if(curDialogue.speed == null || Math.isNaN(curDialogue.speed)) curDialogue.speed = 0.05;
 
@@ -511,7 +521,10 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		textToType = curDialogue.text;
 		Alphabet.setDialogueSound(curDialogue.sound);
 		daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, curDialogue.speed, 0.7);
-		add(daText);
+		//add(daText);
+		fixedText.setFormat(Paths.font(curDialogue.font), 48, 0xFF000000);
+		fixedText.resetText(textToType);
+		fixedText.start(curDialogue.speed, true);
 
 		var char:DialogueCharacter = arrayCharacters[character];
 		if(char != null) {

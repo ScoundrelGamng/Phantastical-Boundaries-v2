@@ -8,6 +8,7 @@ import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.addons.text.FlxTypeText;
 import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
@@ -38,6 +39,7 @@ class DialogueEditorState extends MusicBeatState
 	var character:DialogueCharacter;
 	var box:FlxSprite;
 	var daText:Alphabet;
+	var fixedText:FlxTypeText;
 
 	var selectedText:FlxText;
 	var animText:FlxText;
@@ -53,6 +55,7 @@ class DialogueEditorState extends MusicBeatState
 			portrait: DialogueCharacter.DEFAULT_CHARACTER,
 			expression: 'talk',
 			text: DEFAULT_TEXT,
+			font: 'THBiolinum.ttf',
 			boxState: DEFAULT_BUBBLETYPE,
 			speed: 0.05,
 			sound: ''
@@ -68,6 +71,10 @@ class DialogueEditorState extends MusicBeatState
 		character.scrollFactor.set();
 		add(character);
 
+		fixedText = new FlxTypeText(160, 490, Std.int(FlxG.width * 0.7), "", 48);
+		fixedText.setFormat(Paths.font('THBiolinum.ttf'), 48, 0xFF000000);
+		fixedText.sounds = [FlxG.sound.load(Paths.sound('dialogue'), 0.6)];
+
 		box = new FlxSprite(70, 370);
 		box.frames = Paths.getSparrowAtlas('speech_bubble');
 		box.scrollFactor.set();
@@ -81,6 +88,7 @@ class DialogueEditorState extends MusicBeatState
 		box.updateHitbox();
 		add(box);
 
+		add(fixedText);
 		addEditorBox();
 		FlxG.mouse.visible = true;
 
@@ -170,6 +178,7 @@ class DialogueEditorState extends MusicBeatState
 			portrait: defaultLine.portrait,
 			expression: defaultLine.expression,
 			text: defaultLine.text,
+			font: 'THBiolinum.ttf',
 			boxState: defaultLine.boxState,
 			speed: defaultLine.speed,
 			sound: ''
@@ -243,7 +252,10 @@ class DialogueEditorState extends MusicBeatState
 	
 		Alphabet.setDialogueSound(soundInputText.text);
 		daText = new Alphabet(DialogueBoxPsych.DEFAULT_TEXT_X, DialogueBoxPsych.DEFAULT_TEXT_Y, textToType, false, true, speed, 0.7);
-		add(daText);
+		//add(daText);
+		fixedText.setFormat(Paths.font('THBiolinum.ttf'), 48, 0xFF000000);
+		fixedText.resetText(textToType);
+		fixedText.start(speed, true);
 
 		if(speed > 0) {
 			if(character.jsonFile.animations.length > curAnim && character.jsonFile.animations[curAnim] != null) {
@@ -283,13 +295,13 @@ class DialogueEditorState extends MusicBeatState
 			}
 			else if(sender == lineInputText)
 			{
-				reloadText(0);
+				reloadText(0.05);
 				dialogueFile.dialogue[curSelected].text = lineInputText.text;
 			}
 			else if(sender == soundInputText)
 			{
 				dialogueFile.dialogue[curSelected].sound = soundInputText.text;
-				reloadText(0);
+				reloadText(0.05);
 			}
 		} else if(id == FlxUINumericStepper.CHANGE_EVENT && (sender == speedStepper)) {
 			reloadText(speedStepper.value);
