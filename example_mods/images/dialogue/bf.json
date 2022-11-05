@@ -1,115 +1,76 @@
 {
-	"dialogue_pos": "right",
 	"position": [
 		0,
 		50
 	],
+	"dialogue_pos": "right",
 	"scale": 1.25,
+	"image": "BF_Dialogue",
 	"animations": [
 		{
-			"anim": "talk",
-			"loop_offsets": [
-				0,
-				0
-			],
 			"idle_offsets": [
 				-1,
 				-12
 			],
-			"loop_name": "",
-			"idle_name": "Neutral0"
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "BF0",
+			"loop_name": "BF LOOP"
 		},
 		{
-			"loop_offsets": [
-				5,
-				-7
+			"idle_offsets": [
+				4,
+				-8
 			],
 			"anim": "excited",
-			"idle_offsets": [
+			"loop_offsets": [
 				5,
-				-7
+				0
 			],
-			"loop_name": "",
-			"idle_name": "Excited0"
+			"idle_name": "BF EXCITED0",
+			"loop_name": "BF EXCITED LOOP"
 		},
 		{
-			"loop_offsets": [
+			"idle_offsets": [
 				0,
 				0
 			],
 			"anim": "pissed",
-			"idle_offsets": [
+			"loop_offsets": [
 				0,
 				0
 			],
-			"loop_name": "",
-			"idle_name": "Pissed0"
+			"idle_name": "BF PISSED0",
+			"loop_name": "BF PISSED LOOP"
 		},
 		{
-			"loop_offsets": [
-				-4,
-				-10
+			"idle_offsets": [
+				-6,
+				-11
 			],
 			"anim": "shocked",
-			"idle_offsets": [
-				-6,
-				-11
+			"loop_offsets": [
+				-4,
+				0
 			],
-			"loop_name": "",
-			"idle_name": "Shock0"
+			"idle_name": "BF SHOCK0",
+			"loop_name": "BF SHOCK LOOP"
 		},
 		{
-			"idle_offsets": [
-				-6,
-				-11
-			],
-			"anim": "confused",
 			"loop_offsets": [
 				-3,
 				0
 			],
-			"idle_name": "Confused0",
-			"loop_name": ""
-		},
-		{
-			"loop_name": "",
+			"anim": "confused",
 			"idle_offsets": [
-				0,
-				-10
-			],
-			"idle_name": "Smug0",
-			"anim": "Smug",
-			"loop_offsets": [
-				0,
-				-10
-			]
-		},
-		{
-			"loop_name": "",
-			"idle_offsets": [
-				0,
-				-12
-			],
-			"idle_name": "Tired0",
-			"anim": "Tired",
-			"loop_offsets": [
-				0,
-				-12
-			]
-		},
-		{
-			"loop_name": "",
-			"idle_offsets": [
-				0,
+				-6,
 				-11
 			],
-			"idle_name": "Crying0",
-			"anim": "Crying",
-			"loop_offsets": [
-				0,
-				-11
-			]
+			"loop_name": "BF CONFUSED LOOP",
+			"idle_name": "BF CONFUSED0"
 		}
-	],
-	"image": "BF_EmoteSpriteSheet"
+	]
 }

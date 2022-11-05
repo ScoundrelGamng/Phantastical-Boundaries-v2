@@ -1,0 +1,141 @@
+{
+	"position": [
+		110,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "RenkoEmotesSpritesheet",
+	"animations": [
+		{
+			"loop_name": "Neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Neutral",
+			"anim": "Neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile",
+			"anim": "Smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Cheers",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Cheers",
+			"anim": "Cheers",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Chugging",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Chugging",
+			"anim": "Chugging",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Confident",
+			"anim": "Confident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Explaining",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Explaining",
+			"anim": "Explaining",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Nervous",
+			"anim": "Nervous",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Oh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Oh",
+			"anim": "Oh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Shocked",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Shocked",
+			"anim": "Shocked",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smug",
+			"anim": "Smug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

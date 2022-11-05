@@ -1,0 +1,102 @@
+{
+	"position": [
+		-120,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "MamizouEmoteSpritSheet",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Smug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Smug",
+			"idle_name": "Smug"
+		},
+		{
+			"loop_name": "Laughing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Laughing",
+			"anim": "Laughing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Neutral",
+			"anim": "Neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Questioning",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Questioning",
+			"anim": "Questioning",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Shrug",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Shrug",
+			"anim": "Shrug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Sigh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sigh",
+			"anim": "Sigh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile",
+			"anim": "Smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

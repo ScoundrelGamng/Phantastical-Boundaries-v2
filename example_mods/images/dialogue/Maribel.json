@@ -1,0 +1,102 @@
+{
+	"position": [
+		110,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "MaribelEmotesSpriteSheet",
+	"animations": [
+		{
+			"loop_name": "Laughing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Laughing",
+			"anim": "Laughing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Neutral",
+			"anim": "Neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Sigh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sigh",
+			"anim": "Sigh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile",
+			"anim": "Smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Cheers!",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Cheers!",
+			"anim": "Cheers",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Giggle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Giggle",
+			"anim": "Giggle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Surprised",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Surprised",
+			"anim": "Surprised",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

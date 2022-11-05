@@ -1,11 +1,38 @@
 {
-	"dialogue_pos": "center",
 	"position": [
-		20,
-		40
+		-180,
+		-330
 	],
-	"scale": 1.3,
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "YukariEmoteSpriteSheet",
 	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Deadpan",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Deadpan",
+			"idle_name": "Deadpan"
+		},
+		{
+			"loop_name": "FacePalm",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "FacePalm",
+			"anim": "FacePalm",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
 		{
 			"loop_name": "Neutral",
 			"idle_offsets": [
@@ -20,65 +47,65 @@
 			]
 		},
 		{
-			"loop_name": "Confused",
+			"loop_name": "Pout",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Confused",
-			"anim": "Confused",
+			"idle_name": "Pout",
+			"anim": "Pout",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Demon",
+			"loop_name": "Sad",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Demon",
-			"anim": "Demon",
+			"idle_name": "Sad",
+			"anim": "Sad",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Excited",
+			"loop_name": "Scary",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Excited",
-			"anim": "Excited",
+			"idle_name": "Scary",
+			"anim": "Scary",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Scared",
-			"idle_offsets": [
-				80,
-				0
-			],
-			"idle_name": "Scared",
-			"anim": "Scared",
-			"loop_offsets": [
-				80,
-				0
-			]
-		},
-		{
-			"loop_name": "Shock",
+			"loop_name": "Serious",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Shock",
-			"anim": "Shock",
+			"idle_name": "Serious",
+			"anim": "Serious",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Sigh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sigh",
+			"anim": "Sigh",
 			"loop_offsets": [
 				0,
 				0
@@ -98,18 +125,17 @@
 			]
 		},
 		{
-			"loop_name": "Tired",
+			"loop_name": "Wink",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Tired",
-			"anim": "Tired",
+			"idle_name": "Wink",
+			"anim": "Wink",
 			"loop_offsets": [
 				0,
 				0
 			]
 		}
-	],
-	"image": "GF_EmoteSpriteSheet"
+	]
 }

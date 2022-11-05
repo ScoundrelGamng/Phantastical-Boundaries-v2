@@ -1,0 +1,50 @@
+{
+	"position": [
+		110,
+		-30
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "MerryNRenkoEmotion",
+	"animations": [
+		{
+			"loop_name": "Neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Neutral",
+			"anim": "Neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile N Blush",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile N Blush",
+			"anim": "Smile N Blush",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Wink N Sigh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Wink N Sigh",
+			"anim": "Wink N Sigh",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

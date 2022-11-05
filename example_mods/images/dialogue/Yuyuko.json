@@ -1,0 +1,154 @@
+{
+	"position": [
+		80,
+		-70
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "YuyuEmoteSpriteSheet",
+	"animations": [
+		{
+			"loop_name": "Pout",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Pout",
+			"anim": "Pout",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Burp",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Burp",
+			"anim": "Burp",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dizzy ",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dizzy ",
+			"anim": "Dizzy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Embarassed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Embarassed",
+			"anim": "Embarassed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Eye Sparkle",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Eye Sparkle",
+			"anim": "Eye Sparkle",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Happy ",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Happy ",
+			"anim": "Happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Laughing",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Laughing",
+			"anim": "Laughing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Mg mg",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Mg mg",
+			"anim": "Mg mg",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Questioning",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Questioning",
+			"anim": "Questioning",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Sleepy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sleepy",
+			"anim": "Sleepy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile",
+			"anim": "Smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

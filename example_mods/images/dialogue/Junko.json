@@ -1,0 +1,115 @@
+{
+	"position": [
+		-160,
+		-80
+	],
+	"dialogue_pos": "left",
+	"scale": 1,
+	"image": "JunkoEmotesSpriteSheet",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "Neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Neutral",
+			"idle_name": "Neutral"
+		},
+		{
+			"loop_name": "Confident",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Confident",
+			"anim": "Confident",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Eyes CLosed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Eyes CLosed",
+			"anim": "Eyes CLosed",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Angry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Angry",
+			"anim": "Angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Rage",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Rage",
+			"anim": "Rage",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Rage Cry",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Rage Cry",
+			"anim": "Rage Cry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Scoff",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Scoff",
+			"anim": "Scoff",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smile",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smile",
+			"anim": "Smile",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

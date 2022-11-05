@@ -1,97 +1,85 @@
 {
-	"dialogue_pos": "center",
 	"position": [
-		20,
-		40
+		110,
+		-30
 	],
-	"scale": 1.3,
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "ReimuEmoteSpriteSheet",
 	"animations": [
 		{
-			"loop_name": "Neutral",
+			"loop_name": "Angry",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Neutral",
-			"anim": "Neutral",
+			"idle_name": "Angry",
+			"anim": "Angry",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Confused",
+			"loop_name": "Grumpy",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Confused",
-			"anim": "Confused",
+			"idle_name": "Grumpy",
+			"anim": "Grumpy",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Demon",
+			"loop_name": "Middle Finger",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Demon",
-			"anim": "Demon",
+			"idle_name": "Middle Finger",
+			"anim": "Middle Finger",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Excited",
+			"loop_name": "Money",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Excited",
-			"anim": "Excited",
+			"idle_name": "Money",
+			"anim": "Money",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Scared",
-			"idle_offsets": [
-				80,
-				0
-			],
-			"idle_name": "Scared",
-			"anim": "Scared",
-			"loop_offsets": [
-				80,
-				0
-			]
-		},
-		{
-			"loop_name": "Shock",
+			"loop_name": "Sigh",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Shock",
-			"anim": "Shock",
+			"idle_name": "Sigh",
+			"anim": "Sigh",
 			"loop_offsets": [
 				0,
 				0
 			]
 		},
 		{
-			"loop_name": "Smug",
+			"loop_name": "Smile",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Smug",
-			"anim": "Smug",
+			"idle_name": "Smile",
+			"anim": "Smile",
 			"loop_offsets": [
 				0,
 				0
@@ -110,6 +98,5 @@
 				0
 			]
 		}
-	],
-	"image": "GF_EmoteSpriteSheet"
+	]
 }
