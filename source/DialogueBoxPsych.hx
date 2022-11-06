@@ -201,7 +201,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		bgFade.visible = true;
 		bgFade.alpha = 0;
 		add(bgFade);*/
-		fixedText = new FlxTypeText(160, 490, Std.int(FlxG.width * 0.7), "", 48, false);
+		//this was a very lazy fix but i can't be fucking bothered to deal with alphabet anymore
+		fixedText = new FlxTypeText(160, 480, Std.int(FlxG.width * 0.7), "", 48, false);
 		fixedText.font = 'THBiolinum';
 		fixedText.color = 0xFF000000;
 		fixedText.sounds = [FlxG.sound.load(Paths.sound('dialogue'), 0.6)];
