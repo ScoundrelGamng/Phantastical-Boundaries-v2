@@ -6,13 +6,13 @@ function onStartCountdown()
 		runTimer('startDialogue', 2);
 		makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
 		scaleObject('adam', 0.69, 0.69);
-		addLuaSprite('adam', false);
+		addLuaSprite('adam', true);
 		setObjectCamera('adam', 'hud');
 		setObjectOrder('adam', 0);
 		allowCountdown = true;
 		return Function_Stop;
 	end
-	doTweenAlpha('CGtween2', 'adam', 0, 0.4, 'linear');
+	doTweenAlpha('CGtween2', 'CG3', 0, 0.4, 'linear');
 	return Function_Continue;
 end
 
@@ -38,23 +38,19 @@ end
 
 function onTweenCompleted(tag)
 if tag == 'CGtween2' then
-	removeLuaSprite('adam');
+	removeLuaSprite('CG3');
 end
 end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)	
-	if count == 5 then
+	if count == 9 then
 		removeLuaSprite('adam');
-		makeLuaSprite('CG2', 'cg/week2/CG2', 0, 0);
-		scaleObject('CG2', 0.69, 0.69);
-		addLuaSprite('CG2', true);
-		setObjectCamera('CG2', 'hud');
-		setObjectOrder('CG2', 0);
-	end
-	if count == 10 then
-		removeLuaSprite('CG2');
-		addLuaSprite('adam', true);
+		makeLuaSprite('CG3', 'cg/week2/CG3', 0, 0);
+		scaleObject('CG3', 0.69, 0.69);
+		addLuaSprite('CG3', true);
+		setObjectCamera('CG3', 'hud');
+		setObjectOrder('CG3', 0);
 	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
 end
@@ -62,14 +58,11 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
-		if count < 5 then
+		if count < 10 then
 			removeLuaSprite('adam');
-		end
-		if count >= 5 and count < 10 then
-			removeLuaSprite('CG2');
 		end
 		if count >= 10 then
-			removeLuaSprite('adam');
+			removeLuaSprite('CG3');
 		end
 	end
 		
