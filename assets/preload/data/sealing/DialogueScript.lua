@@ -18,7 +18,7 @@ end
 
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'folklore');
+		startDialogue('dialogue', 'cutscene');
 		--credits
 		makeLuaSprite('ScoundrelCreditFolklore', 'ScoundrelCreditFolklore', -840, 240);
 		doTweenX('composermove', 'ScoundrelCreditFolklore', 0, 1, 'circOut');
