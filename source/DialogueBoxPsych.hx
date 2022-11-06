@@ -310,6 +310,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 						daText.kill();
 						remove(daText);
 						daText.destroy();
+						FlxG.sound.music.fadeOut(1, 0);
 						skipThing();
 					}
 					dialogueEnded = true;
