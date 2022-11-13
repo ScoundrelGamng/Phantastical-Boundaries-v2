@@ -1,0 +1,210 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Man! That was a lot of fun! You’re pretty good at this rapping thing huh?",
+			"boxState": "normal",
+			"portrait": "Renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Well, he is Boyfriend afterall, his rapping skills did win my heart~",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "excited",
+			"text": "I knew the two of you looked familiar! Boyfriend and Girlfriend huh? So is it really true that you’re a demon GF?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "renko"
+		},
+		{
+			"expression": "talk",
+			"text": "Ahahaha, yeah it is! Though most people don’t seem to care about that fact.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "???: Renko dearie, please stop pestering the poor girl with your love of the occult",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh! There you are Merry! I was waiting for you! I just met these two celebrities and had a rap battle against Boyfriend!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "renko"
+		},
+		{
+			"expression": "talk",
+			"text": "How lovely!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "Just_Yukari",
+			"text": "Though I would prefer it if you would stop pestering them. I apologize about Renko, she can get excited easily.",
+			"boxState": "normal",
+			"portrait": "Maribel",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Don’t worry about it! We actually wanted to rap against her since BF was bored and heard about your secret club from a friend of ours.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "See Merry! I wouldn’t bother them if they didn’t ask for it!",
+			"boxState": "normal",
+			"portrait": "renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Oh Renko, never change. Though, I’m not sure why we call this the Secret Sealing Club if a lot of people know about it.",
+			"boxState": "normal",
+			"portrait": "Maribel",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Hey, you came up with the name, not me.",
+			"boxState": "normal",
+			"portrait": "renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Beep boop bap?",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Well, I wouldn’t mind joining the club, though that’s for Renko and Merry to decide.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "You can just call me Maribel. I’m only called Merry since Renko here can’t say my name properly.",
+			"boxState": "normal",
+			"portrait": "maribel",
+			"speed": 0.025
+		},
+		{
+			"expression": "Nervous",
+			"text": "Hey! I try my best! It’s not my fault that your name is hard to say! Marubelle…... Mamareberu...",
+			"boxState": "normal",
+			"portrait": "Renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "Sigh",
+			"text": "You’re going to bite your tongue Renko.",
+			"boxState": "normal",
+			"portrait": "maribel",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Though back to the topic at hand.",
+			"boxState": "normal",
+			"portrait": "Maribel",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Yeah! If you want to join the club, you’ll have to pass our initiation test!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "confused",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "talk",
+			"text": "…Renko… we don’t have an initiation. We never came up with one.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "Nervous",
+			"text": "Oh right...  heheheh...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "talk",
+			"text": "How about a rap battle then? I would love to have a turn!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "Excited",
+			"text": "Works for us!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "I’ll stand to the side and let you do the singing this time Merry!  Plus...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "talk",
+			"text": "Renko grabs two comically large sized pints of beer and gives one to GF.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "Cheers",
+			"text": "I want to drink my beer while you go!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "renko"
+		},
+		{
+			"expression": "talk",
+			"text": "You and your so-called thinking juice. Alright Boyfriend, let’s go!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		}
+	]
+}

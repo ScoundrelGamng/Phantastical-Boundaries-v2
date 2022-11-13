@@ -12,13 +12,13 @@ function onStartCountdown()
 		allowCountdown = true;
 		return Function_Stop;
 	end
-	doTweenAlpha('CGtween2', 'CG1', 0, 0.4, 'linear');
+	doTweenAlpha('CGtween2', 'adam', 0, 0.4, 'linear');
 	return Function_Continue;
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'folklore');
+		startDialogue('dialogue', 'cutscene');
 		--credits
 		makeLuaSprite('ScoundrelCreditFolklore', 'ScoundrelCreditFolklore', -840, 240);
 		doTweenX('composermove', 'ScoundrelCreditFolklore', 0, 1, 'circOut');
@@ -38,7 +38,7 @@ end
 
 function onTweenCompleted(tag)
 if tag == 'CGtween2' then
-	removeLuaSprite('CG1');
+	removeLuaSprite('adam');
 end
 end
 
@@ -52,6 +52,14 @@ function onNextDialogue(count)
 		setObjectCamera('CG1', 'hud');
 		setObjectOrder('CG1', 0);
 	end
+	if count == 22 then
+		removeLuaSprite('CG1');
+		makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
+		scaleObject('adam', 0.69, 0.69);
+		addLuaSprite('adam', true);
+		setObjectCamera('adam', 'hud');
+		setObjectOrder('adam', 0);
+	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
 end
 
@@ -61,8 +69,11 @@ function onSkipDialogue(count)
 		if count <= 10 then
 			removeLuaSprite('black');
 		end
-		if count >= 11 then
+		if count >= 11 and count < 22 then
 			removeLuaSprite('CG1');
+		end
+		if count >= 22 then
+			removeLuaSprite('adam');
 		end
 	end
 		
