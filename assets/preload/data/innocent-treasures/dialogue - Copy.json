@@ -1,0 +1,81 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Well Merry,  I think our decision is clear!",
+			"boxState": "normal",
+			"portrait": "Renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "I believe so too Renko!  Welcome to the Secret Sealing Club Boyfriend and Girlfriend",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "excited",
+			"text": "We did it bae!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep bo!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Now let's go dine on some delicious food and drink until Midnight!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "talk",
+			"text": "To our new friends!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "talk",
+			"text": "Cheers!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Well, wasn't that heartwarming?  Isn't it nice to be able to watch a new friendship blossom under the common love of singing and booze?",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "Get your arms ready honey!  Because here I come",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Beep!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		}
+	]
+}

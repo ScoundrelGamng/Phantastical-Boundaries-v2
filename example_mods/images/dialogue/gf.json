@@ -13,7 +13,7 @@
 				0
 			],
 			"idle_name": "Neutral",
-			"anim": "Neutral",
+			"anim": "talk",
 			"loop_offsets": [
 				0,
 				0
@@ -26,7 +26,7 @@
 				0
 			],
 			"idle_name": "Confused",
-			"anim": "Confused",
+			"anim": "confused",
 			"loop_offsets": [
 				0,
 				0
@@ -39,7 +39,7 @@
 				0
 			],
 			"idle_name": "Demon",
-			"anim": "Demon",
+			"anim": "demon",
 			"loop_offsets": [
 				0,
 				0
@@ -52,7 +52,7 @@
 				0
 			],
 			"idle_name": "Excited",
-			"anim": "Excited",
+			"anim": "excited",
 			"loop_offsets": [
 				0,
 				0
@@ -65,7 +65,7 @@
 				0
 			],
 			"idle_name": "Scared",
-			"anim": "Scared",
+			"anim": "scared",
 			"loop_offsets": [
 				80,
 				0
@@ -78,7 +78,7 @@
 				0
 			],
 			"idle_name": "Shock",
-			"anim": "Shock",
+			"anim": "shocked",
 			"loop_offsets": [
 				0,
 				0
@@ -91,7 +91,7 @@
 				0
 			],
 			"idle_name": "Smug",
-			"anim": "Smug",
+			"anim": "smug",
 			"loop_offsets": [
 				0,
 				0
@@ -104,7 +104,7 @@
 				0
 			],
 			"idle_name": "Tired",
-			"anim": "Tired",
+			"anim": "tired",
 			"loop_offsets": [
 				0,
 				0

@@ -17,7 +17,7 @@
 				-12
 			],
 			"loop_name": "",
-			"idle_name": "Neutral0"
+			"idle_name": "talk0"
 		},
 		{
 			"loop_offsets": [
@@ -30,7 +30,7 @@
 				-7
 			],
 			"loop_name": "",
-			"idle_name": "Excited0"
+			"idle_name": "excited0"
 		},
 		{
 			"loop_offsets": [
@@ -43,7 +43,7 @@
 				0
 			],
 			"loop_name": "",
-			"idle_name": "Pissed0"
+			"idle_name": "pissed0"
 		},
 		{
 			"loop_offsets": [
@@ -56,7 +56,7 @@
 				-11
 			],
 			"loop_name": "",
-			"idle_name": "Shock0"
+			"idle_name": "shocked0"
 		},
 		{
 			"idle_offsets": [
@@ -68,7 +68,7 @@
 				-3,
 				0
 			],
-			"idle_name": "Confused0",
+			"idle_name": "confused0",
 			"loop_name": ""
 		},
 		{

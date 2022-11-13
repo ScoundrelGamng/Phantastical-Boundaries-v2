@@ -2,14 +2,14 @@
 	"dialogue": [
 		{
 			"expression": "Just_Yukari",
-			"text": "BF and GF are walking through a city street, on their way to some sort of event that they both seem to be excited about.",
+			"text": "BF and GF are walking through a city street,  on their way to some sort of event that they both seem to be excited about.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "So, you wanted to go to this secret club meeting and challenge the members there to a rap battle, just because you can?\r",
+			"text": "So,  you wanted to go to this secret club meeting and challenge the members there to a rap battle,  just because you can?",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
@@ -23,14 +23,14 @@
 		},
 		{
 			"expression": "talk",
-			"text": "Well, I’ve seen worse motivations for us getting into rap battles.",
+			"text": "Well,  I've seen worse motivations for us getting into rap battles.",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
 		},
 		{
 			"expression": "confused",
-			"text": "Though, are you sure this is the right way? Something about this street feels off…...",
+			"text": "Though,  are you sure this is the right way? Something about this street feels off......",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
@@ -44,7 +44,7 @@
 		},
 		{
 			"expression": "excited",
-			"text": "Oh such a brave man for wanting to protect me! ",
+			"text": "Oh such a brave man for wanting to protect me!",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
@@ -58,7 +58,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "The two love birds laugh happily, making light of the eerie surroundings as they are unaware of a mysterious force...",
+			"text": "The two love birds laugh happily,  making light of the eerie surroundings as they are unaware of a mysterious force...",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
@@ -72,7 +72,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "This figure shrouded in shadow with countless red eyes and a wicked smile slowly approaches BF and GF. ",
+			"text": "This figure shrouded in shadow with countless red eyes and a wicked smile slowly approaches BF and GF.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
@@ -93,14 +93,14 @@
 		},
 		{
 			"expression": "shocked",
-			"text": "BEEEEEEP!!!\\n*thud*",
+			"text": "BEEEEEEP!!!\n*thud*",
 			"boxState": "angry",
 			"portrait": "bf",
 			"speed": 0.02
 		},
 		{
 			"expression": "confused",
-			"text": "Ugh...… what happened..… and where are we?",
+			"text": "Ugh...... what happened..... and where are we?",
 			"boxState": "normal",
 			"portrait": "GF",
 			"speed": 0.025
@@ -121,21 +121,21 @@
 		},
 		{
 			"expression": "talk",
-			"text": "A few villagers wearing feudal clothing, some of which appearing to have animal features,",
+			"text": "A few villagers wearing feudal clothing,  some of which appearing to have animal features,",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "...pause in the middle of their day as they observe the two new strangers.\r",
+			"text": "...pause in the middle of their day as they observe the two new strangers.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
 			"speed": 0.025
 		},
 		{
 			"expression": "confused",
-			"text": "Beep boop skbeep?\r",
+			"text": "Beep boop skbeep?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -143,7 +143,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Yeah… I'’m fine. I’ve suffered from worse. But where are we? Is this Japan?",
+			"text": "Yeah... I'm fine.  I've suffered from worse.  But where are we?  Is this Japan?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -151,7 +151,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "???:\\nYou're close, but no cigar.\r",
+			"text": "???:\nYou're close,  but no cigar.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -159,7 +159,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Huh? Who's there?\r",
+			"text": "Huh?  Who's there?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -167,7 +167,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "BF and GF look around trying to find the source of the voice. ",
+			"text": "BF and GF look around trying to find the source of the voice.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -175,7 +175,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "They spot two ribbons holding together a small seam in space, before being torn apart...",
+			"text": "They spot two ribbons holding together a small seam in space,  before being torn apart...",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -207,7 +207,7 @@
 		},
 		{
 			"expression": "demon",
-			"text": "You...… who are you?",
+			"text": "You... who are you?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -215,7 +215,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Skbeep bep boop baap!\r",
+			"text": "Skbeep bep boop baap!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -223,7 +223,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "Oh don'’t you worry young man. I have no\\nintentions of hurting either you, or your\\ngirlfriend.",
+			"text": "Oh don't you worry young man.  I have no intentions of hurting either you,  or your girlfriend.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -231,7 +231,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "But I am Yukari Yakumo, the great youkai sage of boundaries and the person who brought you to this wonderful world called Gensokyo.",
+			"text": "But I am Yukari Yakumo,  the great youkai sage of boundaries and the person who brought you to this wonderful world called Gensokyo.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -239,7 +239,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Gensokyo...… I feel like I'’ve heard of that name before.",
+			"text": "Gensokyo... I feel like I've heard of that name before.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -271,7 +271,7 @@
 		},
 		{
 			"expression": "Wink",
-			"text": "Of course, there'’s more to it than that, but giving you a history lesson isn't what I dragged you two here for.",
+			"text": "Of course, there's more to it than that,  but giving you a history lesson isn't what I dragged you two here for.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -295,7 +295,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "I'’ve been watching you two and the various battles you've gotten yourselves into dearies.",
+			"text": "I've been watching you two and the various battles you've gotten yourselves into dearies.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -303,7 +303,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "Defeating powerful opponents such as…...",
+			"text": "Defeating powerful opponents such as...",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -343,7 +343,7 @@
 		},
 		{
 			"expression": "Wink",
-			"text": "I couldn't help myself. I needed to have a battle of songs with you!",
+			"text": "I couldn't help myself.  I needed to have a battle of songs with you!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -351,7 +351,7 @@
 		},
 		{
 			"expression": "pissed",
-			"text": "Bep! Beep baa bo!\r",
+			"text": "Bep!  Beep baa bo!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -359,7 +359,7 @@
 		},
 		{
 			"expression": "Wink",
-			"text": "Don'’t be so eager just yet boy, I haven't set the conditions.",
+			"text": "Don't be so eager just yet boy,  I haven't set the conditions.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -367,7 +367,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Oh boy, here we go again. Let me guess, if we lose, we're killed right?",
+			"text": "Oh boy,  here we go again.  Let me guess,  if we lose,  we're killed right?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -375,7 +375,7 @@
 		},
 		{
 			"expression": "Pout",
-			"text": "How barbaric! I would never propose such cruel conditions.",
+			"text": "How barbaric!  I would never propose such cruel conditions.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -383,7 +383,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "What I had in mind was if you win, you'd be able to go home free.",
+			"text": "What I had in mind was if you win,  you'd be able to go home free.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -391,7 +391,7 @@
 		},
 		{
 			"expression": "Smug",
-			"text": "But if I win, you'll become my new shikigami for all of eternity.\r",
+			"text": "But if I win,  you'll become my new shikigami for all of eternity.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -407,7 +407,7 @@
 		},
 		{
 			"expression": "excited",
-			"text": "That’'s my boy! We won'’t become servants today!\r",
+			"text": "That's my boy!  We won't become servants today!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -415,7 +415,7 @@
 		},
 		{
 			"expression": "Deadpan",
-			"text": "Shikigami, there's a difference between the two terms.",
+			"text": "Shikigami,  there's a difference between the two terms.",
 			"boxState": "normal",
 			"portrait": "yukari",
 			"speed": 0.025,
@@ -423,7 +423,7 @@
 		},
 		{
 			"expression": "Wink",
-			"text": "Now, let’s rock!\r",
+			"text": "Now, let's rock!",
 			"boxState": "angry",
 			"portrait": "yukari",
 			"speed": 0.02,

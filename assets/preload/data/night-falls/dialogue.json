@@ -2,7 +2,7 @@
 	"dialogue": [
 		{
 			"expression": "Wink",
-			"text": "Impressive, though that was simply a warm up.",
+			"text": "Impressive,  though that was simply a warm up.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -10,7 +10,7 @@
 		},
 		{
 			"expression": "excited",
-			"text": "Beep bep boop!\r",
+			"text": "Beep bep boop!",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -18,7 +18,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "Yes, she was pretty good BF. But try to be careful, I’'m getting this sinking feeling in my stomach that something will go wrong.",
+			"text": "Yes,  she was pretty good BF.  But try to be careful,  I'm getting this sinking feeling in my stomach that something will go wrong.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -26,7 +26,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "(Gensokyo...… I think I remember Mommy telling me about this land in a fairy tale…...)",
+			"text": "(Gensokyo...  I think I remember Mommy telling me about this land in a fairy tale...)",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -34,7 +34,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "(... a place where lost legends go to live out the rest of their days…...)",
+			"text": "(... a place where lost legends go to live out the rest of their days...)",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -42,7 +42,7 @@
 		},
 		{
 			"expression": "Serious",
-			"text": "This is no fairy tale Girlfriend, it would be best for you to remember those words.",
+			"text": "This is no fairy tale Girlfriend,  it would be best for you to remember those words.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -50,7 +50,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Huh?\r",
+			"text": "Huh?",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -58,7 +58,7 @@
 		},
 		{
 			"expression": "Wink",
-			"text": "Don’t mind me, I’'m just some youkai rambling to herself. Now let me change the scenery here. ",
+			"text": "Don't mind me,  I'm just some youkai rambling to herself.  Now let me change the scenery here.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -74,7 +74,7 @@
 		},
 		{
 			"expression": "Idle",
-			"text": "Ahhh, home sweet home. Such lovely chaos is a sight I can never get tired of.",
+			"text": "Ahhh,  home sweet home.  Such lovely chaos is a sight I can never get tired of.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -82,7 +82,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "So many eyes...… they're watching me. It’s unnerving.",
+			"text": "So many eyes...  they're watching me.  It's unnerving.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
@@ -90,7 +90,7 @@
 		},
 		{
 			"expression": "shocked",
-			"text": "Beeep…...",
+			"text": "Beeep...",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -102,7 +102,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Idle",
-			"text": "Now for this next song, how about I change things up a little bit. Make things more fun. So do be mindful of trains."
+			"text": "Now for this next song,  how about I change things up a little bit.  Make things more fun.  So do be mindful of trains."
 		},
 		{
 			"sound": "",
@@ -118,7 +118,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "Wait, what was that about trains??"
+			"text": "Wait,  what was that about trains??"
 		},
 		{
 			"sound": "",
@@ -134,7 +134,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "Yukari? What trains?"
+			"text": "Yukari?  What trains?"
 		},
 		{
 			"sound": "",

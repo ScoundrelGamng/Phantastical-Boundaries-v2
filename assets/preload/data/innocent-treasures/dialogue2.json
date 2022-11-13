@@ -1,0 +1,200 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Well Merry,  I think our decision is clear!",
+			"boxState": "normal",
+			"portrait": "Renko",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "I believe so too Renko!  Welcome to the Secret Sealing Club Boyfriend and Girlfriend",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "excited",
+			"text": "We did it bae!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep bo!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Now let's go dine on some delicious food and drink until Midnight!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Renko"
+		},
+		{
+			"expression": "talk",
+			"text": "To our new friends!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "talk",
+			"text": "Cheers!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari_emp"
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Well, wasn't that heartwarming?  Isn't it nice to be able to watch a new friendship blossom under the common love of singing and booze?",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "I guess...",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Come now Kiki,  smile!  Afterall,  you got to hear some good music!",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "That power of yours is quite useful!  Allowing us to hear the music from outside the building.",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Heh,  you know giving me praise is one way to get me to smile.  Another way is to get me a glass of beer.",
+			"boxState": "normal",
+			"portrait": "Kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Oh you Onis and your love for booze.  Come then,  let's go get some,  though not here.  We can't risk being seen.",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Fine...",
+			"boxState": "normal",
+			"portrait": "Kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Kiki's gaze lingers on the group within the bar before her attention focuses on GF.  She sees how GF is holding BF close and she easily sees her groping his butt.  Anger wells up within the pits of Kiki's stomach as she clenches her fist.",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "An idea then pops into her head as she looks to Yukari,  following her through a gap to a random bar.",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Hey Yukarin.",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Yes?",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "How about we invite Boyfriend and Girlfriend over for a picnic with Yuyuko?",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "They did say that they were interested in seeing everything Gensokyo has to offer,  so it's only right that you introduce them to your dearest friend Yuyuko.",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Kiki,  I know what you're trying to do.",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Hey!  Stop making assumptions!  I'm over it, okay?!  You don't even have to invite me!  I just...",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "...think it would be nice to treat them to Youmu's cooking after you show them around Gensokyo.",
+			"boxState": "normal",
+			"portrait": "kiki",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Hmmm...",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Hmmm...",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Oh,  why the hell not.  Just promise to not intervene with our plans,  alright?  I know how you can get.",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "I promise.  I'll be on my best behavior and won't set a foot near \"him\".",
+			"boxState": "normal",
+			"portrait": "Kiki",
+			"speed": 0.025
+		}
+	]
+}

@@ -54,7 +54,11 @@ function onNextDialogue(count)
 	end
 	if count == 10 then
 		removeLuaSprite('CG2');
+		makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
+		scaleObject('adam', 0.69, 0.69);
 		addLuaSprite('adam', true);
+		setObjectCamera('adam', 'hud');
+		setObjectOrder('adam', 0);
 	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
 end

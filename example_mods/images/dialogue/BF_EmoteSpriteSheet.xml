@@ -2,12 +2,12 @@
 <TextureAtlas imagePath="BF_EmoteSpriteSheet.png">
 	<!-- Created with Adobe Animate version 22.0.8.217 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Confused0000" x="0" y="0" width="396" height="407"/>
+	<SubTexture name="confused0000" x="0" y="0" width="396" height="407"/>
 	<SubTexture name="Crying0000" x="396" y="0" width="404" height="411"/>
-	<SubTexture name="Excited0000" x="800" y="0" width="415" height="413"/>
-	<SubTexture name="Neutral0000" x="1215" y="0" width="402" height="407"/>
-	<SubTexture name="Pissed0000" x="1617" y="0" width="381" height="407"/>
-	<SubTexture name="Shock0000" x="0" y="413" width="396" height="407"/>
+	<SubTexture name="excited0000" x="800" y="0" width="415" height="413"/>
+	<SubTexture name="talk0000" x="1215" y="0" width="402" height="407"/>
+	<SubTexture name="pissed0000" x="1617" y="0" width="381" height="407"/>
+	<SubTexture name="shocked0000" x="0" y="413" width="396" height="407"/>
 	<SubTexture name="Smug0000" x="396" y="413" width="404" height="411"/>
 	<SubTexture name="Tired0000" x="800" y="413" width="405" height="409"/>
 </TextureAtlas>

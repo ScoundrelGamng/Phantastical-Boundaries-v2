@@ -6,7 +6,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Scary",
-			"text": "Ahahahahaha…..."
+			"text": "Ahahahahaha..."
 		},
 		{
 			"sound": "",
@@ -54,7 +54,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Eldritch",
-			"text": "Unfortunately, in this world… we can’'t always have happy endings. Such a shame, you and your little girlfriend were so cute together.~ "
+			"text": "Unfortunately,  in this world... we can't always have happy endings.  Such a shame,  you and your little girlfriend were so cute together.~ "
 		},
 		{
 			"sound": "",
@@ -70,7 +70,7 @@
 			"portrait": "yukari_emp",
 			"boxState": "angry",
 			"expression": "talk",
-			"text": "Yukari opens up gaps in front of BF and GF as lasers start to charge. When the lasers fire..."
+			"text": "Yukari opens up gaps in front of BF and GF as lasers start to charge.  When the lasers fire..."
 		},
 		{
 			"sound": "",
@@ -86,7 +86,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Wink",
-			"text": "Ahahahaha...… amazing. Your power is no tall tale. "
+			"text": "Ahahahaha... amazing.  Your power is no tall tale. "
 		},
 		{
 			"sound": "",
@@ -94,7 +94,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "shocked",
-			"text": "Wait, you aren'’t going to kill us? What was with that… thing we just saw?!"
+			"text": "Wait,  you aren't going to kill us?  What was with that...  thing we just saw?!"
 		},
 		{
 			"sound": "",
@@ -102,7 +102,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "shocked",
-			"text": "I thought for sure you would'’ve had a third song angry transformation!"
+			"text": "I thought for sure you would've had a third song angry transformation!"
 		},
 		{
 			"sound": "",
@@ -110,7 +110,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Pout",
-			"text": "Oh, I'm so offended!"
+			"text": "Oh,  I'm so offended!"
 		},
 		{
 			"sound": "",
@@ -126,7 +126,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Idle",
-			"text": "And I thought I could call you my dear friends because I know you so well.\r"
+			"text": "And I thought I could call you my dear friends because I know you so well."
 		},
 		{
 			"sound": "",
@@ -134,7 +134,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "We literally just met you a few hours ago...… I think. Time is so confusing here…..."
+			"text": "We literally just met you a few hours ago... I think.  Time is so confusing here..."
 		},
 		{
 			"sound": "",
@@ -142,7 +142,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Idle",
-			"text": "Oh, hush. Besides,\\nwhy would I be so aggravated when this is such an intriguing and fun hobby to do!"
+			"text": "Oh,  hush.  Besides,  why would I be so aggravated when this is such an intriguing and fun hobby to do!"
 		},
 		{
 			"sound": "",
@@ -150,7 +150,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Smug",
-			"text": "I should introduce Ran to this. I know that she would love it.\r"
+			"text": "I should introduce Ran to this.  I know that she would love it."
 		},
 		{
 			"sound": "",
@@ -158,7 +158,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "Being in this weird dimension...… it'’s making me feel weak...… something is draining me. I can'’t exactly describe why.\r"
+			"text": "Being in this weird dimension...  it's making me feel weak...  something is draining me.  I can't exactly describe why."
 		},
 		{
 			"sound": "",
@@ -174,7 +174,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Wink",
-			"text": "Such a courageous young man, so willing to protect his girl. Reminds me of a couple that I once knew. "
+			"text": "Such a courageous young man,  so willing to protect his girl.  Reminds me of a couple that I once knew."
 		},
 		{
 			"sound": "",
@@ -190,7 +190,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Idle",
-			"text": "In this realm that I call my home, everything is in a constant state of existing and not existing,"
+			"text": "In this realm that I call my home,  everything is in a constant state of existing and not existing,"
 		},
 		{
 			"sound": "",
@@ -198,7 +198,7 @@
 			"portrait": "yukari",
 			"boxState": "normal",
 			"expression": "Wink",
-			"text": "space is meaningless and the meaning of life and death is nothing more than a mere memory, making this place a Necrofantasia."
+			"text": "space is meaningless and the meaning of life and death is nothing more than a mere memory,  making this place a Necrofantasia."
 		}
 	]
 }
