@@ -92,11 +92,14 @@ function onSkipDialogue(count)
 		if count <= 8 and not allowEndShit then
 			removeLuaSprite('CG6');
 		end
-		if count <= 10 and not allowEndShit then
+		if count >= 9 and not allowEndShit then
 			removeLuaSprite('CG7');
 		end
-		if count <= 54 and not allowEndShit then
+		if count <= 54 and allowEndShit then
 			removeLuaSprite('realmCG');
+		end
+		if count >= 55 and allowEndShit then
+			removeLuaSprite('CG8');
 		end
 	end
 end
