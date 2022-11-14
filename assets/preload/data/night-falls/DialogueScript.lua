@@ -1,15 +1,19 @@
 local allowCountdown = false
 local splash = false
+local cursplash = false
 function onStartCountdown()
 	-- Block the first countdown and start a timer of 0.67 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene and splash == true then
+	if not allowCountdown and isStoryMode and not seenCutscene and splash then
+		cursplash = true;
+		debugPrint(cursplash);
 		makeLuaSprite('splash1', 'splash1', 0, 0);
 		scaleObject('splash1', 0.67, 0.67);
 		addLuaSprite('splash1', true);
 		setObjectCamera('splash1', 'other');
-	runTimer('showSplash2', 6);
-	return Function_Stop;
-	elseif not allowCountdown and isStoryMode and not seenCutscene then
+		runTimer('showSplash2', 6);
+		return Function_Stop;
+	elseif not allowCountdown and isStoryMode and not seenCutscene and not splash then
+		splash = true;
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
 		makeLuaSprite('VillageCG', 'VillageCG', 0, 0);
@@ -27,9 +31,6 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
 		startDialogue('dialogue', 'folklore');
 	end
-if tag == 'showSplash2' then
-allowCountdown = true;
-end
 end
 
 function onTweenCompleted(tag)
@@ -39,7 +40,7 @@ end
 end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
-function onNextDialogue(count)	
+function onNextDialogue(count)
 	if count == 8 then
 		makeLuaSprite('CG2', 'CG2', 0, 0);
 		scaleObject('CG2', 0.67, 0.67);
@@ -56,21 +57,30 @@ function onNextDialogue(count)
 		setObjectOrder('realmCG', 0);
 		removeLuaSprite('CG2');
 		end
-	if count == 18 then
-	splash = true;
-	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
 end
 
+function onUpdate(elapsed)
+		if keyJustPressed('space') and cursplash then
+			removeLuaSprite('splash1');
+			seenCutscene = true;
+			debugPrint('pressed');
+			cursplash = false;
+			startCountdown();
+		end
+	end
+
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
-	if count <= 7 and not allowEndShit then
-		removeLuaSprite('VillageCG');
-	end
-	if count <= 8 and not allowEndShit then
-		removeLuaSprite('CG2');
-	end
-	if count >= 9 and not allowEndShit then
-		removeLuaSprite('realmCG');
+	if getProperty('skippedDialogue') == true then
+		if count <= 7 and not allowEndShit then
+			removeLuaSprite('VillageCG');
+		end
+		if count <= 8 and not allowEndShit then
+			removeLuaSprite('CG2');
+		end
+		if count >= 9 and not allowEndShit then
+			removeLuaSprite('realmCG');
+		end
 	end
 end
