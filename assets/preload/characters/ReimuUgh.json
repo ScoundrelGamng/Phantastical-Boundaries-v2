@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-30,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "LipSyncUGH"
+		},
+		{
+			"offsets": [
+				-30,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "ugh",
+			"indices": [],
+			"name": "LipSyncUGH"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ReimuUghSpriteSheet",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "reimu",
+	"flip_x": false,
+	"healthbar_colors": [
+		231,
+		49,
+		58
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

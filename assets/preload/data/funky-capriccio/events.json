@@ -1,0 +1,71 @@
+{
+	"song": {
+		"events": [
+			[
+				48176.4705882353,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"ReimuUgh"
+					],
+					[
+						"Play Animation",
+						"ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				49676.4705882353,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"ReimuFine"
+					],
+					[
+						"Play Animation",
+						"fine",
+						"Dad"
+					]
+				]
+			],
+			[
+				51176.4705882353,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"Reimu"
+					]
+				]
+			],
+			[
+				145676.470588235,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"ReimuFantasyHeaven"
+					],
+					[
+						"Play Animation",
+						"fantasy",
+						"Dad"
+					]
+				]
+			],
+			[
+				147176.470588235,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"ReimuFantasy"
+					]
+				]
+			]
+		]
+	}
+}

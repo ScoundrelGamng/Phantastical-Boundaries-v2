@@ -79,7 +79,26 @@ if count == 55 then
 end
 
 function onSkipDialogue(count)
-	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
+	if getProperty('skippedDialogue') == true then
+		if count <= 1 and not allowEndShit then
+			removeLuaSprite('CG3');
+		end
+		if count <= 4 and not allowEndShit then
+			removeLuaSprite('CG4');
+		end
+		if count <= 7 and not allowEndShit then
+			removeLuaSprite('CG5');
+		end
+		if count <= 8 and not allowEndShit then
+			removeLuaSprite('CG6');
+		end
+		if count <= 10 and not allowEndShit then
+			removeLuaSprite('CG7');
+		end
+		if count <= 54 and not allowEndShit then
+			removeLuaSprite('realmCG');
+		end
+	end
 end
 
 local allowEndShit = false

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ReimuUghSpriteSheet.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LipSyncUGH0000" x="0" y="0" width="345" height="602" frameX="0" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0001" x="0" y="0" width="345" height="602" frameX="0" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0002" x="345" y="0" width="330" height="599" frameX="-7" frameY="-3" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0003" x="345" y="0" width="330" height="599" frameX="-7" frameY="-3" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0004" x="675" y="0" width="356" height="600" frameX="-10" frameY="-2" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0005" x="675" y="0" width="356" height="600" frameX="-10" frameY="-2" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0006" x="1031" y="0" width="359" height="602" frameX="-6" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0007" x="1031" y="0" width="359" height="602" frameX="-6" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0008" x="1390" y="0" width="375" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0009" x="1390" y="0" width="375" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0010" x="1765" y="0" width="366" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0011" x="1765" y="0" width="366" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0012" x="2131" y="0" width="344" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0013" x="2131" y="0" width="344" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0014" x="2475" y="0" width="329" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0015" x="2475" y="0" width="329" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0016" x="2804" y="0" width="329" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0017" x="2804" y="0" width="329" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0018" x="3133" y="0" width="330" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0019" x="3133" y="0" width="330" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0020" x="3463" y="0" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0021" x="3463" y="0" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0022" x="0" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0023" x="0" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0024" x="331" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0025" x="662" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0026" x="993" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0027" x="1324" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0028" x="1655" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0029" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0030" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0031" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0032" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0033" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0034" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0035" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0036" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0037" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0038" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0039" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0040" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0041" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0042" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0043" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0044" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+	<SubTexture name="LipSyncUGH0045" x="1986" y="602" width="331" height="602" frameX="-4" frameY="0" frameWidth="379" frameHeight="602"/>
+</TextureAtlas>

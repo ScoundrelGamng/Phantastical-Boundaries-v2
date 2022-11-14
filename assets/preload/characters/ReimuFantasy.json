@@ -1,58 +1,57 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-41,
 				61
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Fantasy Down"
+			"fps": 24,
+			"name": "Fantasy Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				5,
 				88
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Fantasy Up"
+			"fps": 24,
+			"name": "Fantasy Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				24,
 				100
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Fantasy Right"
+			"fps": 24,
+			"name": "Fantasy Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				69,
 				96
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Fantasy Left"
+			"fps": 24,
+			"name": "Fantasy Left",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Fantasy Idle",
+			"anim": "idle",
 			"indices": [
 				1,
 				2,
@@ -63,14 +62,15 @@
 				7,
 				8,
 				9
-			]
+			],
+			"name": "Fantasy Idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Reimu_Fantasy_SpriteSheet",
 	"position": [
-		0,
-		0
+		-345,
+		-215
 	],
 	"healthicon": "reimu",
 	"flip_x": false,
