@@ -3,7 +3,7 @@
 	"difficulties": "Easy, Normal, Hard, Lunatic",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
-	"weekBefore": "tutorial",
+	"weekBefore": "yukari",
 	"freeplayColor": [
 		146,
 		113,

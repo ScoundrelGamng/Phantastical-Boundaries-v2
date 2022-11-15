@@ -1,0 +1,498 @@
+{
+	"dialogue": [
+		{
+			"expression": "Just_Yukari",
+			"text": "Boyfriend and Girlfriend are getting out of their shared bed in the quaint home that the two live in.  Their hair is messy and knotted as the two have some bags under their eyes.",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"flavorText": true,
+			"speed": 0.025
+		},
+		{
+			"expression": "Just_Yukari",
+			"text": "Girlfriend is wearing a cute red tshirt that goes down to her knees while BF is wearing a onesie that his older sister,  Miku gifted him.  The two lovers are clearly hungover from all the drinking the night before.",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"flavorText": true,
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "God... how much did we drink last night?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Well,  I've seen worse motivations for us getting into rap battles.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Beep bo boop...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Yeah... those beer glasses were gigantic... do we have any medicine to help with this hell of a hangover?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "excited",
+			"text": "Bope...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "God dammit...",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Suddenly in the middle of their room,  a gap opens up as Yukari peeks out from the rift in space.",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"flavorText": true,
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Rise and shine dearies!  You two have a long day today!",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Ugh... can't you see that we have one hell of a hangover Yukari.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Well, that won't do.",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "Let me fix that for you~",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.02
+		},
+		{
+			"expression": "shocked",
+			"text": "With a snap of her fingers,  BF and GF's hangovers are gone and the two are in their normal clothes,  fully ready to take on the day.",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"speed": 0.02
+		},
+		{
+			"expression": "confused",
+			"text": "W-what the?!  How did you do that?!",
+			"boxState": "normal",
+			"portrait": "GF",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "BEEP?!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Ahahahaha,  with the power of boundaries,  I can do anything I want~",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Now come come,  I wish to show you around Gensokyo!",
+			"boxState": "normal",
+			"portrait": "Yukari",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Are you like our number one fan or something?  You seem awfully eager to show us Gensokyo.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "Well,  I guess I won't take you then.  You'll have to figure out where you'll want to take the Secret Sealing Club on your own then.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "W-wait...  what?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Boooooo...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "You don't remember?  You promised Maribel and Renko that you and BF would come up with a destination for a future excursion",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "God dammit...  we were too drunk to remember that!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Baap skebeep!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Yukari please...  give us a hand?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Hmmmm.  Well,  I already helped you with your hangover...  so you two owe me some favors in return.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Well that makes sense to me.  What do you want?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Huh...  I thought you would get frustrated at me.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Beep ba boop?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Well,  I always make sure to try to repay my debts.  It's only right afterall.  That's what Daddy taught me.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "GF"
+		},
+		{
+			"expression": "confused",
+			"text": "BEEP?!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Yep!  Daddy is a really honest man!  Just because he's done some terrible things,  doesn't mean he has no morals.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Trust and repaying debts is important to our family.  Mommy and Daddy always encouraged me to tell the truth,  no matter what.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "I see~",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Well,  how about you help my darling daughter by providing her entertainment?  As well as join me in doing some chores I have around Gensokyo.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Then afterwards I can take you to a place that may give you inspiration on where to take your fun little sealing club.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "You mentioned that you had a daughter,  what's her name and what does she look like?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Her name is Reimu Hakurei,  the shrine maiden of the Hakurei Shrine.  Isn't she lovely?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Yeah she is!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Though...  uh...  you two don't look a like at all.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Skboop beep.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "I never said she was my biological daughter.  Simply my surrogate daughter because no one else would raise her properly.  I told you earlier did I not?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Oh!  So that's what you meant by surrogate!  Yeah my honey and I had no idea what that meant.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "You two really aren't the sharpest tools in the shed...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "But I digress,  come now you two.  Let me introduce you to my darling shrine maiden.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Yukari leads BF and GF through the gap,  to which the three of them arrive outside of the Hakurei Shrine,  with Reimu sweeping up the stone pathway,  making sure it's clean of dust,  dirt and leaves.  She gives a sigh as she hears the familiar sound of the fabric of reality ripping in half.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari_Emp",
+			"flavorText": true
+		},
+		{
+			"expression": "confused",
+			"text": "What do you want you old hag?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Now now Reimu,  is that anyway you talk to me in front of guests?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Your guests?  You mean that blue haired dwarf and the oni right beside him?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Oni?  I'm sorry,  I'm a demon,  not some oni.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Don't test me you oni.  You reek of booze,  more so than the dwarf next to you.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "*whispers to Yukari*  Hey...  uh...  are you sure this is Reimu?  She seems...  way different from the picture you showed us",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Bep boo bop...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Oi!  I heard that!  Fuck off!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "My poor Reimu...  after all the hard work she's put in to saving Gensokyo and even our universe,  the most thanks she gets are my generous donations.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "It's cruel and unkind,  which is why I want you to have a rap battle with her,  put a smile on her face and let her take a break from being a shrine maiden.  Allow her to be just a normal girl for a moment.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Look Yukari...  I appreciate the sentiment but,  they seem busy and I don't want to distract them.  Besides,  I have my own work that I need to do.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Nope!  As your superior,  I am ordering you to have a break and sing a song with Boyfriend over here.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Skdeep bap boo dee bop!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "I have no idea what you just said but...  it seems like I have no choice.  Fine...  let's just get this over with.  I still need to make my morning tea.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Don't you worry Reimu,  we've made plenty of friends through our little singing battles.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Don't be so sure Oni.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Please call me Girlfriend,  I'm not an oni.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "confused",
+			"text": "Fine,  don't be so sure Girlfriend.  I'm notoriously hard to befriend",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "I wonder why~",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "confused",
+			"text": "Shut up Yukari.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "Now,  I hope you're good at dodging Boyfriend.  I've been working on some ofudas that work on humans,  and now is the perfect chance to try them out.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "confused",
+			"text": "B-beep?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "confused",
+			"text": "Oh don't be such a baby.  They'll only seal your soul away for a brief moment.  Now... shall we begin?",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		}
+	]
+}
