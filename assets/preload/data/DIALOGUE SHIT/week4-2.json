@@ -1,0 +1,104 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Dizzy",
+			"font": "THBiolinum.ttf",
+			"text": "Whoa… losing that rap battle feels weird… I feel dizzy!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Smug",
+			"font": "THBiolinum.ttf",
+			"text": "You don’t have to try so hard to make him feel good you know?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Skebap bo beep?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Oh fine.  I thought I was helping."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Well,  it only really works when he beats you after your third and final song."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Embarassed",
+			"font": "THBiolinum.ttf",
+			"text": "Oh,  I see~"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Well,  shall we move on then? This time,  let me show you my power.  Death is something seen as ugly and terrible,  yet I see it like a beautiful butterfly."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "It’s a necessary part of our existence yet death doesn’t always have to be bad."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Sometimes death can be beautiful and inspire us with the confidence and perseverance to press on,  allowing us to do things initially thought impossible. "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Like the flap of a butterfly’s wings,  one death can change an entire universe,  and I think that’s beautiful."
+		}
+	]
+}

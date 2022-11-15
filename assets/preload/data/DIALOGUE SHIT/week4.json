@@ -1,0 +1,434 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "Just_Yukari",
+			"font": "THBiolinum.ttf",
+			"text": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "Are you two alright?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "Tired",
+			"font": "THBiolinum.ttf",
+			"text": "Beep... *pant* boop..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "tired",
+			"font": "THBiolinum.ttf",
+			"text": "Never... better... who was that?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "That was Junko,  a primordial being composed of pure hatred and fury towards Chang'e,  due to the death of her son."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Yukari... is what Junko said true? Can love create monsters?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "Partially.  It depends on the person and the love.  Some are able to lose their love and move on to become an even better person than they once were."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "While others make their loss surround their entire lives and never move on or know peace.  Junko is a tragic case as she purified her hatred and fury,"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "Those are the only emotions she can feel.  So even if she does kill Chang'e,  it won't be enough for her.  She'll simply move on to another person to put the blame on."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "(I… I don’t want this to be me… but… no.  I know it can’t be me.  I’m confident in my love and my feelings towards Boyfriend.  I can handle not being with him.)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "(I just... have to cherish the time I have with him.)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Skbeep bap do boo."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "BF gives GFa reaffirming hug,  soothing the poor Oni's nerves.  Gf,  in kind,  returns the hug."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Thank you bae,  you always know the right thing to say to me."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "I'm sorry to interrupt this heart to heart,  but it took you long enough to arrive Yukarin."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Ah,  Yuyu,  sorry to keep you waiting.  Our tour took a little longer than expected,  though I’m quite certain that you overheard our conversation."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Hmmm yep.  I had half the mind to eat all the food while I waited,  but I was good and fought against my temptations."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "And then we would have had Youmu cook up another meal for us.  I’m certain you wouldn’t want to work your sweet little gardener harder than you already do."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Pout",
+			"font": "THBiolinum.ttf",
+			"text": "It’s not like she minds…  plus I would’ve gotten seconds."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Yukari,  who’s this? And why are you so comfortable around her?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Bap boo bo?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Forgive me for not introducing myself.  I am Yuyuko Saigyouji,  the ghost princess of Hakugyokuro within the Netherworld."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Yuyuko has been a dear friend of mine for over a thousand years,  and Yuyuko, this is Boyfriend and Girlfriend."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Pleasure meeting you!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Bap!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "The pleasure is all mine! Though I must say… your souls do look rather tasty.  I wonder if your soul tastes like that blue taffy like candy Yukarin has given to me. "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"font": "THBiolinum.ttf",
+			"text": "B-beep?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "scared",
+			"font": "THBiolinum.ttf",
+			"text": "Oh not again...."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Yuyuko and Yukari both laugh at the expense of the poor couple."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Laughing",
+			"font": "THBiolinum.ttf",
+			"text": "Relax, I only kid.  Well partially.  It’s not like me eating your souls would have any long lasting effects on you,  at least not while we’re here in the Netherworld."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "I think it’s best I don’t question what you mean and just take your word on it."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Well then,  shall we begin our little picnic? "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"font": "THBiolinum.ttf",
+			"text": "Boop!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "GF",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Hell yeah! Let’s eat!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Happy",
+			"font": "THBiolinum.ttf",
+			"text": "Another girl who loves to eat? My,  you’re just like me! Perhaps we should have a food battle of sorts?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Hmmm,  I feel that food battles are overrated.  How about a rap battle? I could use some entertainment while I eat."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"font": "THBiolinum.ttf",
+			"text": "Beep skdeep ba boo!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Questioning",
+			"font": "THBiolinum.ttf",
+			"text": "Rap battle? Well,  I have no idea what that is,  but it sounds like fun! Though,  you better not eat any of my food Yukarin,  or else I will cry again."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Smug",
+			"font": "THBiolinum.ttf",
+			"text": "No promises~"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Now,  Boyfriend was it? Do you mind if I add in some of my own charms to this battle of songs? Just some simple danmaku that you’ll have to dodge."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Beep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Excellent! Let’s begin then!"
+		}
+	]
+}

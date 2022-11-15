@@ -1,0 +1,254 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Whew…  that was a good one! Though,  I’m getting quite hungry,  so I think it’s time that I get a food break!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "With a quick flash of blue,  Yuyuko flies back to the picnic,  and starts eating all the food,  chowing down happily."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Yukari watches Yuyuko eat with a soft look of love that also showed remorsefulness.  Girlfriend notices and nudges Yukari with a smug grin."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "smug",
+			"font": "THBiolinum.ttf",
+			"text": "Soooooo,  is Yuyuko someone special to you?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Hmm? Oh,  well… it’s a bit complicated."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Well,  I got time."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "Well,  she once was someone who meant a lot to me.  Back when she didn’t go by the name of Yuyuko. "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Eh? What do you mean?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Sad",
+			"font": "THBiolinum.ttf",
+			"text": "It’s a sorrowful story that I…  don’t wish to get into for personal reasons.  Simply put,  her control over life and death terrified her,"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Sad",
+			"font": "THBiolinum.ttf",
+			"text": "So to save her people she killed herself underneath this very same cherry tree.  However,  her soul was unable to move on from her grief and sorrow, "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Sad",
+			"font": "THBiolinum.ttf",
+			"text": "Causing her to return as a ghost,  with no memory of her past life,  which is all the better for her own sake."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Yukari..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Sad",
+			"font": "THBiolinum.ttf",
+			"text": "While she may not be the woman that I initially fell in love with,  this is better for her. "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Sad",
+			"font": "THBiolinum.ttf",
+			"text": "It’s like what I told you earlier,  it’s better to have loved and lost than to have never loved at all.  Even…  if I could’ve prevented it."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "GF sits in silence with Yukari,  trying to think up a response only for her to sympathetically pat Yukari’s thigh."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "I don’t really know what to say but…  I won’t let these experiences that I’ve seen deter me from the love I have for BF.  I know that I’ll be different."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "It’s harder than it sounds Girlfriend.  The matter of the heart can weigh on your very soul itself if you aren’t careful."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "I hope for your own sake that you heed my words well into your future,  whether it be five years from now or thirty"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "That you will be careful with your emotions because of your very nature as an oni."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "GF smiles off Yukari’s statement,  relying on her own self confidence. After witnessing such tragic people,  she can easily not fall into the same traps they did.  Yuyuko then flies back past GF and Yukari and in front of BF."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Mg mg",
+			"font": "THBiolinum.ttf",
+			"text": "Mmmm…"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Burp",
+			"font": "THBiolinum.ttf",
+			"text": "Belch!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Happy",
+			"font": "THBiolinum.ttf",
+			"text": "Ahhhhh…  that hit the spot! Well,  are you ready for our final song?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"font": "THBiolinum.ttf",
+			"text": "Bep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Smile",
+			"font": "THBiolinum.ttf",
+			"text": "Good because this time I intend to throw everything at you.  I want to claim at least one victory before our time is up!"
+		}
+	]
+}

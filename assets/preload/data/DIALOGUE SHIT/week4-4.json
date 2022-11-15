@@ -1,0 +1,164 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Sleepy",
+			"font": "THBiolinum.ttf",
+			"text": "Ugh…  that…  last one took too much out of me…"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "You should go get some rest Yuyuko…"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Sleepy",
+			"font": "THBiolinum.ttf",
+			"text": "Ngha…  Okay…  Well BF and GF,  I had fun… maybe next time we can have a rematch."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "Sleep well Yuyuko…  take care of yourself.  And next time I’ll be sure to bring some jelly filled donuts."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Deep bap bo skbeep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yuyuko",
+			"boxState": "normal",
+			"expression": "Eye Sparkle",
+			"font": "THBiolinum.ttf",
+			"text": "Oh! Jelly filled is my favorite! But yes,  good night you two.  And good night to you Yukarin."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Idle",
+			"font": "THBiolinum.ttf",
+			"text": "Good night my dear friend."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Without further delay,  Yuyuko drifts back to her mansion while Yukari uses a gap to clean up the mess they made.  She sighs as she thinks to herself."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "How was it possible for Yuyuko’s corpse to get reanimated without having stolen the concept of Spring from Gensokyo? Yet,  I had her corpse’s heart beating… "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Serious",
+			"font": "THBiolinum.ttf",
+			"text": "Wait…"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "scared",
+			"font": "THBiolinum.ttf",
+			"text": "Wait… hun,  do you hear that?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"font": "THBiolinum.ttf",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"font": "THBiolinum.ttf",
+			"text": "Beep..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": "Well,  did ya enjoy that little surprise I gave ya at the end? Consider it an extra bonus from me to you,  Boyfriend."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": false,
+			"portrait": "yukari",
+			"boxState": "normal",
+			"expression": "Pout",
+			"font": "THBiolinum.ttf",
+			"text": "I knew it was you Kiki…"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"flavorText": true,
+			"portrait": "yukari_emp",
+			"boxState": "normal",
+			"expression": "talk",
+			"font": "THBiolinum.ttf",
+			"text": ""
+		}
+	]
+}
