@@ -4,78 +4,78 @@
 			"expression": "talk",
 			"text": "I knew you were good,  but I had no idea you were this good!",
 			"boxState": "normal",
-			"portrait": "Maribel",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Maribel"
 		},
 		{
 			"expression": "talk",
 			"text": "Well,  he was able to win over Daddy and Mommy's approval.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
-			"expression": "excited",
+			"expression": "Neutral",
 			"text": "Well Renko,  what do you think?  Do you think they're deserving of being in the club.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Maribel"
+			"portrait": "Maribel",
+			"speed": 0.025
 		},
 		{
-			"expression": "talk",
+			"expression": "Chugging",
 			"text": "*gulp*",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Renko"
+			"portrait": "Renko",
+			"speed": 0.025
 		},
 		{
-			"expression": "confused",
+			"expression": "Cheers",
 			"text": "I think one more song should prove their worth!  Though let’s make this one a duet!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Renko"
-		},
-		{
-			"expression": "talk",
-			"text": "Without a moment's hesitation,  Renko hops into Maribel's arms,  catching the blonde foreigner by surprise",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "yukari_emp"
-		},
-		{
-			"expression": "talk",
-			"text": "R-Renko!  Warn me next time!  I could've dropped you!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Maribel"
-		},
-		{
-			"expression": "talk",
-			"text": "Like that could happen!  You always have my back Merry!  When I'm around you,  I feel like I'm invincible!",
 			"boxState": "normal",
 			"portrait": "Renko",
 			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "Sigh, you can't always rely on me Renko.",
+			"text": "Without a moment's hesitation,  Renko hops into Maribel's arms,  catching the blonde foreigner by surprise",
+			"boxState": "normal",
+			"portrait": "yukari_emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "Surprised",
+			"text": "R-Renko!  Warn me next time!  I could've dropped you!",
 			"boxState": "normal",
 			"portrait": "Maribel",
 			"speed": 0.025
 		},
 		{
-			"expression": "shocked",
-			"text": "Get your arms ready honey!  Because here I come",
+			"expression": "Smile",
+			"text": "Like that could happen!  You always have my back Merry!  When I'm around you,  I feel like I'm invincible!",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Renko"
 		},
 		{
-			"expression": "talk",
+			"expression": "Sigh",
+			"text": "Sigh, you can't always rely on me Renko.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Maribel"
+		},
+		{
+			"expression": "excited",
+			"text": "Get your arms ready honey!  Because here I come",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "excited",
 			"text": "Beep!",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		}
 	]
 }

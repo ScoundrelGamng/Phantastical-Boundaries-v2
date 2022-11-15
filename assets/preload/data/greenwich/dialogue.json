@@ -4,351 +4,351 @@
 			"expression": "talk",
 			"text": "Beep boop ba?",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "Huh? Oh yeah, Yukari just wanted to talk to me real quick. Nothing to worry about honey bunches!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
-			"expression": "excited",
+			"expression": "talk",
 			"text": "Bop skdeep!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
 			"text": "Of course, hun! While going to Gensokyo was a nice detour, we still have that bar you wanted to go to!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "What was it called again?",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
-			"expression": "talk",
+			"expression": "excited",
 			"text": "Bep bebop ba!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.025
 		},
 		{
-			"expression": "talk",
+			"expression": "excited",
 			"text": "Old Adam! Thank you for reminding me!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Just_Yukari",
 			"text": "GF pats BF’s butt with a sly smirk.",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
 		},
 		{
-			"expression": "talk",
+			"expression": "smug",
 			"text": "Your cute little butt helped me remember too~",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
-			"expression": "shocked",
+			"expression": "Smug",
 			"text": "Beep! ",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
 			"expression": "talk",
 			"text": "BF and GF make their way down the alleyways,  passing various tall buildings before eventually arriving at a comfy looking bar,  labelled Old Adam.",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
 		},
 		{
 			"expression": "talk",
 			"text": "Oh wow,  this looks like one of those places that one guy with the cool shirt and car would go to!",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "talk",
 			"text": "I don’t know why,  but it just gives me that sort of vibe,  a feeling of familiarity and home.",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
-		},
-		{
-			"expression": "excited",
-			"text": "Boop baap skbeep bo!",
-			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "talk",
+			"text": "Boop baap skbeep bo!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Explaining",
 			"text": "Heh,  funny you should mention that.  This place has some of the best food this side of town! ",
 			"boxState": "normal",
-			"portrait": "Renko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Renko"
 		},
 		{
 			"expression": "talk",
 			"text": "As well as some pretty good beer that helps getcha thinkin.",
 			"boxState": "normal",
-			"portrait": "Renko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Renko"
 		},
 		{
 			"expression": "talk",
 			"text": "Oh really?  Well,  what do you recommend?",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
-			"expression": "talk",
+			"expression": "Smile",
 			"text": "Come with me!  I’ll show ya the best meals and booze!",
 			"boxState": "normal",
-			"portrait": "Renko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Renko"
 		},
 		{
 			"expression": "excited",
 			"text": "Beep boo!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "Anytime little dude!  Now let’s go inside before it starts to rain.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
-			"expression": "talk",
+			"expression": "Neutral",
 			"text": "With the way the clouds are forming,  rain will start to pour in about five seconds.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "Renko leads GF and BF inside of the bar,  which was fairly busy with various guests enjoying a drink and some food.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "yukari_emp",
 			"speed": 0.025,
-			"portrait": "yukari_emp"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "A few of the patrons are people that BF and GF recognize,  who give them a little wave and a nod before Renko sits the two of them at a bar stool.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "yukari_emp",
 			"speed": 0.025,
-			"portrait": "yukari_emp"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "As soon as Renko led them inside,  rain starts to pour outside,  creating a relaxing atmosphere to this lo-fi establishment.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "yukari_emp",
 			"speed": 0.025,
-			"portrait": "yukari_emp"
+			"sound": ""
 		},
 		{
-			"expression": "talk",
+			"expression": "Explaining",
 			"text": "Now I personally recommend the spicy bean and apple curry.  Some of the best curry you can ever have!  And of course,  Oni's breath beer to drink all that down!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
-			"expression": "talk",
+			"expression": "excited",
 			"text": "Oh!  That sounds wonderful!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "Though sadly,  I’m allergic to beans.  Whenever I eat them,  I always get a rash and hives,  which always lasts for a while.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "But I’m definitely interested in trying out the beer though!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "Beep boop bop?",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "Yes,  I am allergic to beans honey.  Same with Mommy and Daddy.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "I know I ate that one bean dish that your mom made for me,  but I didn’t want to refuse a meal she worked hard to make me.",
 			"boxState": "normal",
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.02,
+			"sound": ""
 		},
 		{
-			"expression": "talk",
+			"expression": "smug",
 			"text": "Besides,  it was funny to see you scared when you thought your bed sheets caused my rash~",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "BEEEP!!!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
 			"expression": "confused",
 			"text": "...",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
-			"expression": "confused",
+			"expression": "talk",
 			"text": "Beep bo boop~",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
-			"expression": "Wink",
+			"expression": "excited",
 			"text": "And I can’t stay mad at you either,  it’s like you always say.  I make your heart stop with love~",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
-			"expression": "Idle",
+			"expression": "Smile",
 			"text": "Ahahaha!  Well aren’t you two a couple of love birds huh?  Reminds me of my girl.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
 			"expression": "Idle",
 			"text": "Oh by the way,  where are my manners?  The name is Renko Usami!  Co-founder of the Secret Sealing Club!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Oh!  You’re the one that my darling wanted to see!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "gf",
 			"speed": 0.025,
-			"portrait": "gf"
+			"sound": ""
 		},
 		{
 			"expression": "pissed",
 			"text": "Bep!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "bf",
 			"speed": 0.025,
-			"portrait": "bf"
+			"sound": ""
 		},
 		{
-			"expression": "talk",
+			"expression": "Oh",
 			"text": "A rap battle you say?",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
 			"expression": "talk",
 			"text": "Sure,  I don’t see why not!  Plus,  it can help pass the time while I wait for my partner too!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
-			"expression": "Wink",
+			"expression": "Smile",
 			"text": "Why don’t you get me the usual and for my friends here,  let them have it too!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
-			"expression": "pissed",
+			"expression": "Explaining",
 			"text": "Though make sure you prep the food away from any beans,  I don’t want my new friend to have an allergic reaction.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		},
 		{
 			"expression": "Wink",
 			"text": "Renko and BF get up to the small little stage,  as stage lights focus on the two of them with GF sitting on the speakers.",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "yukari_emp",
 			"speed": 0.025,
-			"portrait": "yukari_emp"
+			"sound": ""
 		},
 		{
-			"expression": "confused",
+			"expression": "Confident",
 			"text": "Now,  are ya ready pal?  Let’s have a good one!",
 			"boxState": "normal",
-			"sound": "",
+			"portrait": "Renko",
 			"speed": 0.025,
-			"portrait": "Renko"
+			"sound": ""
 		}
 	]
 }

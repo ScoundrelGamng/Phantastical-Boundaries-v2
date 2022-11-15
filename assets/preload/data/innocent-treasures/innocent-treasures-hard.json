@@ -1,6 +1,7 @@
 {
 	"song": {
-		"player1": "bf W1",
+		"player1": "bf-holding-gf",
+		"player2": "Maribelandrenko",
 		"gfVersion": "gf",
 		"notes": [
 			{
@@ -5987,14 +5988,13 @@
 			}
 		],
 		"events": [],
-		"player2": "Yukari W1",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "Innocent-treasures",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "OldAdam",
 		"bpm": 165,
 		"speed": 2.4
 	}

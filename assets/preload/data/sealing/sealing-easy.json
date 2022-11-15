@@ -1,8 +1,7 @@
 {
 	"song": {
 		"player1": "bf W1",
-		"player2": "Yukari W1",
-		"events": [],
+		"gfVersion": "gf",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -7062,14 +7061,15 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"events": [],
+		"player2": "Maribel",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "sealing",
-		"stage": "stage",
-		"validScore": true,
-		"arrowSkin": "",
 		"needsVoices": true,
+		"arrowSkin": "",
+		"validScore": true,
+		"stage": "OldAdam",
 		"speed": 2,
 		"bpm": 140
 	}

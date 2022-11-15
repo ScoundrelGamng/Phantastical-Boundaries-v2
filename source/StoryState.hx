@@ -140,6 +140,7 @@ class StoryState extends MusicBeatState
 		add(weekblockerbar);
 
 		stageImage = new FlxSprite().loadGraphic(Paths.image('storymenu/stage' + (curWeek + 1)));
+		stageImage.setGraphicSize(Std.int(stageImage.width * 0.6));
 		stageImage.updateHitbox();
 		stageImage.y = FlxG.height / 2 - stageImage.height / 2 - 50;
 		stageImage.screenCenter(X);

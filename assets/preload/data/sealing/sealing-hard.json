@@ -8477,14 +8477,14 @@
 			}
 		],
 		"events": [],
-		"player2": "Yukari W1",
+		"player2": "Maribel",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "sealing",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "OldAdam",
 		"bpm": 140,
 		"speed": 2.6
 	}

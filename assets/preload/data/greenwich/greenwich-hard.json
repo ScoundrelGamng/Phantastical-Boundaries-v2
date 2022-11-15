@@ -6475,14 +6475,14 @@
 			}
 		],
 		"events": [],
-		"player2": "Yukari W1",
+		"player2": "Renko",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "greenwich",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "OldAdam",
 		"bpm": 90,
 		"speed": 1.8
 	}
