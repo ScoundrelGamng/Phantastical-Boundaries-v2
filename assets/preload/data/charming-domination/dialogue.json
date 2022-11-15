@@ -5,6 +5,7 @@
 			"text": "BF and GF are walking through a city street,  on their way to some sort of event that they both seem to be excited about.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -61,6 +62,7 @@
 			"text": "The two love birds laugh happily,  making light of the eerie surroundings as they are unaware of a mysterious force...",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -68,6 +70,7 @@
 			"text": "...watching them through a rift in time and space.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -75,6 +78,7 @@
 			"text": "This figure shrouded in shadow with countless red eyes and a wicked smile slowly approaches BF and GF.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -82,6 +86,7 @@
 			"text": "A bright light blinds the two of them as they find themselves pushed into a gap.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -110,6 +115,7 @@
 			"text": "GF slowly gets up from the ground as she and BF find themselves in the middle of what appears to be...",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -117,6 +123,7 @@
 			"text": "...a Japanese styled village, with a small creek to their left and various houses and store fronts to their right.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -124,6 +131,7 @@
 			"text": "A few villagers wearing feudal clothing,  some of which appearing to have animal features,",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -131,6 +139,7 @@
 			"text": "...pause in the middle of their day as they observe the two new strangers.",
 			"boxState": "normal",
 			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025
 		},
 		{
@@ -155,6 +164,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "Yukari_Emp"
 		},
 		{
@@ -171,6 +181,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -179,6 +190,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -187,6 +199,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -195,6 +208,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -203,6 +217,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{

@@ -45,7 +45,7 @@
 		{
 			"expression": "talk",
 			"text": "Cheers!",
-			"boxState": "normal",
+			"boxState": "angry",
 			"portrait": "yukari_emp",
 			"speed": 0.025
 		},
@@ -54,6 +54,7 @@
 			"text": "...",
 			"boxState": "normal",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{

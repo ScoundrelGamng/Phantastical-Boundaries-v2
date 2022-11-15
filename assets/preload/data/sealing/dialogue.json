@@ -2,7 +2,7 @@
 	"dialogue": [
 		{
 			"expression": "Smile",
-			"text": "Man! That was a lot of fun! You’re pretty good at this rapping thing huh?",
+			"text": "Man! That was a lot of fun! You're pretty good at this rapping thing huh?",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "Renko"
@@ -176,7 +176,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "I’ll stand to the side and let you do the singing this time Merry!  Plus...",
+			"text": "I'll stand to the side and let you do the singing this time Merry!  Plus...",
 			"boxState": "normal",
 			"portrait": "Renko",
 			"speed": 0.025,
@@ -186,6 +186,7 @@
 			"expression": "talk",
 			"text": "Renko grabs two comically large sized pints of beer and gives one to GF.",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.025,
 			"sound": ""

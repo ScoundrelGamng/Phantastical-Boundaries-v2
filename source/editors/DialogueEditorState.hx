@@ -56,6 +56,7 @@ class DialogueEditorState extends MusicBeatState
 			expression: 'talk',
 			text: DEFAULT_TEXT,
 			font: 'THBiolinum.ttf',
+			flavorText: false,
 			boxState: DEFAULT_BUBBLETYPE,
 			speed: 0.05,
 			sound: ''
@@ -129,6 +130,7 @@ class DialogueEditorState extends MusicBeatState
 	var lineInputText:FlxUIInputText;
 	var angryCheckbox:FlxUICheckBox;
 	var speedStepper:FlxUINumericStepper;
+	var flavorCheckbox:FlxUICheckBox;
 	var soundInputText:FlxUIInputText;
 	function addDialogueLineUI() {
 		var tab_group = new FlxUI(null, UI_box);
@@ -145,6 +147,12 @@ class DialogueEditorState extends MusicBeatState
 			updateTextBox();
 			dialogueFile.dialogue[curSelected].boxState = (angryCheckbox.checked ? 'angry' : 'normal');
 		};
+		flavorCheckbox = new FlxUICheckBox(speedStepper.x + 120, speedStepper.y + 50, null, null, "Boxless", 200);
+		flavorCheckbox.callback = function()
+			{
+				reloadText();
+				dialogueFile.dialogue[curSelected].flavorText = (flavorCheckbox.checked ? true : false);
+			};
 
 		soundInputText = new FlxUIInputText(10, speedStepper.y + 40, 150, '', 8);
 		blockPressWhileTypingOn.push(soundInputText);
@@ -165,6 +173,7 @@ class DialogueEditorState extends MusicBeatState
 		tab_group.add(new FlxText(10, lineInputText.y - 18, 0, 'Text:'));
 		tab_group.add(characterInputText);
 		tab_group.add(angryCheckbox);
+		tab_group.add(flavorCheckbox);
 		tab_group.add(speedStepper);
 		tab_group.add(soundInputText);
 		tab_group.add(lineInputText);
@@ -179,6 +188,7 @@ class DialogueEditorState extends MusicBeatState
 			expression: defaultLine.expression,
 			text: defaultLine.text,
 			font: 'THBiolinum.ttf',
+			flavorText: defaultLine.flavorText,
 			boxState: defaultLine.boxState,
 			speed: defaultLine.speed,
 			sound: ''
@@ -253,7 +263,17 @@ class DialogueEditorState extends MusicBeatState
 		Alphabet.setDialogueSound(soundInputText.text);
 		daText = new Alphabet(DialogueBoxPsych.DEFAULT_TEXT_X, DialogueBoxPsych.DEFAULT_TEXT_Y, textToType, false, true, speed, 0.7);
 		//add(daText);
-		fixedText.setFormat(Paths.font('THBiolinum.ttf'), 48, 0xFF000000);
+		if (!flavorCheckbox.checked)
+			{
+				fixedText.setFormat(Paths.font('THBiolinum.ttf'), 48, 0xFF000000, LEFT);
+				box.visible = true;
+			}
+		else
+			{
+				fixedText.setFormat(Paths.font('THBiolinum.ttf'), 48, 0xFFFFFFFF, LEFT, OUTLINE, FlxColor.BLACK);
+				fixedText.borderSize = 3;
+				box.visible = false;
+			}
 		fixedText.resetText(textToType);
 		fixedText.start(speed, true);
 

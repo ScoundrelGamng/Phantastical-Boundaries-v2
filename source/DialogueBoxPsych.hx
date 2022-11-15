@@ -50,6 +50,7 @@ typedef DialogueLine = {
 	var text:Null<String>;
 	var font:Null<String>;
 	var boxState:Null<String>;
+	var flavorText:Null<Bool>;
 	var speed:Null<Float>;
 	var sound:Null<String>;
 }
@@ -481,6 +482,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		if(curDialogue.font == null || curDialogue.font == '') curDialogue.font = 'THBiolinum.ttf';
 		if(curDialogue.boxState == null) curDialogue.boxState = 'normal';
 		if(curDialogue.speed == null || Math.isNaN(curDialogue.speed)) curDialogue.speed = 0.05;
+		if(curDialogue.flavorText == null) curDialogue.flavorText == false;
 
 		var animName:String = curDialogue.boxState;
 		var boxType:String = textBoxTypes[0];
@@ -524,7 +526,17 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		Alphabet.setDialogueSound(curDialogue.sound);
 		daText = new Alphabet(DEFAULT_TEXT_X, DEFAULT_TEXT_Y, textToType, false, true, curDialogue.speed, 0.7);
 		//add(daText);
-		fixedText.setFormat(Paths.font(curDialogue.font), 48, 0xFF000000);
+		if (!curDialogue.flavorText)
+			{
+				fixedText.setFormat(Paths.font(curDialogue.font), 48, 0xFF000000, LEFT);
+				box.visible = true;
+			}
+		else
+			{
+				fixedText.setFormat(Paths.font(curDialogue.font), 48, 0xFFFFFFFF, LEFT, OUTLINE, FlxColor.BLACK);
+				fixedText.borderSize = 3;
+				box.visible = false;
+			}
 		fixedText.resetText(textToType);
 		fixedText.start(curDialogue.speed, true);
 

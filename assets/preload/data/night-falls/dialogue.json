@@ -70,6 +70,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{

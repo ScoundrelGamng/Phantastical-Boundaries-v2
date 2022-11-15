@@ -86,6 +86,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -118,6 +119,7 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
@@ -238,12 +240,14 @@
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "yukari_emp"
 		},
 		{
 			"expression": "talk",
 			"text": ". . .",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.1,
 			"sound": ""
@@ -252,6 +256,7 @@
 			"expression": "talk",
 			"text": ". . .",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.1,
 			"sound": ""
@@ -260,6 +265,7 @@
 			"expression": "talk",
 			"text": ". . .",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.1,
 			"sound": ""
@@ -268,6 +274,7 @@
 			"expression": "talk",
 			"text": "A figure in shadows watches the entire week from the back ground on top of a large floating island.",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.025,
 			"sound": ""
@@ -276,6 +283,7 @@
 			"expression": "talk",
 			"text": "She gives a sigh as she senses the presence of an old friend.",
 			"boxState": "normal",
+			"flavorText": true,
 			"portrait": "yukari_emp",
 			"speed": 0.025,
 			"sound": ""
@@ -370,6 +378,7 @@
 		},
 		{
 			"expression": "talk",
+			"flavorText": true,
 			"text": "Kiki,  still coated in shadows takes something off of their head,  revealing their face as they look down at a worn-down red cap.",
 			"boxState": "normal",
 			"sound": "",

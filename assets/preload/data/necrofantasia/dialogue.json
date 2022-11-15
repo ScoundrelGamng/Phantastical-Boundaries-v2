@@ -68,6 +68,7 @@
 			"sound": "",
 			"speed": 0.025,
 			"portrait": "yukari_emp",
+			"flavorText": true,
 			"boxState": "angry",
 			"expression": "talk",
 			"text": "Yukari opens up gaps in front of BF and GF as lasers start to charge.  When the lasers fire..."
@@ -76,6 +77,7 @@
 			"sound": "",
 			"speed": 0.025,
 			"portrait": "yukari_emp",
+			"flavorText": true,
 			"boxState": "normal",
 			"expression": "talk",
 			"text": "...all that comes out is confetti and a cute little party horn noise as Yukari turns back to her normal self."
