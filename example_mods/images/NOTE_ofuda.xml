@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_ofuda.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue0000" x="0" y="0" width="135" height="150"/>
+	<SubTexture name="blue hold end0000" x="135" y="0" width="50" height="64"/>
+	<SubTexture name="blue hold piece0000" x="185" y="0" width="50" height="44"/>
+	<SubTexture name="green0000" x="235" y="0" width="134" height="150"/>
+	<SubTexture name="green hold end0000" x="369" y="0" width="50" height="64"/>
+	<SubTexture name="green hold piece0000" x="419" y="0" width="50" height="44"/>
+	<SubTexture name="pruple end hold0000" x="0" y="150" width="50" height="64"/>
+	<SubTexture name="purple0000" x="50" y="150" width="134" height="150"/>
+	<SubTexture name="purple hold piece0000" x="184" y="150" width="50" height="44"/>
+	<SubTexture name="red0000" x="234" y="150" width="134" height="150"/>
+	<SubTexture name="red hold end0000" x="368" y="150" width="50" height="64"/>
+	<SubTexture name="red hold piece0000" x="418" y="150" width="50" height="44"/>
+</TextureAtlas>

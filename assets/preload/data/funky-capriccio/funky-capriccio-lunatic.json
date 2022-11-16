@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "bfshade",
 		"player2": "Reimu",
 		"events": [
 			[
@@ -8044,7 +8044,7 @@
 		"splashSkin": "noteSplashes",
 		"song": "funky-capriccio",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "Shrine",
 		"arrowSkin": "",
 		"needsVoices": true,
 		"speed": 2.6,

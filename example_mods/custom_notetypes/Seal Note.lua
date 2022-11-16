@@ -3,7 +3,7 @@ function onCreate()
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Seal Note' then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_koishi2'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'NOTE_ofuda'); --Change texture
 			setPropertyFromGroup('unspawnNotes', i, 'hitCausesMiss', true);
 
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') then --Doesn't let Dad/Opponent notes get ignored

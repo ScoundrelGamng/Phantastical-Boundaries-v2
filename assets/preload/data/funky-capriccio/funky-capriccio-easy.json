@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "bfshade",
 		"gfVersion": "gf",
 		"notes": [
 			{
@@ -4622,7 +4622,7 @@
 		"song": "funky-capriccio",
 		"needsVoices": true,
 		"arrowSkin": "",
-		"stage": "stage",
+		"stage": "Shrine",
 		"validScore": true,
 		"bpm": 85,
 		"speed": 1.6
