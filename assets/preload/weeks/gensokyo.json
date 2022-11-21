@@ -3,18 +3,14 @@
 	"difficulties": "Easy, Normal, Hard, Lunatic",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
+	"weekBefore": "sealingclub",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "sealingclub",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"",
-		"bf",
-		"gf"
-	],
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"funky-capriccio",
@@ -24,8 +20,30 @@
 				115,
 				178
 			]
+		],
+		[
+			"from sado",
+			"Mamizou",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"pure furies",
+			"Junko",
+			[
+				146,
+				113,
+				253
+			]
 		]
 	],
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
 	"weekName": "Phantastical Boundaries Week 3"
 }
