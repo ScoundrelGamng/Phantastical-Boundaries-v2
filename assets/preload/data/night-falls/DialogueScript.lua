@@ -73,13 +73,8 @@ function onUpdate(elapsed)
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
-		if count <= 7 and not allowEndShit then
 			removeLuaSprite('VillageCG');
-		end
-		if count <= 8 and not allowEndShit then
 			removeLuaSprite('CG2');
-		end
-		if count >= 9 and not allowEndShit then
 			removeLuaSprite('realmCG');
 		end
 	end

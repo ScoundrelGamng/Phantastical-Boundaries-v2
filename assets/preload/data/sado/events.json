@@ -1,0 +1,591 @@
+{
+	"song": {
+		"events": [
+			[
+				64000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				67200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				70400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				73600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Tankman"
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				83200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Tankman"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				89600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				102400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-pico"
+					]
+				]
+			],
+			[
+				111200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				116000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				116800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				117600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				118400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				121600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				122200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				123000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				123600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Yukari W1"
+					]
+				]
+			],
+			[
+				124800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				128000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				128400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				129200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				130100,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				130400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				130800,
+				[
+					[
+						"Play Animation",
+						"Ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				131200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Yukari W1"
+					]
+				]
+			],
+			[
+				131200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				134400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				134600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				134800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				135000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				135200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				135400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				135600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				135800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				136000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				137600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				142400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				144800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				147200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				150400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				153600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				155200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				156800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				160000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				161600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				163200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				166400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Pico"
+					]
+				]
+			],
+			[
+				169600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				172800,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou-Mom"
+					]
+				]
+			],
+			[
+				176000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				179200,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					]
+				]
+			],
+			[
+				182400,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			],
+			[
+				193600,
+				[
+					[
+						"Change Character",
+						"dad",
+						"MamiZou-Tankman"
+					],
+					[
+						"Play Animation",
+						"Ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				196000,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Mamizou"
+					]
+				]
+			]
+		]
+	}
+}

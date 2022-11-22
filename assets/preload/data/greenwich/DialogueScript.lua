@@ -66,15 +66,9 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
-		if count <= 10 then
 			removeLuaSprite('black');
-		end
-		if count >= 11 and count < 22 then
 			removeLuaSprite('CG1');
-		end
-		if count >= 22 then
 			removeLuaSprite('adam');
-		end
 	end
 		
 end

@@ -7,7 +7,7 @@
 	<SubTexture name="Eyes CLosed0000" x="1806" y="0" width="903" height="922"/>
 	<SubTexture name="Neutral0000" x="2709" y="0" width="903" height="922"/>
 	<SubTexture name="Rage0000" x="0" y="922" width="903" height="922"/>
-	<SubTexture name="Rage Cry0000" x="903" y="922" width="903" height="922"/>
+	<SubTexture name="Cry0000" x="903" y="922" width="903" height="922"/>
 	<SubTexture name="Scoff0000" x="1806" y="922" width="903" height="922"/>
 	<SubTexture name="Smile0000" x="2709" y="922" width="903" height="922"/>
 </TextureAtlas>

@@ -80,25 +80,12 @@ end
 
 function onSkipDialogue(count)
 	if getProperty('skippedDialogue') == true then
-		if count <= 1 and not allowEndShit then
 			removeLuaSprite('CG3');
-		end
-		if count <= 4 and not allowEndShit then
 			removeLuaSprite('CG4');
-		end
-		if count <= 7 and not allowEndShit then
 			removeLuaSprite('CG5');
-		end
-		if count <= 8 and not allowEndShit then
 			removeLuaSprite('CG6');
-		end
-		if count >= 9 and not allowEndShit then
 			removeLuaSprite('CG7');
-		end
-		if count <= 54 and allowEndShit then
 			removeLuaSprite('realmCG');
-		end
-		if count >= 55 and allowEndShit then
 			removeLuaSprite('CG8');
 		end
 	end

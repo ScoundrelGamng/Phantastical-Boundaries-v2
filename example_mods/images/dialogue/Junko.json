@@ -73,13 +73,13 @@
 			]
 		},
 		{
-			"loop_name": "Rage Cry",
+			"loop_name": "Cry",
 			"idle_offsets": [
 				0,
 				0
 			],
-			"idle_name": "Rage Cry",
-			"anim": "Rage Cry",
+			"idle_name": "Cry",
+			"anim": "Cry",
 			"loop_offsets": [
 				0,
 				0

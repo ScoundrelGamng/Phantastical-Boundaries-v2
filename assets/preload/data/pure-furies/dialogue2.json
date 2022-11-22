@@ -1,0 +1,55 @@
+{
+	"dialogue": [
+		{
+			"expression": "Rage",
+			"text": "GRAAAAAAAAAAAAAAAHHHHHH!!!!!!!!!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Junko"
+		},
+		{
+			"expression": "Serious",
+			"text": "Quick!  Let's get out of here while she's distracted!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari"
+		},
+		{
+			"expression": "tired",
+			"text": "Yukari then opens up a gap as the three rush through the gap.  However,  GF takes a moment to look behind her and watches Junko writher in rage and sorrow.",
+			"boxState": "normal",
+			"flavorText": true,
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "Cry",
+			"text": "MY SON!!!!  WHY!!!!  WHY CAN'T THESE FOOLS LEARN THAT LOVE CREATES MONSTERS LIKE ME!!!",
+			"boxState": "normal",
+			"portrait": "Junko",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "Can love really do that to someone?  Is...  is the love I have for Boyfriend too much?  No...  it isn't.  He's my everything,  but I can survive without him.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "We may depend on each other,  but we're both independent in our own rights.  I will continue loving Boyfriend with all my heart.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "tired",
+			"text": "Girlfriend leaves through the gap,  which closes immediately,  leaving Junko behind in her misery and self-pity.",
+			"boxState": "normal",
+			"flavorText": true,
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
+		}
+	]
+}
