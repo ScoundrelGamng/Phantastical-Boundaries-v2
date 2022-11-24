@@ -8063,11 +8063,11 @@
 		"player2": "Mamizou",
 		"player3": null,
 		"splashSkin": "noteSplashes",
-		"song": "Sado",
+		"song": "from-sado",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "humanvillage",
 		"bpm": 150,
 		"speed": 2.5
 	}
