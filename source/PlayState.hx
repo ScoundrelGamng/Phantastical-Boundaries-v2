@@ -4328,6 +4328,15 @@ class PlayState extends MusicBeatState
 		}
 	}
 
+	public function toggleHud(hudState:Bool)
+		{
+			healthBarBG.visible = hudState;
+			healthBar.visible = hudState;
+			iconP1.visible = hudState;
+			iconP2.visible = hudState;
+			scoreTxt.visible = hudState;
+		}
+
 	function noteMiss(daNote:Note):Void { //You didn't hit the key and let it go offscreen, also used by Hurt Notes
 		//Dupe note remove
 		notes.forEachAlive(function(note:Note) {

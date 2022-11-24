@@ -142,8 +142,8 @@
 		{
 			"expression": "Pout",
 			"text": "What the hell is this?!  I can't buy anything with this shit!",
-			"boxState": "normal",
-			"speed": 0.025,
+			"boxState": "angry",
+			"speed": 0.015,
 			"portrait": "Reimu"
 		},
 		{

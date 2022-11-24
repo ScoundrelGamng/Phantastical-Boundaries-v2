@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bf W1",
-		"player2": "Mamizou",
+		"player2": "bf W1",
 		"events": [],
 		"notes": [
 			{
@@ -10875,7 +10875,7 @@
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "Sado",
-		"stage": "stage",
+		"stage": "humanvillage",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,

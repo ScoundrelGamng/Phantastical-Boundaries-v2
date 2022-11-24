@@ -2178,6 +2178,9 @@ class FunkinLua {
 			}
 			return 0;
 		});
+		Lua_helper.add_callback(lua, "toggleHud", function(toggle:Bool) {
+			PlayState.instance.toggleHud(toggle);
+		});
 
 		Lua_helper.add_callback(lua, "addLuaText", function(tag:String) {
 			if(PlayState.instance.modchartTexts.exists(tag)) {

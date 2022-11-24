@@ -28,18 +28,18 @@ function onTimerCompleted(tag, loops, loopsLeft)
 		runTimer('deletefolklore', 4);
 	end
 	if tag == 'deletefolklore' then
-	doTweenX('composermove2', getProperty('ScoundrelCreditFolklore'), -840, 1, 'circIn');
-	runTimer('deletefolklore2', 1.2);
-end
-if tag == 'deletefolklore2' then
-removeLuaSprite('ScoundrelCreditFolklore');
-end
+		doTweenX('composermove2', getProperty('ScoundrelCreditFolklore'), -840, 1, 'circIn');
+		runTimer('deletefolklore2', 1.2);
+	end
+	if tag == 'deletefolklore2' then
+		removeLuaSprite('ScoundrelCreditFolklore');
+	end
 end
 
 function onTweenCompleted(tag)
-if tag == 'CGtween2' then
-	removeLuaSprite('adam');
-end
+	if tag == 'CGtween2' then
+		removeLuaSprite('adam');
+	end
 end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)

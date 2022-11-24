@@ -5,14 +5,14 @@ function onStartCountdown()
 		toggleHud(false);
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
-		makeLuaSprite('CG1', 'cg/week3/CG1', 0, 0);
-		addLuaSprite('CG1', true);
-		setObjectCamera('CG1', 'hud');
-		setObjectOrder('CG1', 0);
+		makeLuaSprite('shrine', 'cg/week3/shrine', 0, 0);
+		addLuaSprite('shrine', true);
+		setObjectCamera('shrine', 'hud');
+		setObjectOrder('shrine', 0);
 		allowCountdown = true;
 		return Function_Stop;
 	end
-	doTweenAlpha('CGtween2', 'shrine', 0, 0.4, 'linear');
+	doTweenAlpha('CGtween2', 'CG5', 0, 0.4, 'linear');
 	return Function_Continue;
 end
 
@@ -38,7 +38,7 @@ end
 
 function onTweenCompleted(tag)
 	if tag == 'CGtween2' then
-		removeLuaSprite('shrine');
+		removeLuaSprite('CG5');
 		toggleHud(true);
 	end
 end
@@ -46,35 +46,35 @@ end
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)	
 	-- triggered when the next dialogue line starts, 'line' starts with 1
-	if count == 7 then
-		removeLuaSprite('CG1');
-		makeLuaSprite('CG2', 'cg/week3/CG2', 0, 0);
-		addLuaSprite('CG2', true);
-		setObjectCamera('CG2', 'hud');
-		setObjectOrder('CG2', 0);
+	if count == 18 then
+		removeLuaSprite('shrine');
+		makeLuaSprite('CG4', 'cg/week3/CG4', 0, 0);
+		addLuaSprite('CG4', true);
+		setObjectCamera('CG4', 'hud');
+		setObjectOrder('CG4', 0);
 	end
-	if count == 37 then
-		removeLuaSprite('CG2');
-		makeLuaSprite('CG3', 'cg/week3/CG3', 0, 0);
-		addLuaSprite('CG3', true);
-		setObjectCamera('CG3', 'hud');
-		setObjectOrder('CG3', 0);
+	if count == 22 then
+		removeLuaSprite('CG4');
+		makeLuaSprite('village', 'cg/week3/village', 0, 0);
+		addLuaSprite('village', true);
+		setObjectCamera('village', 'hud');
+		setObjectOrder('village', 0);
 	end
-	if count == 46 then
-		removeLuaSprite('CG3');
-		makeLuaSprite('shrine', 'cg/week3/shrine', 0, 0);
-		addLuaSprite('shrine', true);
-		setObjectCamera('shrine', 'hud');
-		setObjectOrder('shrine', 0);
+	if count == 50 then
+		removeLuaSprite('village');
+		makeLuaSprite('CG5', 'cg/week3/CG5', 0, 0);
+		addLuaSprite('CG5', true);
+		setObjectCamera('CG5', 'hud');
+		setObjectOrder('CG5', 0);
 	end
 end
 
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
-		removeLuaSprite('CG1');
-		removeLuaSprite('CG2');
-		removeLuaSprite('CG3');
+		removeLuaSprite('CG4');
+		removeLuaSprite('CG5');
+		removeLuaSprite('village');
 		removeLuaSprite('shrine');
 		toggleHud(true);
 		
