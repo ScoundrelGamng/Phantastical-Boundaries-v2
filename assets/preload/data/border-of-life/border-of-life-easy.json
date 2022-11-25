@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf W1",
-		"player2": "Yukari W1",
+		"player1": "bfshade",
+		"player2": "Yuyuko",
 		"events": [
 			[
 				32000,
@@ -5792,7 +5792,7 @@
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "border of life",
-		"stage": "stage",
+		"stage": "Netherworld",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,

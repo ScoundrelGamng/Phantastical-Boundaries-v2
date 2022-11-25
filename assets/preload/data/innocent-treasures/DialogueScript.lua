@@ -55,7 +55,8 @@ function onNextDialogue(count)
 		setObjectOrder('CG3', 0);
 	end
 
-	if count == 5 and allowEndShit then
+	debugPrint(allowEndShit);
+	if count == 6 and allowEndShit then
 		removeLuaSprite('adam');
 		makeLuaSprite('CG4', 'cg/week2/CG4', 0, 0);
 		scaleObject('CG4', 0.69, 0.69);
@@ -64,7 +65,7 @@ function onNextDialogue(count)
 		setObjectOrder('CG4', 0);
 	end
 
-	if count == 5 and allowEndShit then
+	if count == 7 and allowEndShit then
 		removeLuaSprite('CG4');
 		makeLuaSprite('black', 'cg/week2/black', 0, 0);
 		scaleObject('black', 0.69, 0.69);
@@ -86,18 +87,21 @@ function onSkipDialogue(count)
 		
 end
 
-local allowEndShit = false
+allowEndShit = false
 
 function onEndSong()
  if not allowEndShit and isStoryMode and not seenCutscene then
-  setProperty('inCutscene', true);
-  startDialogue('dialogue2', 'folklore');
-  makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
-		scaleObject('adam', 0.69, 0.69);
-		addLuaSprite('adam', true);
-		setObjectCamera('adam', 'hud');
-		setObjectOrder('adam', 0);
-  allowEndShit = true;
+	allowEndShit = true;
+	toggleHud(false);
+	setProperty('inCutscene', true);
+	startDialogue('dialogue2', 'folklore');
+	makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
+	scaleObject('adam', 0.69, 0.69);
+	addLuaSprite('adam', true);
+	setObjectCamera('adam', 'hud');
+	setObjectOrder('adam', 0);
+	debugPrint(allowEndShit);
+  
   return Function_Stop;
  end
  return Function_Continue;

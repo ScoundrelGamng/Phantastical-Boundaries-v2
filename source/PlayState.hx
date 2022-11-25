@@ -4336,10 +4336,16 @@ class PlayState extends MusicBeatState
 			iconP2.visible = hudState;
 			scoreTxt.visible = hudState;
 			for (i in 0...playerStrums.length) {
-				playerStrums.members[i].alpha = 0;
+				if (hudState)
+					playerStrums.members[i].alpha = 1;
+				else
+					playerStrums.members[i].alpha = 0;
 			}
 			for (i in 0...opponentStrums.length) {
-				opponentStrums.members[i].alpha = 0;
+				if (hudState)
+					opponentStrums.members[i].alpha = 1;
+				else
+					opponentStrums.members[i].alpha = 0;
 			}
 		}
 

@@ -74,7 +74,7 @@ function onSkipDialogue(count)
 	end
 end
 
-local allowEndShit = false
+allowEndShit = false
 
 function onEndSong()
  if not allowEndShit and isStoryMode and not seenCutscene then
