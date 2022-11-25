@@ -4,409 +4,409 @@
 			"expression": "Smile",
 			"text": "Even though I lost,  I can't complain!  That was so much fun!  I haven't had fun like that in god knows how long!",
 			"boxState": "normal",
-			"portrait": "Reimu",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Reimu"
 		},
 		{
 			"expression": "Wink",
 			"text": "See Reimu?  I knew you would have fun.  Singing always makes a person feel better about themselves.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "Smile",
 			"text": "Yeah yeah,  whatever you say Mom.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Reimu"
+			"portrait": "Reimu",
+			"speed": 0.025
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Ahahaha~",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
 			"text": "You're surprisingly good at singing despite never seeming to have done it before.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Smile",
 			"text": "Well,  I have a natural talent to be pretty good at anything I try!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Reimu"
+			"portrait": "Reimu",
+			"speed": 0.025
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "She's so talented,  isn't she?",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "confused",
 			"text": "Talented is one way to put it...",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "excited",
 			"text": "Skdoop beep bap bop!",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "As much as we would love to stick around for another song,  I have some errands that BF and GF are helping me with.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
-			"expression": "Idle",
+			"expression": "Wink",
 			"text": "Though,  BF and GF,  mind giving her a token of your thanks for a good battle?",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "Pout",
 			"text": "Both BF and GF nod as they make their way to the donation box and put in a generous donation of 100 dollars each.  Yukari herself puts in 20,000 yen into the donation box.  She then opens up a gap and waits patiently for BF and GF.",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
+			"flavorText": true,
 			"speed": 0.025,
-			"flavorText": true
+			"portrait": "Yukari_Emp"
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Come come,  let's get going.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.02
+			"speed": 0.02,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "excited",
 			"text": "See you later Reimu!",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.02
+			"speed": 0.02,
+			"portrait": "gf"
 		},
 		{
 			"expression": "Smile",
 			"text": "Have fun you two!  Now...",
 			"boxState": "normal",
-			"portrait": "Reimu",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Reimu"
 		},
 		{
 			"expression": "Money",
 			"text": "Let's see how much I got!",
 			"boxState": "normal",
-			"font": "THBiolinum.ttf",
-			"sound": "",
-			"speed": 0.025,
-			"flavorText": false,
-			"portrait": "reimu"
-		},
-		{
-			"expression": "Smug",
-			"text": "Reimu opens up the donation box and picks up the 20,000 yen from Yukari.",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025,
-			"flavorText": true
-		},
-		{
-			"expression": "Money",
-			"text": "Thank you Mom!  As for your friends...",
-			"boxState": "normal",
-			"portrait": "Reimu",
-			"speed": 0.025
-		},
-		{
-			"expression": "smug",
-			"text": "Reimu picks up the two one hundred dollar bills,  looking at it curiously before a face of disappointment grows on her face.",
-			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025,
-			"flavorText": true
-		},
-		{
-			"expression": "Pout",
-			"text": "What the hell is this?!  I can't buy anything with this shit!",
-			"boxState": "angry",
-			"speed": 0.015,
-			"portrait": "Reimu"
-		},
-		{
-			"expression": "Sigh",
-			"text": "I guess it's the thought that counts...  damn,  I really wanted to go to Miyoi's today and treat myself.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Reimu"
-		},
-		{
-			"expression": "confused",
-			"text": "Reimu goes back to sweeping up the shrine grounds,  grumbling to herself as she fails to notice Yukari taking the two hundred dollar bills and replacing them with the proper yen equivalent.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari_Emp",
-			"flavorText": true
-		},
-		{
-			"expression": "Smug",
-			"text": "Yukari leads BF and GF out of the gap and into the human village,  showing them around",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari_Emp",
-			"flavorText": true
-		},
-		{
-			"expression": "Idle",
-			"text": "I'm certain you already know this place,  but this is the human village.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
-		},
-		{
-			"expression": "talk",
-			"text": "Skbeep bap boo!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
-		},
-		{
-			"expression": "talk",
-			"text": "It does smell good.  There must be a lot of food stalls here that sell some freshly cooked treats!  Now I'm starting to get hungry ahaha.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "Wink",
-			"text": "Well,  you'll want to save your appetite,  because I have a picnic planned for the two of...",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
-		},
-		{
-			"expression": "talk",
-			"text": "Well well well!  If it isn't the daughter of the Dearest family!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari_Emp"
-		},
-		{
-			"expression": "shocked",
-			"text": "Wait...  I know that voice!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "confused",
-			"text": "With a puff of smoke,  Mamizou appears infront of the trio in her Bake-danuki form.",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari_Emp",
-			"flavorText": true
-		},
-		{
-			"expression": "Neutral",
-			"text": "Hello again Girlfriend!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
-		},
-		{
-			"expression": "excited",
-			"text": "AUNTIE MAMIZOU!!!  I HAD NO IDEA THAT THIS IS WHERE YOU LIVED!!!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "shocked",
-			"text": "Beep?!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
-		},
-		{
-			"expression": "excited",
-			"text": "Oh honey!  I've always wanted to introduce you to my Auntie!  Auntie,  this is my boyfriend,  Boyfriend!",
-			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
-		},
-		{
-			"expression": "Laughing",
-			"text": "Ahahahaha!  Glad to hear that you're dating someone with the same naming scheme!",
-			"boxState": "normal",
-			"portrait": "mamizou",
+			"portrait": "reimu",
 			"flavorText": false,
 			"speed": 0.025,
 			"sound": "",
 			"font": "THBiolinum.ttf"
 		},
 		{
+			"expression": "Smug",
+			"text": "Reimu opens up the donation box and picks up the 20,000 yen from Yukari.",
+			"boxState": "normal",
+			"flavorText": true,
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
+		},
+		{
+			"expression": "Money",
+			"text": "Thank you Mom!  As for your friends...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Reimu"
+		},
+		{
+			"expression": "smug",
+			"text": "Reimu picks up the two one hundred dollar bills,  looking at it curiously before a face of disappointment grows on her face.",
+			"boxState": "normal",
+			"flavorText": true,
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
+		},
+		{
+			"expression": "Angry",
+			"text": "What the hell is this?!  I can't buy anything with this shit!",
+			"boxState": "angry",
+			"portrait": "Reimu",
+			"speed": 0.015
+		},
+		{
+			"expression": "Sigh",
+			"text": "I guess it's the thought that counts...  damn,  I really wanted to go to Miyoi's today and treat myself.",
+			"boxState": "normal",
+			"portrait": "Reimu",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "Reimu goes back to sweeping up the shrine grounds,  grumbling to herself as she fails to notice Yukari taking the two hundred dollar bills and replacing them with the proper yen equivalent.",
+			"boxState": "normal",
+			"flavorText": true,
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "Smug",
+			"text": "Yukari leads BF and GF out of the gap and into the human village,  showing them around",
+			"boxState": "normal",
+			"flavorText": true,
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "Neutral",
+			"text": "I'm certain you already know this place,  but this is the human village.",
+			"boxState": "normal",
+			"portrait": "YukariW2",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Skbeep bap boo!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "It does smell good.  There must be a lot of food stalls here that sell some freshly cooked treats!  Now I'm starting to get hungry ahaha.",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "Wink",
+			"text": "Well,  you'll want to save your appetite,  because I have a picnic planned for the two of...",
+			"boxState": "normal",
+			"portrait": "YukariW2",
+			"speed": 0.025
+		},
+		{
+			"expression": "talk",
+			"text": "Well well well!  If it isn't the daughter of the Dearest family!",
+			"boxState": "normal",
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "Wait...  I know that voice!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "confused",
+			"text": "With a puff of smoke,  Mamizou appears infront of the trio in her Bake-danuki form.",
+			"boxState": "normal",
+			"flavorText": true,
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
+		},
+		{
+			"expression": "Neutral",
+			"text": "Hello again Girlfriend!",
+			"boxState": "normal",
+			"portrait": "Mamizou",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "AUNTIE MAMIZOU!!!  I HAD NO IDEA THAT THIS IS WHERE YOU LIVED!!!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "shocked",
+			"text": "Beep?!",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Oh honey!  I've always wanted to introduce you to my Auntie!  Auntie,  this is my boyfriend,  Boyfriend!",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "Laughing",
+			"text": "Ahahahaha!  Glad to hear that you're dating someone with the same naming scheme!",
+			"boxState": "normal",
+			"font": "THBiolinum.ttf",
+			"sound": "",
+			"speed": 0.025,
+			"flavorText": false,
+			"portrait": "mamizou"
+		},
+		{
 			"expression": "Serious",
 			"text": "What brings you here Tanuki?",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
 			"expression": "Shrug",
 			"text": "What?  Can't this old woman just say hi to her niece?  Afterall,  I was the one that smuggled her parents to the outside world~",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
-			"expression": "Crying",
+			"expression": "confused",
 			"text": "Wait...  what?",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Questioning",
 			"text": "Did your parents not tell you the truth yet?  And I thought I could've trusted them with it.  Though,  why didn't you tell her gap hag?",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
-			"expression": "Just_Yukari",
+			"expression": "Serious",
 			"text": "And ruin the surprise?  Besides,  it's not my place to tell GF the truth about her heritage.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "Auntie Mamizou...  what's going on?  What do you mean?",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Sigh",
 			"text": "I sure wish your parents were here so that this responsibility didn't fall on me.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Sigh",
 			"text": "Though I'll only tell you everything if your little boyfriend can beat me in a singing battle.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "Auntie,  now isn't the time for your games...  I want to know now!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Smug",
 			"text": "Then I guess you'll just have to wait till you get back home and talk to your parents about it~",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Smug",
 			"text": "Ah,  I see what you're doing.  Clever girl~",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
 			"expression": "pissed",
 			"text": "Skbap do beep bop!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "bf"
+			"portrait": "bf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Smile",
 			"text": "That's the way!  Stand up for your girl and fight me!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "I guess there's no other choice then...",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "gf"
+			"portrait": "gf",
+			"speed": 0.025
 		},
 		{
 			"expression": "Smug",
 			"text": "Before we begin...",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Wink",
 			"text": "Mamizou claps her hands together and soon white smoke surrounds Yukari,  BF and GF.  When the smoke dissipates,  Yukari,  BF and GF have been transformed into animals.",
 			"boxState": "normal",
-			"speed": 0.025,
+			"flavorText": true,
 			"portrait": "Yukari_Emp",
-			"flavorText": true
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "SQUAWK?!",
+			"text": "B:  SQUAWK?!",
 			"boxState": "angry",
-			"speed": 0.025,
-			"portrait": "Yukari_Emp"
+			"portrait": "Yukari_Emp",
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
-			"text": "BAAAAAAAAAAH!!!!  NOT THIS AGAIN!!!!",
+			"text": "G:  BAAAAAAAAAAH!!!!  NOT THIS AGAIN!!!!",
 			"boxState": "angry",
-			"font": "THBiolinum.ttf",
-			"sound": "",
-			"speed": 0.025,
+			"portrait": "yukari_emp",
 			"flavorText": false,
-			"portrait": "yukari_emp"
+			"speed": 0.025,
+			"sound": "",
+			"font": "THBiolinum.ttf"
 		},
 		{
 			"expression": "Idle",
-			"text": "I should use this form more often.",
+			"text": "Y:  I should use this form more often.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "yukari_emp"
+			"portrait": "yukari_emp",
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
 			"text": "Now I wonder if you will be able to win the truth for your precious goatfriend,  or if you'll squawk under pressure!",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "Do be mindful of certain notes dear.  Make sure you pay attention to the direction they're pointing~",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "mamizou"
+			"portrait": "mamizou",
+			"speed": 0.025
 		}
 	]
 }

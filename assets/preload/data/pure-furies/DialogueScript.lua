@@ -79,11 +79,11 @@ function onEndSong()
  if not allowEndShit and isStoryMode and not seenCutscene then
   setProperty('inCutscene', true);
   startDialogue('dialogue2', 'folklore');
-  makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
-		scaleObject('adam', 0.69, 0.69);
-		addLuaSprite('adam', true);
-		setObjectCamera('adam', 'hud');
-		setObjectOrder('adam', 0);
+  makeLuaSprite('moon', 'cg/week3/moon', 0, 0);
+		scaleObject('moon', 0.69, 0.69);
+		addLuaSprite('moon', true);
+		setObjectCamera('moon', 'hud');
+		setObjectOrder('moon', 0);
   allowEndShit = true;
   return Function_Stop;
  end
