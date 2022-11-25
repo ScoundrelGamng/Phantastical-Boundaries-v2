@@ -4,398 +4,398 @@
 			"expression": "Shrug",
 			"text": "What a pity.  Very well,  I'll turn you three back.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Just_Yukari",
 			"text": "Mamizou claps her hands and soon,  the trio are back to their normal selves.",
 			"boxState": "normal",
-			"speed": 0.025,
+			"portrait": "Yukari_Emp",
 			"flavorText": true,
-			"portrait": "Yukari_Emp"
+			"speed": 0.025
 		},
 		{
 			"expression": "talk",
 			"text": "You have a lot of explaining to do,  Auntie.",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "Shrug",
 			"text": "Very well.",
 			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Mamizou"
 		},
 		{
 			"expression": "Neutral",
 			"text": "Now my dear niece,  your parents always wanted to be pop stars,  to gather an audience and to put on amazing shows.",
 			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Mamizou"
 		},
 		{
 			"expression": "Neutral",
 			"text": "Unfortunately,  the only audience they had were the onis that populated Former Hell.",
 			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Mamizou"
 		},
 		{
 			"expression": "Neutral",
 			"text": "They wanted more fans,  to gather more fame.  So one day,  I approached them and gave them an offer.",
 			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Mamizou"
 		},
 		{
 			"expression": "Neutral",
 			"text": "I would take them to the outside world so that they would be able to achieve their dreams of stardom and become the idols they've always wanted.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Neutral",
 			"text": "But due to them being onis and leaving the safety of the Hakurei Barrier,  they would be putting themselves in risk of being forgotten if they didn't make an impression there.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "Neutral",
 			"text": "And of course,  I feared Yukari would never allow it,  so I smuggled them across the barrier during one of my trips by disguising them as one of my tanuki servants.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Oh,  I knew the two servants that you had with you were actually onis.  But,  I allowed you to go along with your plan as I had faith in them.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Besides,  I myself wanted to observe their actions and see how they would be able to exist within the outside world despite the lack of faith to keep them in existence.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Seeing how their stardom shot off,  I became confident in my plan should the Hakurei Barrier ever be destroyed.",
 			"boxState": "normal",
-			"speed": 0.02,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.02
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "Telling the stories of Gensokyo to various people and spread our lands name and those who live in it.",
 			"boxState": "normal",
-			"speed": 0.02,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.02
 		},
 		{
-			"expression": "Idle",
+			"expression": "Neutral",
 			"text": "It'll be enough faith to sustain us while the barrier would get repaired.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Yukari"
+			"portrait": "YukariW2",
+			"speed": 0.025
 		},
 		{
 			"expression": "Neutral",
 			"text": "That would explain a lot.  But regardless,  you're an oni GF.  And it's thanks to the fame of your parents and yourself that you haven't been forgotten.",
 			"boxState": "normal",
-			"speed": 0.025,
-			"portrait": "Mamizou"
+			"portrait": "Mamizou",
+			"speed": 0.025
 		},
 		{
 			"expression": "confused",
 			"text": "I... I don't know what to say to be honest...",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.025
+		},
+		{
+			"expression": "excited",
+			"text": "Beep bo boop bap skdeep ba.",
+			"boxState": "normal",
+			"portrait": "bf",
+			"speed": 0.025
+		},
+		{
+			"expression": "Pout",
+			"text": "Thank you honey...  I will always love you too.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "shocked",
+			"text": "GF and BF exchange a brief hug and a kiss with one another,  causing the two older women to smile softly.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari_Emp",
+			"flavorText": true
+		},
+		{
+			"expression": "Smile",
+			"text": "I can tell that you're a good man Boyfriend.  I know that you'll treat my niece well.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Mamizou"
+		},
+		{
+			"expression": "Smile",
+			"text": "Afterall,  if you were able to win over her parents' hearts,  you can win over anyone's.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Mamizou"
+		},
+		{
+			"expression": "excited",
+			"text": "Baa boop bo!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Neutral",
+			"text": "Well,  as much as I would love to stick around for this family reunion,  I have one last destination I want to take these two lovebirds.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "YukariW2"
+		},
+		{
+			"expression": "Smile",
+			"text": "They do need my help to get ideas for a trip they're taking with some friends of theirs.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Mamizou"
+		},
+		{
+			"expression": "excited",
+			"text": "I can't wait then!",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Yukari then opens up a gap within the human village and leads BF and GF through it.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari_Emp",
+			"flavorText": true
+		},
+		{
+			"expression": "talk",
+			"text": "Upon the other side,  the two of them would find themselves standing within the vast emptiness of space,  overlooking the moon and the ocean that flows through it.  BF and GF are amazed by the view as they look in awe.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "Yukari_Emp",
+			"flavorText": true
+		},
+		{
+			"expression": "Neutral",
+			"text": "Welcome to the space above the dark side of the moon.  I would show you the dark side properly,  but I don't feel like going through the hassle that would bring us.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "YukariW2"
+		},
+		{
+			"expression": "talk",
+			"text": "This is so beautiful...  but how can this help us?  We can't really get to space.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep boop...",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "bf"
+		},
+		{
+			"expression": "Smug",
+			"text": "That's where you're wrong.  The Hearn family is one of the most influential families in the world at the current moment.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "YukariW2"
+		},
+		{
+			"expression": "Smug",
+			"text": "Building a rocket and going to the nearby space station is no problem for them.  All it would take is some time.",
+			"boxState": "normal",
+			"speed": 0.025,
+			"portrait": "YukariW2"
+		},
+		{
+			"expression": "talk",
+			"text": "Well,  I think we found our destination!",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "gf"
 		},
 		{
 			"expression": "excited",
-			"text": "Beep bo boop bap skdeep ba.",
+			"text": "Beep!",
 			"boxState": "normal",
 			"speed": 0.025,
 			"portrait": "bf"
 		},
 		{
-			"expression": "Pout",
-			"text": "Thank you honey...  I will always love you too.",
-			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
-		},
-		{
-			"expression": "shocked",
-			"text": "GF and BF exchange a brief hug and a kiss with one another,  causing the two older women to smile softly.",
-			"boxState": "normal",
-			"flavorText": true,
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "Smile",
-			"text": "I can tell that you're a good man Boyfriend.  I know that you'll treat my niece well.",
-			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
-		},
-		{
-			"expression": "Smile",
-			"text": "Afterall,  if you were able to win over her parents' hearts,  you can win over anyone's.",
-			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
-		},
-		{
-			"expression": "excited",
-			"text": "Baa boop bo!",
-			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
-		},
-		{
-			"expression": "Idle",
-			"text": "Well,  as much as I would love to stick around for this family reunion,  I have one last destination I want to take these two lovebirds.",
-			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
-		},
-		{
-			"expression": "Smile",
-			"text": "They do need my help to get ideas for a trip they're taking with some friends of theirs.",
-			"boxState": "normal",
-			"portrait": "Mamizou",
-			"speed": 0.025
-		},
-		{
-			"expression": "excited",
-			"text": "I can't wait then!",
-			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "Yukari then opens up a gap within the human village and leads BF and GF through it.",
-			"boxState": "normal",
-			"flavorText": true,
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "Upon the other side,  the two of them would find themselves standing within the vast emptiness of space,  overlooking the moon and the ocean that flows through it.  BF and GF are amazed by the view as they look in awe.",
-			"boxState": "normal",
-			"flavorText": true,
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
-		},
-		{
-			"expression": "Idle",
-			"text": "Welcome to the space above the dark side of the moon.  I would show you the dark side properly,  but I don't feel like going through the hassle that would bring us.",
-			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "This is so beautiful...  but how can this help us?  We can't really get to space.",
-			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "Beep boop...",
-			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
-		},
-		{
-			"expression": "Smug",
-			"text": "That's where you're wrong.  The Hearn family is one of the most influential families in the world at the current moment.",
-			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
-		},
-		{
-			"expression": "Smug",
-			"text": "Building a rocket and going to the nearby space station is no problem for them.  All it would take is some time.",
-			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
-		},
-		{
-			"expression": "talk",
-			"text": "Well,  I think we found our destination!",
-			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
-		},
-		{
-			"expression": "excited",
-			"text": "Beep!",
-			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
-		},
-		{
 			"expression": "confused",
 			"text": "Youkai sage of boundaries...  what brings you to my domain?",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
 		},
 		{
 			"expression": "Sigh",
 			"text": "Well,  this is just great.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "Serious",
 			"text": "We were just leaving Junko.  I simply wished to give these two an idea on where to find a vacation spot.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "Neutral",
 			"text": "Before you leave,  I want these two to introduce themselves to me and to state their purpose.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "confused",
 			"text": "I'm...  uh...  Girlfriend,  just a normal demon err I mean oni.",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "confused",
 			"text": "B-Beep bap bop!",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
 			"expression": "Eyes CLosed",
 			"text": "Boyfriend and Girlfriend hm?  You.  Girl.  What are you willing to do to preserve your love for your boyfriend.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "talk",
 			"text": "Anything.  I'm willing to do anything,  no matter the action to make sure that my love for Boyfriend remains.  No matter what.",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "Scoff",
 			"text": "Hah, you're just like me then.  Being corrupted by love,  having such impure thoughts in search for the whereabouts of thine own heart.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "Pout",
 			"text": "Junko,  we will take our leave now.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "Angry",
 			"text": "Silence!  I wish to show Girlfriend what unrestricted and toxic love can do to oneself.",
 			"boxState": "normal",
-			"portrait": "Yukari_Emp",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Yukari_Emp"
 		},
 		{
 			"expression": "Idle",
 			"text": "Boyfriend puts his arm in front of Girlfriend,  trying to defend her from the space terror that is Junko.  He glares Junko down.  He can sense the mass power that Junko has.",
 			"boxState": "normal",
-			"flavorText": true,
+			"speed": 0.025,
 			"portrait": "Yukari_Emp",
-			"speed": 0.025
+			"flavorText": true
 		},
 		{
 			"expression": "Smile",
 			"text": "You're trembling boy.  You're terrified of me,  yet despite that,  you still want to stick up for your love?",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "pissed",
 			"text": "Boop skedop beep ba!",
 			"boxState": "angry",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
 			"expression": "Confident",
 			"text": "You're dumber than I thought you were.  This is why love is such a toxic feeling for impure beings such as yourself.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "Confident",
 			"text": "You're willing to risk your own life all because your feelings tell you to.  How could I have lived with such impurities baffles me.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "Angry",
 			"text": "Let me show you what happens if you continue down this path!",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		},
 		{
 			"expression": "Serious",
 			"text": "Be careful Boyfriend...  Junko is not someone meant to be taken lightly.",
 			"boxState": "normal",
-			"portrait": "Yukari",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "YukariW2"
 		},
 		{
 			"expression": "pissed",
 			"text": "Beep bap boo boop!",
 			"boxState": "normal",
-			"portrait": "bf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "bf"
 		},
 		{
 			"expression": "excited",
 			"text": "I love how defensive you can get of me dearie,  and I know you love it when I get defensive of you too~",
 			"boxState": "normal",
-			"portrait": "gf",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "gf"
 		},
 		{
 			"expression": "Angry",
 			"text": "Such impurities...  I'll stamp them out and replace them with pure thoughts.",
 			"boxState": "normal",
-			"portrait": "Junko",
-			"speed": 0.025
+			"speed": 0.025,
+			"portrait": "Junko"
 		}
 	]
 }

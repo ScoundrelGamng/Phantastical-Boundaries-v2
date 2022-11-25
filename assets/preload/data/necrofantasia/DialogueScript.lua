@@ -2,6 +2,7 @@ local allowCountdown = false
 function onStartCountdown()
 	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
 	if not allowCountdown and isStoryMode and not seenCutscene then
+		toggleHud(false);
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
 		makeLuaSprite('CG3', 'CG3', 0, 0);
@@ -26,6 +27,7 @@ end
 function onTweenCompleted(tag)
 	if tag == 'CGTween2' then
 	removeLuaSprite('CG7');
+	toggleHud(true);
 end
 end
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
@@ -87,6 +89,7 @@ function onSkipDialogue(count)
 			removeLuaSprite('CG7');
 			removeLuaSprite('realmCG');
 			removeLuaSprite('CG8');
+			toggleHud(true);
 		end
 	end
 end

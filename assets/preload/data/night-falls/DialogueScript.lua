@@ -14,6 +14,7 @@ function onStartCountdown()
 		return Function_Stop;
 	elseif not allowCountdown and isStoryMode and not seenCutscene and not splash then
 		splash = true;
+		toggleHud(false);
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
 		makeLuaSprite('VillageCG', 'VillageCG', 0, 0);
@@ -36,6 +37,7 @@ end
 function onTweenCompleted(tag)
 	if tag == 'CGTween2' then
 	removeLuaSprite('realmCG');
+	toggleHud(true);
 end
 end
 
@@ -76,6 +78,7 @@ function onSkipDialogue(count)
 			removeLuaSprite('VillageCG');
 			removeLuaSprite('CG2');
 			removeLuaSprite('realmCG');
+			toggleHud(true);
 		end
 	end
 end

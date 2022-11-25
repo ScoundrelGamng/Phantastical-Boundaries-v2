@@ -2,6 +2,7 @@ local allowCountdown = false
 function onStartCountdown()
 	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
 	if not allowCountdown and isStoryMode and not seenCutscene then
+		toggleHud(false);
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
 		makeLuaSprite('adam', 'cg/week2/adam', 0, 0);
@@ -39,6 +40,7 @@ end
 function onTweenCompleted(tag)
 if tag == 'CGtween2' then
 	removeLuaSprite('adam');
+	toggleHud(true);
 end
 end
 
@@ -69,6 +71,7 @@ function onSkipDialogue(count)
 			removeLuaSprite('adam');
 			removeLuaSprite('CG2');
 			removeLuaSprite('adam');
+			toggleHud(true);
 	end
 		
 end
