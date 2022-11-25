@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Mom Idle"
+		},
+		{
+			"offsets": [
+				19,
+				-160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "MOM DOWN POSE"
+		},
+		{
+			"offsets": [
+				245,
+				-27
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Mom Left Pose"
+		},
+		{
+			"offsets": [
+				46,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Mom Up Pose"
+		},
+		{
+			"offsets": [
+				-35,
+				-65
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Mom Right Pose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Mamizou_Mom_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Mamizou",
+	"flip_x": false,
+	"healthbar_colors": [
+		162,
+		164,
+		83
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

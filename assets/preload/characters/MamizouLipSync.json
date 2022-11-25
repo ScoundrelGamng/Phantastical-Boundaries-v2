@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "LipSync"
+		},
+		{
+			"offsets": [
+				230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "LipSync",
+			"loop": false,
+			"name": "LipSync"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/MamizouLipSyncSheet",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Mamizou",
+	"flip_x": false,
+	"healthbar_colors": [
+		162,
+		164,
+		123
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

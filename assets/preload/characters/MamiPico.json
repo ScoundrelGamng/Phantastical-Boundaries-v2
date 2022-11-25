@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Pico Idle Dance"
+		},
+		{
+			"offsets": [
+				149,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Pico Down Note"
+		},
+		{
+			"offsets": [
+				125,
+				-17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Pico NOTE LEFT"
+		},
+		{
+			"offsets": [
+				245,
+				41
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "pico Up note"
+		},
+		{
+			"offsets": [
+				25,
+				7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Pico Note Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Mamizou_Pico_FNF_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Mamizou",
+	"flip_x": true,
+	"healthbar_colors": [
+		162,
+		164,
+		83
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

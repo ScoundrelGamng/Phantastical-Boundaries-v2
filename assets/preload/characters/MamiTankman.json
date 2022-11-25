@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				230,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Tankman Idle Dance"
+		},
+		{
+			"offsets": [
+				49,
+				-110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Tankman DOWN note"
+		},
+		{
+			"offsets": [
+				103,
+				-38
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Tankman Note Left"
+		},
+		{
+			"offsets": [
+				70,
+				40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Tankman UP note"
+		},
+		{
+			"offsets": [
+				47,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Tankman Right Note"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Mamizou_Tankman",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Mamizou",
+	"flip_x": true,
+	"healthbar_colors": [
+		162,
+		164,
+		83
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
