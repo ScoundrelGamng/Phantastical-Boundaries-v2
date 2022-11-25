@@ -82,6 +82,7 @@ end
 
 function onSkipDialogue(count)
 	if getProperty('skippedDialogue') == true then
+		setProperty('skippedDialogue', false);
 			removeLuaSprite('CG3');
 			removeLuaSprite('CG4');
 			removeLuaSprite('CG5');

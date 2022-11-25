@@ -1,18 +1,18 @@
 local allowCountdown = false
 function onStartCountdown()
 	-- Block the first countdown and start a timer of 0.8 seconds to play the dialogue
-	if not allowCountdown and isStoryMode and not seenCutscene then
+	if not allowCountdown and isStoryMode and not seenCutscene and not allowEndShit then
 		toggleHud(false);
 		setProperty('inCutscene', true);
 		runTimer('startDialogue', 2);
-		makeLuaSprite('shrine', 'cg/week3/shrine', 0, 0);
-		addLuaSprite('shrine', true);
-		setObjectCamera('shrine', 'hud');
-		setObjectOrder('shrine', 0);
+		makeLuaSprite('netherworld', 'cg/week4/netherworld', 0, 0);
+		addLuaSprite('netherworld', true);
+		setObjectCamera('netherworld', 'hud');
+		setObjectOrder('netherworld', 0);
 		allowCountdown = true;
 		return Function_Stop;
 	end
-	doTweenAlpha('CGtween2', 'CG5', 0, 0.4, 'linear');
+	doTweenAlpha('CGtween2', 'netherworld', 0, 0.4, 'linear');
 	return Function_Continue;
 end
 
@@ -38,46 +38,46 @@ end
 
 function onTweenCompleted(tag)
 	if tag == 'CGtween2' then
-		removeLuaSprite('CG5');
+		removeLuaSprite('netherworld');
 		toggleHud(true);
 	end
 end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
-function onNextDialogue(count)	
+function onNextDialogue(count)
+	if count == 15 and allowEndShit then
+		removeLuaSprite('netherworld');
+		makeLuaSprite('CG9', 'cg/week4/CG9', 0, 0);
+		addLuaSprite('CG9', true);
+		setObjectCamera('CG9', 'hud');
+		setObjectOrder('CG9', 0);
+	end
 	-- triggered when the next dialogue line starts, 'line' starts with 1
-	if count == 18 then
-		removeLuaSprite('shrine');
-		makeLuaSprite('CG4', 'cg/week3/CG4', 0, 0);
-		addLuaSprite('CG4', true);
-		setObjectCamera('CG4', 'hud');
-		setObjectOrder('CG4', 0);
-	end
-	if count == 22 then
-		removeLuaSprite('CG4');
-		makeLuaSprite('village', 'cg/week3/village', 0, 0);
-		addLuaSprite('village', true);
-		setObjectCamera('village', 'hud');
-		setObjectOrder('village', 0);
-	end
-	if count == 50 then
-		removeLuaSprite('village');
-		makeLuaSprite('CG5', 'cg/week3/CG5', 0, 0);
-		addLuaSprite('CG5', true);
-		setObjectCamera('CG5', 'hud');
-		setObjectOrder('CG5', 0);
-	end
 end
 
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
 		setProperty('skippedDialogue', false);
-		removeLuaSprite('CG4');
-		removeLuaSprite('CG5');
-		removeLuaSprite('village');
-		removeLuaSprite('shrine');
-		toggleHud(true);
-		
+			removeLuaSprite('netherworld');
+			removeLuaSprite('CG9');
+			toggleHud(true);
 	end
+end
+
+local allowEndShit = false
+
+function onEndSong()
+ if not allowEndShit and isStoryMode and not seenCutscene then
+  setProperty('inCutscene', true);
+  toggleHud(false);
+  startDialogue('dialogue2', 'folklore');
+  makeLuaSprite('netherworld', 'cg/week4/netherworld', 0, 0);
+		addLuaSprite('netherworld', true);
+		setObjectCamera('netherworld', 'hud');
+		setObjectOrder('netherworld', 0);
+  allowEndShit = true;
+  return Function_Stop;
+ end
+ return Function_Continue;
 end

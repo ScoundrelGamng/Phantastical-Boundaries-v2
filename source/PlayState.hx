@@ -4335,6 +4335,12 @@ class PlayState extends MusicBeatState
 			iconP1.visible = hudState;
 			iconP2.visible = hudState;
 			scoreTxt.visible = hudState;
+			for (i in 0...playerStrums.length) {
+				playerStrums.members[i].alpha = 0;
+			}
+			for (i in 0...opponentStrums.length) {
+				opponentStrums.members[i].alpha = 0;
+			}
 		}
 
 	function noteMiss(daNote:Note):Void { //You didn't hit the key and let it go offscreen, also used by Hurt Notes

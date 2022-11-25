@@ -66,6 +66,7 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
+			setProperty('skippedDialogue', false);
 			removeLuaSprite('village');
 			removeLuaSprite('moon');
 			removeLuaSprite('CG6');
@@ -80,7 +81,6 @@ function onEndSong()
   setProperty('inCutscene', true);
   startDialogue('dialogue2', 'folklore');
   makeLuaSprite('moon', 'cg/week3/moon', 0, 0);
-		scaleObject('moon', 0.69, 0.69);
 		addLuaSprite('moon', true);
 		setObjectCamera('moon', 'hud');
 		setObjectOrder('moon', 0);

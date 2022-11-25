@@ -68,6 +68,7 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
+		setProperty('skippedDialogue', false);
 			removeLuaSprite('black');
 			removeLuaSprite('CG1');
 			removeLuaSprite('adam');
