@@ -5,10 +5,10 @@
 				230,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
+			"indices": [],
 			"name": "Tankman Idle Dance"
 		},
 		{
@@ -16,10 +16,10 @@
 				49,
 				-110
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "Tankman DOWN note"
 		},
 		{
@@ -27,10 +27,10 @@
 				103,
 				-38
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "Tankman Note Left"
 		},
 		{
@@ -38,10 +38,10 @@
 				70,
 				40
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "Tankman UP note"
 		},
 		{
@@ -49,18 +49,29 @@
 				47,
 				-5
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "Tankman Right Note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				64,
+				-7
+			],
+			"anim": "Ugh",
+			"fps": 24,
+			"name": "Tankman UGH",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Mamizou_Tankman",
 	"position": [
 		0,
-		0
+		80
 	],
 	"healthicon": "Mamizou",
 	"flip_x": true,

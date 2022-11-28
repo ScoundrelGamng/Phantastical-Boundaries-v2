@@ -1,73 +1,73 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				230,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Mom Idle"
+			"fps": 24,
+			"name": "Mom Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				19,
 				-160
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "MOM DOWN POSE"
+			"fps": 24,
+			"name": "MOM DOWN POSE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				245,
 				-27
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Mom Left Pose"
+			"fps": 24,
+			"name": "Mom Left Pose",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				46,
 				70
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Mom Up Pose"
+			"fps": 24,
+			"name": "Mom Up Pose",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-35,
 				-65
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Mom Right Pose"
+			"fps": 24,
+			"name": "Mom Right Pose",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Mamizou_Mom_assets",
 	"position": [
 		0,
-		0
+		-80
 	],
 	"healthicon": "Mamizou",
 	"flip_x": false,
 	"healthbar_colors": [
 		162,
 		164,
-		83
+		63
 	],
 	"camera_position": [
 		0,

@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				230,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Pico Idle Dance"
+			"fps": 24,
+			"name": "Pico Idle Dance",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				149,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Pico Down Note"
+			"fps": 24,
+			"name": "Pico Down Note",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				125,
 				-17
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Pico NOTE LEFT"
+			"fps": 24,
+			"name": "Pico NOTE LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				245,
 				41
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "pico Up note"
+			"fps": 24,
+			"name": "pico Up note",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				25,
 				7
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Pico Note Right"
+			"fps": 24,
+			"name": "Pico Note Right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Mamizou_Pico_FNF_assets",
 	"position": [
 		0,
-		0
+		220
 	],
 	"healthicon": "Mamizou",
 	"flip_x": true,

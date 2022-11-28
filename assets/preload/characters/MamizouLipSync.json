@@ -1,33 +1,33 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				230,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "LipSync"
+			"fps": 24,
+			"name": "LipSync",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				230,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "LipSync",
-			"loop": false,
-			"name": "LipSync"
+			"fps": 24,
+			"name": "LipSync",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/MamizouLipSyncSheet",
 	"position": [
 		0,
-		0
+		-280
 	],
 	"healthicon": "Mamizou",
 	"flip_x": false,
