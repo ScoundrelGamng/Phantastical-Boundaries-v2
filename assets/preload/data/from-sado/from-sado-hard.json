@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "birdfriend",
-		"gfVersion": "gf",
+		"gfVersion": "gfgoat",
 		"notes": [
 			{
 				"sectionNotes": [],
@@ -8067,7 +8067,7 @@
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "humanvillage",
+		"stage": "humanvillageMami",
 		"bpm": 150,
 		"speed": 2.5
 	}
