@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GoatGF.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Goat GF and Axolotl Yukari0000" x="0" y="0" width="779" height="646" frameX="0" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0001" x="0" y="0" width="779" height="646" frameX="0" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0002" x="780" y="0" width="777" height="645" frameX="0" frameY="-7" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0003" x="1558" y="0" width="777" height="645" frameX="0" frameY="-7" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0004" x="2336" y="0" width="774" height="637" frameX="-3" frameY="-15" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0005" x="3111" y="0" width="774" height="637" frameX="-3" frameY="-15" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0006" x="0" y="647" width="770" height="632" frameX="-7" frameY="-20" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0007" x="771" y="647" width="758" height="634" frameX="-19" frameY="-18" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0008" x="1530" y="647" width="758" height="634" frameX="-19" frameY="-18" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0009" x="2289" y="647" width="755" height="634" frameX="-22" frameY="-18" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0010" x="3045" y="647" width="755" height="644" frameX="-22" frameY="-8" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0011" x="3045" y="647" width="755" height="644" frameX="-22" frameY="-8" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0012" x="3045" y="647" width="755" height="644" frameX="-22" frameY="-8" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0013" x="0" y="1292" width="755" height="652" frameX="-22" frameY="0" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0014" x="0" y="1292" width="755" height="652" frameX="-22" frameY="0" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0015" x="756" y="1292" width="760" height="646" frameX="-19" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0016" x="756" y="1292" width="760" height="646" frameX="-19" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0017" x="1517" y="1292" width="758" height="646" frameX="-19" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0018" x="2276" y="1292" width="758" height="646" frameX="-19" frameY="-6" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0019" x="3035" y="1292" width="758" height="639" frameX="-19" frameY="-13" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0020" x="0" y="1945" width="757" height="639" frameX="-20" frameY="-13" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0021" x="758" y="1945" width="757" height="639" frameX="-20" frameY="-13" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0022" x="1516" y="1945" width="756" height="635" frameX="-21" frameY="-17" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0023" x="2273" y="1945" width="756" height="635" frameX="-21" frameY="-17" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0024" x="3030" y="1945" width="755" height="635" frameX="-22" frameY="-17" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0025" x="0" y="2585" width="755" height="632" frameX="-22" frameY="-20" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0026" x="0" y="2585" width="755" height="632" frameX="-22" frameY="-20" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0027" x="0" y="2585" width="755" height="632" frameX="-22" frameY="-20" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0028" x="756" y="2585" width="755" height="639" frameX="-22" frameY="-13" frameWidth="779" frameHeight="652"/>
+	<SubTexture name="Goat GF and Axolotl Yukari0029" x="756" y="2585" width="755" height="639" frameX="-22" frameY="-13" frameWidth="779" frameHeight="652"/>
+</TextureAtlas>
