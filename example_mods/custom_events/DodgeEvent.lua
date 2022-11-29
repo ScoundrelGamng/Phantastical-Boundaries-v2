@@ -27,10 +27,10 @@ function onEvent(name, value1, value2)
 	addLuaSprite('yukaritrain', true); 
 
     --Make Sign Sprite
-	makeAnimatedLuaSprite('sign','sign', 220, 50)addAnimationByPrefix('sign','dance','sign',24,true)
+	makeAnimatedLuaSprite('sign','sign', 270, 170)addAnimationByPrefix('sign','dance','sign',24,true)
 objectPlayAnimation('sign','dance', true);
 	setObjectCamera('sign', 'other');
-	scaleLuaSprite('sign', 0.4, 0.4); 
+	scaleLuaSprite('sign', 0.7, 0.7); 
     addLuaSprite('sign', true); 
 	
 	--Set values so you can dodge
