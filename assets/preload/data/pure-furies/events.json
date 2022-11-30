@@ -1,0 +1,46 @@
+{
+	"song": {
+		"events": [
+			[
+				90173.4104046242,
+				[
+					[
+						"Change Scroll Speed",
+						"1.1",
+						"15"
+					]
+				]
+			],
+			[
+				110635.838150289,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Junkolipsync"
+					]
+				]
+			],
+			[
+				110657.514450867,
+				[
+					[
+						"Play Animation",
+						"LipSync",
+						"dad"
+					]
+				]
+			],
+			[
+				116502.89017341,
+				[
+					[
+						"Change Character",
+						"dad",
+						"Junkoshade"
+					]
+				]
+			]
+		]
+	}
+}
