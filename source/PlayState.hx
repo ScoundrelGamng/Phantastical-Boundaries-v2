@@ -811,6 +811,10 @@ class PlayState extends MusicBeatState
 		{
 			case 'stress':
 				GameOverSubstate.characterName = 'bf-holding-gf-dead';
+			case 'innocent-treasures':
+				GameOverSubstate.characterName = 'bf-holding-gf-dead';
+			case 'from-sado':
+				GameOverSubstate.characterName = 'birdfriend-dead';
 		}
 
 		if(isPixelStage) {
@@ -921,6 +925,12 @@ class PlayState extends MusicBeatState
 			gf.scrollFactor.set(0.95, 0.95);
 			gfGroup.add(gf);
 			startCharacterLua(gf.curCharacter);
+
+			switch(Paths.formatToSongPath(SONG.song))
+		{
+			case 'innocent-treasures':
+				gf.visible = false;
+		}
 
 			if(gfVersion == 'pico-speaker')
 			{
