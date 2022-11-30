@@ -1,7 +1,7 @@
 {
 	"song": {
 		"player1": "bfshade",
-		"player2": "Junko",
+		"player2": "Junkoshade",
 		"events": [
 			[
 				90173.4104046242,
@@ -13711,7 +13711,7 @@
 				"mustHitSection": true
 			}
 		],
-		"gfVersion": "gf",
+		"gfVersion": "gfyukarishade",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "Pure-Furies",

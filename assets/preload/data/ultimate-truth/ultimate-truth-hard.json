@@ -1,7 +1,7 @@
 {
 	"song": {
-		"player1": "bf W1",
-		"gfVersion": "gf",
+		"player1": "bfshade",
+		"gfVersion": "gfyukarishade",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -3696,14 +3696,14 @@
 			}
 		],
 		"events": [],
-		"player2": "Yukari W1",
+		"player2": "Yuyuko",
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "Ultimate-Truth",
 		"needsVoices": true,
 		"arrowSkin": "",
 		"validScore": true,
-		"stage": "stage",
+		"stage": "Netherworld",
 		"bpm": 172,
 		"speed": 2.6
 	}
