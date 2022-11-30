@@ -1,6 +1,5 @@
 Studio Sukima
 The Striking Zebra::zebra::Creator/Director/Writer::https://twitter.com/Striking_zebra::0xFFCC3FFF
-Esther Christo - CarimelleLevo::CarimelleLevo::Voice Actor::https://twitter.com/carimellevo::0xFFDD95DD
 FallenEgg::FallenEgg::Composer/Artist::https://twitter.com/FallenEgg_::0xFFA74141
 Wookywok::Wookywok::Composer::https://youtube.com/user/wookywok::0xFF429E50
 Nephetheus::Neph::Composer::https://twitter.com/Nephetheus::0xFFD8844B
@@ -12,5 +11,13 @@ LagosEra - River::Marc::Coder/Vocal Mixer::https://twitter.com/Marcfundio::FFF8C
 Broster::broster::Source Coder::https://twitter.com/BrosterMedia::875C70
 Bluusagi370::bluu::Artist/Charter::https://twitter.com/bluusagi370::32EF8E
 Aqwa::aqwa::Artist::https://twitter.com/aqwwa58::194643
+Voice Actors
+Esther Christo - CarimelleLevo::CarimelleLevo::Yukari & Maribel's VA::https://twitter.com/carimellevo::0xFFDD95DD
+Yuuto::yuuto::Renko's VA::::FFA8A7
+Kassi::kassi::Reimu's VA::::FF85C8
+Peachy::peachy::Mamizou's VA::::FFFFFF
+Angiemin::angieMin::Junko's VA::::4A7E4D
+Angelatte::angelatte::Girlfriend's VA::::FB9292
+Ckitten::ckitten::Yuyuko's VA::::EF8B9B
 Special Thanks
 Valravn::valravn::Big Boss/Emotional Support::https://twitter.com/LikeAWritinDesk::0xFF666666
