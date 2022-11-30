@@ -13,11 +13,11 @@ Bluusagi370::bluu::Artist/Charter::https://twitter.com/bluusagi370::32EF8E
 Aqwa::aqwa::Artist::https://twitter.com/aqwwa58::194643
 Voice Actors
 Esther Christo - CarimelleLevo::CarimelleLevo::Yukari & Maribel's VA::https://twitter.com/carimellevo::0xFFDD95DD
-Yuuto::yuuto::Renko's VA::::FFA8A7
-Kassi::kassi::Reimu's VA::::FF85C8
-Peachy::peachy::Mamizou's VA::::FFFFFF
-Angiemin::angieMin::Junko's VA::::4A7E4D
-Angelatte::angelatte::Girlfriend's VA::::FB9292
-Ckitten::ckitten::Yuyuko's VA::::EF8B9B
+Yuuto::yuuto::Renko's VA::https://twitter.com/hazama_yuutou::FFA8A7
+Kassi::kassi::Reimu's VA::https://twitter.com/hanayanaa::FF85C8
+Peachy::peachy::Mamizou's VA::https://twitter.com/PeachyPomx::FFFFFF
+Angiemin::angieMin::Junko's VA::https://twitter.com/basicsanpie::4A7E4D
+Angelatte::angelatte::Girlfriend's VA::https://twitter.com/angelattesart::FB9292
+Ckitten::ckitten::Yuyuko's VA::https://twitter.com/ckitten_cosplay::EF8B9B
 Special Thanks
 Valravn::valravn::Big Boss/Emotional Support::https://twitter.com/LikeAWritinDesk::0xFF666666
