@@ -7,7 +7,10 @@ Nephetheus::Neph::Composer::https://twitter.com/Nephetheus::0xFFD8844B
 FoodIsFood::Food::Charting::https://www.youtube.com/watch?v=VZrDxD0Za9I&list=PLu4wnki9NI_8VmJ7Qz_byhKwCquXcy6u9&index=1::0xFF76C7CF
 Gatomon20xx::Gato::Artist::https://twitter.com/gatomon20xx::0xFF65FF65
 PraetoPotato::Potato::Artist::https://twitter.com/praetopotato::0xFFFEC157
-Scoundrel::Scoundrel::Coder/Additonal Art/Additional Music::https://www.youtube.com/channel/UCE10T5o3rCREvqzCeeeS4zA::0xFF4D67C1
-Devon Cerda - Marcfundio::Marc::Coder/Vocal Mixer::https://twitter.com/Marcfundio::0xFFF8C95B
+Scoundrel::Scoundrel::Coder/Artist/Composer::https://twitter.com/scoundrel_niko::0x1336AD
+LagosEra - River::Marc::Coder/Vocal Mixer::https://twitter.com/Marcfundio::0xFFF8C95B
+Broster::broster::Source Coder::https://twitter.com/BrosterMedia::0x875C70
+Bluusagi370::bluu::Artist/Charter::https://twitter.com/bluusagi370::0x32EF8E
+Aqwa::aqwa::Artist::https://twitter.com/aqwwa58::0x194643
 Special Thanks
 Valravn::valravn::Big Boss/Emotional Support::https://twitter.com/LikeAWritinDesk::0xFF666666
