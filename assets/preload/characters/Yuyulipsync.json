@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				225,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "LipSync"
+		},
+		{
+			"offsets": [
+				225,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "LipSync",
+			"indices": [],
+			"name": "LipSync"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/YuyuLipSyncSheet",
+	"position": [
+		220,
+		10
+	],
+	"healthicon": "yuyu",
+	"flip_x": false,
+	"healthbar_colors": [
+		248,
+		163,
+		201
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
