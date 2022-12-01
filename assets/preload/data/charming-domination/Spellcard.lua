@@ -1,5 +1,6 @@
 function onCreate()
 --initialize variables and preload stuff
+--subscribe to scoundrel gaming on youtube
 invulnerable = false;
 
 spellcard = true;
@@ -20,12 +21,12 @@ function noteMiss()
 
 
 function onUpdatePost()
-if spellcard == true and getPropertyFromClass('flixel.FlxG', 'keys.justPressed.H') then
+if spellcard == true and getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SHIFT') then
 	spellcard = false;
 	invulnerable = true;
 	runTimer('invulnerable', 5);
 	setProperty('health', 10);
-	playSound('spellcard', 1.8);
+	playSound('spellcard', 1.5);
 	setBlendMode('boyfriend', 'add');
 	
 		makeLuaText('spellcardname','Sound Sign "Rapsody in Blue"', 1000, 1920 ,520)
