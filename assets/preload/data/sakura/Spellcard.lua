@@ -8,9 +8,24 @@ function onCreate()
 		precacheImage('SCBF');
 		precacheImage('SCG');
 		precacheSound('spellcard');
-	end
-	
-	function noteMiss()
+
+--creates the BombCounter and BOMB icon
+makeLuaText('BombCounter','Bomb',120,550,650)
+setTextSize('BombCounter', 36)
+addLuaText('BombCounter', true)
+setTextAlignment('BombCounter', 'left')
+makeLuaSprite('bomb', 'bomb', 640, 650);
+setObjectCamera('bomb', 'hud');
+scaleLuaSprite('bomb', 0.3, 0.3);
+addLuaSprite('bomb', true); 
+
+if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
+	setProperty('BombCounter.y', 30)
+	setProperty('bomb.y', 30)
+end
+end
+
+function noteMiss()
 		if invulnerable == true then
 		 setProperty('health', getProperty('health') + 0.043)
 		 addMisses(-1);
@@ -20,7 +35,7 @@ function onCreate()
 	   end
 	
 	
-	function onUpdatePost()
+function onUpdatePost()
 	if spellcard == true and getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SHIFT') then
 		spellcard = false;
 		invulnerable = true;
@@ -56,11 +71,13 @@ function onCreate()
 			setObjectCamera('SCBF', 'hud');
 			doTweenX('SCBFMove', 'SCBF', -100, 1.2, 'circOut');
 			runTimer('deleteSCBF', 2.4);
-			
 	end
+	if spellcard == false then
+		removeLuaSprite('bomb');
 	end
+end
 	
-	function onTimerCompleted(tag, loops, loopsLeft)
+function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'deleteSCBG' then
 	doTweenAlpha('fadeSCBG2', getProperty('SCBG'), 0, 1, 'circOut');
 		runTimer('deleteSCBG2', 1.2);
@@ -96,4 +113,4 @@ function onCreate()
 	invulnerable = false;
 	setBlendMode('boyfriend', 'normal');
 	end
-	end
+end

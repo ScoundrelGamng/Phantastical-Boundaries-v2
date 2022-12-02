@@ -8,7 +8,6 @@ function onCreate()
 	powered = false;
 	
 --creates the counter and power icon
---to do: make it so the counter is different depending on scroll
 	makeLuaText('Counter',power,120,630,600)
 	setTextSize('Counter', 36)
 	addLuaText('Counter', true)
@@ -18,6 +17,10 @@ function onCreate()
 	scaleLuaSprite('power', 0.3, 0.3);
 	addLuaSprite('power', true); 
 
+	if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
+		setProperty('Counter.y', 90)
+		setProperty('power.y', 90)
+	end
 	--Iterate over all notes
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
