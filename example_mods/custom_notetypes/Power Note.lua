@@ -17,6 +17,9 @@ function onCreate()
 	scaleLuaSprite('power', 0.3, 0.3);
 	addLuaSprite('power', true); 
 
+	setProperty('Counter.alpha', 0)
+	setProperty('power.alpha', 0)
+
 	if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
 		setProperty('Counter.y', 90)
 		setProperty('power.y', 90)
@@ -34,6 +37,11 @@ function onCreate()
 	end
 	--debugPrint('Script started!')
 end
+
+function onCountdownTick(counter)
+	doTweenAlpha('countertween', 'Counter', 1, 0.4, 'linear');
+	doTweenAlpha('countertween2', 'power', 1, 0.4, 'linear');
+	end
 
 -- Function called when you hit a note (after note hit calculations)
 -- id: The note member id, you can get whatever variable you want from this note, example: "getPropertyFromGroup('notes', id, 'strumTime')"
