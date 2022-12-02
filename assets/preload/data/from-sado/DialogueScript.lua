@@ -18,21 +18,21 @@ end
 
 function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
-		startDialogue('dialogue', 'cutscene');
+		startDialogue('dialogue', 'gensokyo');
 		--credits
-		makeLuaSprite('ScoundrelCreditFolklore', 'ScoundrelCreditFolklore', -840, 240);
-		doTweenX('composermove', 'ScoundrelCreditFolklore', 0, 1, 'circOut');
-		scaleObject('ScoundrelCreditFolklore', 0.9, 0.9);
-		addLuaSprite('ScoundrelCreditFolklore', true);
-		setObjectCamera('ScoundrelCreditFolklore', 'other');
+		makeLuaSprite('ScoundrelCreditGensokyo', 'ScoundrelCreditGensokyo', -840, 240);
+		doTweenX('composermove', 'ScoundrelCreditGensokyo', 0, 1, 'circOut');
+		scaleObject('ScoundrelCreditGensokyo', 0.9, 0.9);
+		addLuaSprite('ScoundrelCreditGensokyo', true);
+		setObjectCamera('ScoundrelCreditGensokyo', 'other');
 		runTimer('deletefolklore', 4);
 	end
 	if tag == 'deletefolklore' then
-		doTweenX('composermove2', getProperty('ScoundrelCreditFolklore'), -840, 1, 'circIn');
+		doTweenX('composermove2', getProperty('ScoundrelCreditGensokyo'), -840, 1, 'circIn');
 		runTimer('deletefolklore2', 1.2);
 	end
 	if tag == 'deletefolklore2' then
-		removeLuaSprite('ScoundrelCreditFolklore');
+		removeLuaSprite('ScoundrelCreditGensokyo');
 	end
 end
 
