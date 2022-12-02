@@ -21,19 +21,19 @@ function onTimerCompleted(tag, loops, loopsLeft)
 	if tag == 'startDialogue' then -- Timer completed, play dialogue
 		startDialogue('dialogue', 'cutscene');
 		--credits
-		makeLuaSprite('ScoundrelCreditFolklore', 'ScoundrelCreditFolklore', -840, 240);
-		doTweenX('composermove', 'ScoundrelCreditFolklore', 0, 1, 'circOut');
-		scaleObject('ScoundrelCreditFolklore', 0.9, 0.9);
-		addLuaSprite('ScoundrelCreditFolklore', true);
-		setObjectCamera('ScoundrelCreditFolklore', 'other');
+		makeLuaSprite('WookyCreditDYS', 'WookyCreditDYS', -840, 240);
+		doTweenX('composermove', 'WookyCreditDYS', 0, 1, 'circOut');
+		scaleObject('WookyCreditDYS', 0.9, 0.9);
+		addLuaSprite('WookyCreditDYS', true);
+		setObjectCamera('WookyCreditDYS', 'other');
 		runTimer('deletefolklore', 4);
 	end
 	if tag == 'deletefolklore' then
-	doTweenX('composermove2', getProperty('ScoundrelCreditFolklore'), -840, 1, 'circIn');
+	doTweenX('composermove2', getProperty('WookyCreditDYS'), -840, 1, 'circIn');
 	runTimer('deletefolklore2', 1.2);
 end
 if tag == 'deletefolklore2' then
-removeLuaSprite('ScoundrelCreditFolklore');
+removeLuaSprite('WookyCreditDYS');
 end
 end
 
