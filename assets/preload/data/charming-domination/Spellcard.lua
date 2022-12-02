@@ -1,3 +1,4 @@
+afterDialogue = false;
 function onCreate()
 	--initialize variables and preload stuff
 	--subscribe to scoundrel gaming on youtube
@@ -12,18 +13,27 @@ function onCreate()
 --creates the BombCounter and BOMB icon
 makeLuaText('BombCounter','Bomb',120,550,650)
 setTextSize('BombCounter', 36)
-addLuaText('BombCounter', true)
+
 setTextAlignment('BombCounter', 'left')
-makeLuaSprite('bomb', 'bomb', 640, 650);
+makeLuaSprite('bomb', 'bomb', 660, 650);
 setObjectCamera('bomb', 'hud');
 scaleLuaSprite('bomb', 0.3, 0.3);
+addLuaText('BombCounter', true)
 addLuaSprite('bomb', true); 
+setProperty('BombCounter.alpha', 0)
+setProperty('bomb.alpha', 0)
 
 if getPropertyFromClass('ClientPrefs', 'downScroll') == false then
 	setProperty('BombCounter.y', 30)
 	setProperty('bomb.y', 30)
 end
 end
+
+function onCountdownTick(counter)
+	afterDialogue = true;
+	doTweenAlpha('spelltween', 'BombCounter', 1, 0.4, 'linear');
+	doTweenAlpha('spelltween2', 'bomb', 1, 0.4, 'linear');
+	end
 
 function noteMiss()
 		if invulnerable == true then
@@ -36,7 +46,7 @@ function noteMiss()
 	
 	
 function onUpdatePost()
-	if spellcard == true and getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SHIFT') then
+	if spellcard == true and afterDialogue == true and getPropertyFromClass('flixel.FlxG', 'keys.justPressed.SHIFT') then
 		spellcard = false;
 		invulnerable = true;
 		runTimer('invulnerable', 5);
