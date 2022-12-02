@@ -3607,9 +3607,9 @@ class PlayState extends MusicBeatState
 				if (char != null)
 				{
 					char.playAnim(value1, true);
-					if (bf2 != null && char == boyfriend) bf2.playAnim(value1, true);
-							if (gf2 != null && char == gf) gf2.playAnim(value1, true);
-							if (dad2 != null && char == dad) dad2.playAnim(value1, true);
+					if (bf2 != null && char == boyfriend) {bf2.playAnim(value1, true); bf2.specialAnim = true;};
+					if (gf2 != null && char == gf) {gf2.playAnim(value1, true); gf2.specialAnim = true;};
+					if (dad2 != null && char == dad) {dad2.playAnim(value1, true); dad2.specialAnim = true;};
 					char.specialAnim = true;
 				}
 
