@@ -66,26 +66,27 @@ end
 function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
-			setProperty('skippedDialogue', false);
-			removeLuaSprite('village');
-			removeLuaSprite('moon');
-			removeLuaSprite('CG6');
-			toggleHud(true);
+		setProperty('skippedDialogue', false);
+		removeLuaSprite('village');
+		removeLuaSprite('moon');
+		removeLuaSprite('CG6');
+		toggleHud(true);
 	end
 end
 
 allowEndShit = false
 
 function onEndSong()
- if not allowEndShit and isStoryMode and not seenCutscene then
-  setProperty('inCutscene', true);
-  startDialogue('dialogue2', 'folklore');
-  makeLuaSprite('moon', 'cg/week3/moon', 0, 0);
+	if not allowEndShit and isStoryMode and not seenCutscene then
+		allowEndShit = true;
+		toggleHud(false);
+		setProperty('inCutscene', true);
+		startDialogue('dialogue2', 'folklore');
+		makeLuaSprite('moon', 'cg/week3/moon', 0, 0);
 		addLuaSprite('moon', true);
 		setObjectCamera('moon', 'hud');
 		setObjectOrder('moon', 0);
-  allowEndShit = true;
-  return Function_Stop;
- end
+		return Function_Stop;
+	end
  return Function_Continue;
 end

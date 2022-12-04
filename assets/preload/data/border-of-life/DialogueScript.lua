@@ -45,9 +45,7 @@ end
 
 -- Dialogue (When a dialogue is finished, it calls startCountdown again)
 function onNextDialogue(count)
-	debugPrint("not kill.");
 	if count == 15 and allowEndShit then
-		debugPrint("kill.");
 		removeLuaSprite('netherworld');
 		makeLuaSprite('CG9', 'cg/week4/CG9', 0, 0);
 		addLuaSprite('CG9', true);
@@ -61,26 +59,25 @@ function onSkipDialogue(count)
 	-- triggered when you press Enter and skip a dialogue line that was still being typed, dialogue line starts with 1
 	if getProperty('skippedDialogue') == true then
 		setProperty('skippedDialogue', false);
-			removeLuaSprite('netherworld');
-			removeLuaSprite('CG9');
-			toggleHud(true);
+		removeLuaSprite('netherworld');
+		removeLuaSprite('CG9');
+		toggleHud(true);
 	end
 end
 
 allowEndShit = false
 
 function onEndSong()
- if not allowEndShit and isStoryMode and not seenCutscene then
-	allowEndShit = true;
-	toggleHud(false);
-	setProperty('inCutscene', true);
-	startDialogue('dialogue2', 'folklore');
-	makeLuaSprite('netherworld', 'cg/week4/netherworld', 0, 0);
-	addLuaSprite('netherworld', true);
-	setObjectCamera('netherworld', 'hud');
-	setObjectOrder('netherworld', 0);
-  	
-  	return Function_Stop;
- end
+	if not allowEndShit and isStoryMode and not seenCutscene then
+		allowEndShit = true;
+		toggleHud(false);
+		setProperty('inCutscene', true);
+		startDialogue('dialogue2', 'folklore');
+		makeLuaSprite('netherworld', 'cg/week4/netherworld', 0, 0);
+		addLuaSprite('netherworld', true);
+		setObjectCamera('netherworld', 'hud');
+		setObjectOrder('netherworld', 0);
+		return Function_Stop;
+	end
  return Function_Continue;
 end

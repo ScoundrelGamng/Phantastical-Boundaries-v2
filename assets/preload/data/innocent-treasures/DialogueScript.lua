@@ -56,7 +56,7 @@ function onNextDialogue(count)
 	end
 
 	debugPrint(allowEndShit);
-	if count == 6 and allowEndShit then
+	if count == 7 and allowEndShit then
 		removeLuaSprite('adam');
 		makeLuaSprite('CG4', 'cg/week2/CG4', 0, 0);
 		scaleObject('CG4', 0.69, 0.69);
@@ -65,7 +65,7 @@ function onNextDialogue(count)
 		setObjectOrder('CG4', 0);
 	end
 
-	if count == 7 and allowEndShit then
+	if count == 8 and allowEndShit then
 		removeLuaSprite('CG4');
 		makeLuaSprite('black', 'cg/week2/black', 0, 0);
 		scaleObject('black', 0.69, 0.69);

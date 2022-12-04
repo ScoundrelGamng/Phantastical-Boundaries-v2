@@ -91,7 +91,6 @@ function onSkipDialogue(count)
 			removeLuaSprite('realmCG');
 			removeLuaSprite('CG8');
 			toggleHud(true);
-		end
 	end
 end
 
